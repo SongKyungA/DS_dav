@@ -4,7 +4,7 @@ import { Modal, Button, Form } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { addItem } from './redux/actions';
 
-function AddItemModal({ show, handleClose, onAddNewItem }) {
+function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDetailChange, selectedCategory }) {
   const [item, setItem] = useState({ name: '', units: 1, placedIn: '', goodUntil: '', category: '' });
   const [foodNames, setFoodNames] = useState([]);
 
@@ -23,10 +23,21 @@ function AddItemModal({ show, handleClose, onAddNewItem }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+  
+    if (!selectedCategory) {
+      console.error('No category selected');
+      return;
+    }
+  
     console.log('Dispatching item:', item); 
-    onAddNewItem(item.category, item); 
+    onAddNewItem(selectedCategory.name, {
+      ...item,
+      icon: `/icons8_80/png/${item.icon}.png`
+    });
     handleClose();
+    setItem({ name: '', units: 1, placedIn: '', goodUntil: '', icon: '' });
   };
+  
   
 
   return (
@@ -62,6 +73,7 @@ function AddItemModal({ show, handleClose, onAddNewItem }) {
               <option value="Grains">Grains</option>
               <option value="Banchan">Banchan</option>
               <option value="Fastfood">Fastfood</option>
+              <option value="Drink">Drink</option>
               <option value="Other">Other</option>
               
             </Form.Control>

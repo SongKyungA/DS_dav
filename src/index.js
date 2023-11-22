@@ -5,6 +5,8 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootswatch/dist/lux/bootstrap.min.css'; // Lux 테마 적용 코드
+
 
 ReactDOM.render(
   <Provider store={store}>

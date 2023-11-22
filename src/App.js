@@ -4,6 +4,7 @@ import { addItem as addItemAction, removeItem, modifyItem } from './redux/action
 import { Container, Row, Col, Button, Card, ProgressBar } from 'react-bootstrap';
 import './App.css';
 import AddItemModal from './AddItemModal';
+import { MdEco } from 'react-icons/md';
 
 function App({ categories, addItem, removeItem, modifyItem }) {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -14,8 +15,15 @@ function App({ categories, addItem, removeItem, modifyItem }) {
     return () => clearInterval(timerId);
   }, []);
 
+  useEffect(() => {
+    if (categories.length > 0) {
+      setSelectedCategory(categories[0]);
+    }
+  }, [categories]);
+
   const handleAddItem = (category) => {
     setSelectedCategory(category);
+    console.log("Selected Category:", category.name);
   };
 
   const handleRemoveItem = categoryName => removeItem(categoryName);
@@ -43,6 +51,7 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   };
 
   const handleShowAddItemModal = () => {
+    console.log("Showing modal for category:", selectedCategory);
     setShowAddItemModal(true);
   };
 
@@ -51,10 +60,23 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   };
 
   const handleAddNewItem = () => {
-    // 아이템의 아이콘 경로를 포함하여 addItem 액션 디스패치
-    addItem({ ...newItemDetails, icon: `/icons8_80/png/${newItemDetails.icon}.png` });
-    handleHideAddItemModal();
+    if (selectedCategory) {
+      console.log("Adding item to category:", selectedCategory.name); // 카테고리 이름 출력
+      addItem({
+        category: selectedCategory.name,
+        itemDetails: {
+          ...newItemDetails,
+        },
+        units: newItemDetails.units
+      });
+      handleHideAddItemModal();
+      setNewItemDetails({ name: '', units: 1, placedIn: '', goodUntil: '', icon: '' });
+    } else {
+      console.error("No category selected");
+    }
   };
+  
+  
 
   return (
     <Container fluid>
@@ -72,8 +94,12 @@ function App({ categories, addItem, removeItem, modifyItem }) {
 
         <Col md={10} className="main-content">
           <div className="dashboard-header">
-            <h1 style={{ textAlign: 'left', fontSize: '36px' }}>{currentTime.toLocaleTimeString()}</h1>
-            <p style={{ textAlign: 'left', fontSize: '20px' }}>7°C / Cloudy</p>
+          
+          <h1 style={{ textAlign: 'center', fontSize: '46px' }}>
+            <MdEco /> GSDS Eco-Friendly Refrigeration!
+          </h1>            
+            <h1 style={{ textAlign: 'right', fontSize: '36px' }}>{currentTime.toLocaleTimeString()}</h1>
+            <p style={{ textAlign: 'right', fontSize: '20px' }}>7°C / Cloudy</p>
           </div>
           <div className="user-message" style={{ textAlign: 'left', fontSize: '20px' }}>
             <p>Good evening!</p>
@@ -91,7 +117,6 @@ function App({ categories, addItem, removeItem, modifyItem }) {
               {selectedCategory.items.map((item, index) => (
                 <Col key={index} xs={6} md={4} lg={3}>
                   <Card>
-                    <Card.Img variant="top" src={require(`./icons8_80/png/${item.icon}.png`)} />
                     <Card.Body>
                       <Card.Title>{item.name}</Card.Title>
                       <Card.Text>Units: {item.units}</Card.Text>
@@ -126,6 +151,7 @@ function App({ categories, addItem, removeItem, modifyItem }) {
         onAddNewItem={handleAddNewItem}
         itemDetails={newItemDetails}
         onItemDetailChange={handleItemDetailChange}
+        selectedCategory={selectedCategory}
       />
     </Container>
   );

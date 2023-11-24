@@ -37,12 +37,42 @@ const rootReducer = (state = initialState, action) => {
           return cat;
         })
       };
-    case REMOVE_ITEM:
-      // ... item removal logic
-      break;
-    case MODIFY_ITEM:
-      // ... item modification logic
-      break;
+
+      case REMOVE_ITEM:
+        return {
+          ...state,
+          categories: state.categories.map(category => {
+            if (category.name === action.payload.categoryName) {
+              const itemsToRemove = category.items.filter(item => item.name === action.payload.itemName);
+              const countToRemove = itemsToRemove.reduce((sum, item) => sum + item.units, 0);
+              return {
+                ...category,
+                items: category.items.filter(item => item.name !== action.payload.itemName),
+                count: category.count - countToRemove
+              };
+            }
+            return category;
+          })
+        };
+      
+      
+
+        case MODIFY_ITEM:
+          return {
+            ...state,
+            categories: state.categories.map(category => {
+              if (category.name === action.payload.categoryName) {
+                return {
+                  ...category,
+                  items: category.items.map(item => 
+                    item.id === action.payload.itemId ? { ...item, ...action.payload.newItemDetails } : item
+                  ),
+                };
+              }
+              return category;
+            })
+          };
+
     default:
       return state;
   }

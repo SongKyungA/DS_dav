@@ -110,3 +110,7 @@
   min-height: 100vh; /* 전체 뷰포트 높이의 100%를 사용 */
   /* 필요한 경우 다른 스타일 속성을 추가 */
 }
+
+.item-action-buttons button {
+  margin-right: 30px; /* Adjust the space as needed */
+}

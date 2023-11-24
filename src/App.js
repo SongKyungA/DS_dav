@@ -1,14 +1,20 @@
+//src//App.js
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { addItem as addItemAction, removeItem, modifyItem } from './redux/actions';
 import { Container, Row, Col, Button, Card, ProgressBar } from 'react-bootstrap';
 import './App.css';
 import AddItemModal from './AddItemModal';
+import RemoveItemModal from './RemoveItemModal';
+import ModifyItemModal from './ModifyItemModal';
+
 import { MdEco } from 'react-icons/md';
 
 function App({ categories, addItem, removeItem, modifyItem }) {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedItemName, setSelectedItemName] = useState(''); // 추가
+  const [selectedItemToModify, setSelectedItemToModify] = useState(null);
 
   useEffect(() => {
     const timerId = setInterval(() => setCurrentTime(new Date()), 1000);
@@ -23,7 +29,7 @@ function App({ categories, addItem, removeItem, modifyItem }) {
 
   const handleAddItem = (category) => {
     setSelectedCategory(category);
-    console.log("Selected Category:", category.name);
+    console.log("handleAddItem - Selected Category:", category.name);
   };
 
   const handleRemoveItem = categoryName => removeItem(categoryName);
@@ -37,6 +43,8 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   const capacityPercentage = (usedCapacity / totalCapacity) * 100;
 
   const [showAddItemModal, setShowAddItemModal] = useState(false);
+  const [showRemoveItemModal, setShowRemoveItemModal] = useState(false);
+  const [showModifyItemModal, setShowModifyItemModal] = useState(false);
   const [newItemDetails, setNewItemDetails] = useState({
     name: '',
     units: 0,
@@ -58,7 +66,27 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   const handleHideAddItemModal = () => {
     setShowAddItemModal(false);
   };
-
+  // Remove 모달을 보여주는 함수를 수정합니다.
+  const handleShowRemoveItemModal = (itemName) => {
+    setSelectedItemName(itemName); // 이 부분에서 상태를 설정합니다.
+    setShowRemoveItemModal(true);
+  };
+  const handleHideRemoveItemModal = () => setShowRemoveItemModal(false);
+  const handleSelectItemToModify = (item, category) => {
+    setSelectedItemToModify(item);
+    setSelectedCategory(category); // Ensure the correct category is also selected
+    handleShowModifyItemModal();
+  };
+    // 수정 모달을 표시하는 함수
+    const handleShowModifyItemModal = () => {
+      if (!selectedItemToModify) {
+        alert('Please select an item to modify.');
+        return;
+      }
+      setShowModifyItemModal(true);
+    };
+  
+  const handleHideModifyItemModal = () => setShowModifyItemModal(false);
   const handleAddNewItem = () => {
     if (selectedCategory) {
       console.log("Adding item to category:", selectedCategory.name); // 카테고리 이름 출력
@@ -120,6 +148,10 @@ function App({ categories, addItem, removeItem, modifyItem }) {
                     <Card.Body>
                       <Card.Title>{item.name}</Card.Title>
                       <Card.Text>Units: {item.units}</Card.Text>
+                      <div className="item-action-buttons">
+                        <Button onClick={() => handleShowRemoveItemModal(item.name)}>Remove</Button>
+                        <Button onClick={() => handleSelectItemToModify(item)}>Modify</Button>
+                      </div>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -133,10 +165,10 @@ function App({ categories, addItem, removeItem, modifyItem }) {
               <Button variant="outline-primary" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={handleShowAddItemModal}>ADD ITEM</Button>
             </Col>
             <Col md={6}>
-              <Button variant="outline-secondary" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={() => handleRemoveItem('Fruit')}>REMOVE ITEM</Button>
+              <Button variant="outline-secondary" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={() => handleShowRemoveItemModal('Fruit')}>REMOVE ITEM</Button>
             </Col>
             <Col md={6}>
-              <Button variant="outline-success" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={() => handleModifyItem(1)}>MODIFY ITEM</Button>
+              <Button variant="outline-success" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={() => handleShowModifyItemModal}>MODIFY ITEM</Button>
             </Col>
             <Col md={6}>
               <Button variant="outline-info" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={viewRecipes}>RECIPES</Button>
@@ -153,6 +185,20 @@ function App({ categories, addItem, removeItem, modifyItem }) {
         onItemDetailChange={handleItemDetailChange}
         selectedCategory={selectedCategory}
       />
+      <RemoveItemModal 
+        show={showRemoveItemModal} 
+        handleClose={handleHideRemoveItemModal}
+        onRemoveItem={removeItem}
+        selectedCategory={selectedCategory}
+      />
+      <ModifyItemModal 
+        show={showModifyItemModal} 
+        handleClose={handleHideModifyItemModal}
+        onModifyItem={modifyItem}
+        selectedItemToModify={selectedItemToModify}
+        selectedCategory={selectedCategory} // Make sure this is passed correctly
+      />
+
     </Container>
   );
 }

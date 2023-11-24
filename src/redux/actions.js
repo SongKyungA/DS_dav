@@ -6,12 +6,13 @@ export const addItem = (categoryName, itemDetails) => ({
   payload: { category: categoryName, itemDetails, units: itemDetails.units }
 });
 
-export const removeItem = (categoryName) => ({
+export const removeItem = (categoryName, itemName) => ({
   type: REMOVE_ITEM,
-  payload: categoryName
+  payload: { categoryName, itemName }
 });
 
-export const modifyItem = (itemId) => ({
+
+export const modifyItem = (categoryName, itemId, newItemDetails) => ({
   type: MODIFY_ITEM,
-  payload: itemId
+  payload: { categoryName, itemId, newItemDetails }
 });

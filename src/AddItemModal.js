@@ -7,7 +7,11 @@ import { addItem } from './redux/actions';
 function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDetailChange, selectedCategory }) {
   const [item, setItem] = useState({ name: '', units: 1, placedIn: '', goodUntil: '', category: '' });
   const [foodNames, setFoodNames] = useState([]);
-
+  
+  useEffect(() => {
+    console.log('AddItemModal - Selected Category:', selectedCategory);
+  }, [selectedCategory]);
+  
   useEffect(() => {
     // 이 부분에서 CSV 파일의 데이터를 로드합니다. 실제 구현은 프로젝트의 구조에 따라 달라질 수 있습니다.
     // 예를 들어, 서버에서 데이터를 가져오거나 프로젝트 내의 로컬 파일에서 로드할 수 있습니다.
@@ -28,15 +32,16 @@ function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDeta
       console.error('No category selected');
       return;
     }
-  
-    console.log('Dispatching item:', item); 
+    console.log('Selected Category in Modal:', selectedCategory.name);
+    // selectedCategory의 이름을 onAddNewItem 함수에 전달합니다.
     onAddNewItem(selectedCategory.name, {
-      ...item,
-      icon: `/icons8_80/png/${item.icon}.png`
+      ...item
     });
     handleClose();
-    setItem({ name: '', units: 1, placedIn: '', goodUntil: '', icon: '' });
+    setItem({ name: '', units: 1, placedIn: '', goodUntil: '' });
   };
+  
+  
   
   
 

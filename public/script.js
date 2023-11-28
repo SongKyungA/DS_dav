@@ -1,7 +1,8 @@
 // script.js 파일 내용
 
 // 데이터 로드 및 초기화
-d3.csv("test2.csv").then(function(data) {
+// 파일은 결측치를 제거한 아래 파일로 운영함. 'cleaned_test2.csv'
+d3.csv("cleaned_test2.csv").then(function(data) {
     createDropdown("#ckgMethod", uniqueValues(data, 'CKG_MTH_ACTO_NM'));
     createDropdown("#ckgSituation", uniqueValues(data, 'CKG_STA_ACTO_NM'));
     createDropdown("#ckgMaterial", uniqueValues(data, 'CKG_MTRL_ACTO_NM'));
@@ -29,6 +30,7 @@ function uniqueValues(data, column) {
 }
 
 function updateBarChart(data) {
+    console.log(data);
     let method = d3.select("#ckgMethod").property("value");
     let situation = d3.select("#ckgSituation").property("value");
     let material = d3.select("#ckgMaterial").property("value");
@@ -40,11 +42,8 @@ function updateBarChart(data) {
         (material === "" || d.CKG_MTRL_ACTO_NM === material) &&
         (time === "" || d.CKG_TIME_NM === time)
     );
-
-    // 중복 제거 (예: 요리 이름을 기준으로)
+ 
     let uniqueData = Array.from(new Map(filteredData.map(item => [item['CKG_NM'], item])).values());
-
-    // 세 가지 기준에 따른 막대 그래프 렌더링
     renderBarChart(getTop10(uniqueData, 'INQ_CNT'), 'INQ_CNT');
 }
 
@@ -55,9 +54,7 @@ function getTop10(data, field) {
 
 function renderBarChart(data, field) {
     d3.select("#barChart").selectAll("svg").remove();
-
     // SVG 설정
-
     const margin = {top: 20, right: 20, bottom: 60, left: 60};
     const width = 1200 - margin.left - margin.right;
     const height = 500 - margin.top - margin.bottom;

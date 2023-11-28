@@ -13,7 +13,7 @@ import { MdEco } from 'react-icons/md';
 function App({ categories, addItem, removeItem, modifyItem }) {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const [selectedItemName, setSelectedItemName] = useState(''); // 추가
+  const [selectedItemToRemove, setSelectedItemToRemove] = useState(null); // 추가
   const [selectedItemToModify, setSelectedItemToModify] = useState(null);
 
   useEffect(() => {
@@ -62,39 +62,11 @@ function App({ categories, addItem, removeItem, modifyItem }) {
     icon: ''
   });
 
-    const handleItemDetailChange = (e) => {
-      const { name, value } = e.target;
-      setNewItemDetails({ ...newItemDetails, [name]: value });
-    };
+  const handleItemDetailChange = (e) => {
+    const { name, value } = e.target;
+    setNewItemDetails({ ...newItemDetails, [name]: value });
+  };
 
-    const handleShowAddItemModal = () => {
-      console.log("Showing modal for category:", selectedCategory);
-      setShowAddItemModal(true);
-    };
-
-    const handleHideAddItemModal = () => {
-      setShowAddItemModal(false);
-    };
-    
-    const handleShowRemoveItemModal = (itemName) => {
-      setSelectedItemName(itemName); 
-      setShowRemoveItemModal(true);
-    };
-    const handleHideRemoveItemModal = () => setShowRemoveItemModal(false);
-    const handleSelectItemToModify = (item) => {
-      setSelectedItemToModify(item);
-      setShowModifyItemModal(true);
-    };
-    
-    const handleShowModifyItemModal = () => {
-      if (!selectedItemToModify) {
-        alert('Please select an item to modify.');
-        return;
-      }
-      setShowModifyItemModal(true);
-    };
-  
-  const handleHideModifyItemModal = () => setShowModifyItemModal(false);
   const handleAddNewItem = () => {
     if (selectedCategory) {
       console.log("Adding item to category:", selectedCategory.name); 
@@ -111,8 +83,44 @@ function App({ categories, addItem, removeItem, modifyItem }) {
       console.error("No category selected");
     }
   };
+
+  const handleShowAddItemModal = () => {
+    console.log("Showing modal for category:", selectedCategory);
+    setShowAddItemModal(true);
+  };
+
+  const handleHideAddItemModal = () => {
+    setShowAddItemModal(false);
+  };
   
+  const handleSelectItemToRemove = (item) => {
+    setSelectedItemToRemove(item);
+    setShowRemoveItemModal(true);
+  };
+
+  const handleShowRemoveItemModal = (item) => {
+    if (!selectedItemToRemove) {
+      alert('Please select an item to remove.');
+      return;
+    }
+    setShowRemoveItemModal(true); 
+  };
+  const handleHideRemoveItemModal = () => setShowRemoveItemModal(false);
+
+  const handleSelectItemToModify = (item) => {
+    setSelectedItemToModify(item);
+    setShowModifyItemModal(true);
+  };
   
+  const handleShowModifyItemModal = () => {
+    if (!selectedItemToModify) {
+      alert('Please select an item to modify.');
+      return;
+    }
+    setShowModifyItemModal(true);
+  };
+
+  const handleHideModifyItemModal = () => setShowModifyItemModal(false);  
 
   return (
     <Container fluid>
@@ -156,8 +164,9 @@ function App({ categories, addItem, removeItem, modifyItem }) {
                     <Card.Body>
                       <Card.Title>{item.name}</Card.Title>
                       <Card.Text>Units: {item.units}</Card.Text>
+                      <Card.Text>Good Until: {item.goodUntil}</Card.Text>
                       <div className="item-action-buttons">
-                        <Button onClick={() => handleShowRemoveItemModal(item.name)}>Remove</Button>
+                        <Button onClick={() => handleSelectItemToRemove(item)}>Remove</Button>
                         <Button onClick={() => handleSelectItemToModify(item)}>Modify</Button>
                       </div>
                     </Card.Body>
@@ -210,14 +219,13 @@ function App({ categories, addItem, removeItem, modifyItem }) {
         show={showRemoveItemModal} 
         handleClose={handleHideRemoveItemModal}
         onRemoveItem={removeItem}
+        selectedItemToRemove = {selectedItemToRemove}
         selectedCategory={selectedCategory}
       />)}
 
       {showModifyItemModal && (
       <ModifyItemModal 
         show={showModifyItemModal} 
-        onHide={() => setShowModifyItemModal(false)}
-        itemToModify={selectedItemToModify}
         handleClose={handleHideModifyItemModal}
         onModifyItem={modifyItem}
         selectedItemToModify={selectedItemToModify}

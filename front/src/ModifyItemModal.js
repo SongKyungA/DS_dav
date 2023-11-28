@@ -48,6 +48,15 @@ function ModifyItemModal({ show, handleClose, onModifyItem, selectedItemToModify
               onChange={handleDetailChange}
             />
           </Form.Group>
+          <Form.Group>
+            <Form.Label>Good Until</Form.Label>
+            <Form.Control
+              type="date"
+              name="goodUntil"
+              value={itemDetails.goodUntil}
+              onChange={handleDetailChange}
+            />
+          </Form.Group>
           {/* Add any additional fields for item details here */}
         </Form>
       </Modal.Body>

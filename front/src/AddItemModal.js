@@ -5,7 +5,10 @@ import { connect } from 'react-redux';
 import { addItem } from './redux/actions';
 
 function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDetailChange, selectedCategory }) {
-  const [item, setItem] = useState({ name: '', units: 1, placedIn: '', goodUntil: '', category: '' });
+  const today = new Date();
+  const formattedToday = today.toISOString().substring(0, 10);
+  
+  const [item, setItem] = useState({ name: '', units: 1, placedIn: '', goodUntil: formattedToday, category: '' });
   const [foodNames, setFoodNames] = useState([]);
   
   useEffect(() => {
@@ -18,7 +21,7 @@ function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDeta
     // 여기서는 간단한 예시를 위해 직접 데이터를 명시하겠습니다.
     const loadedFoodNames = ['apple', 'apricot', 'asparagus', 'avocado', 'bacon', /* ... 다른 항목들 ... */];
     setFoodNames(loadedFoodNames);
-  }, []);
+  }, []);  
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -67,21 +70,8 @@ function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDeta
           </Form.Group>
           {/* Additional input fields can be added here */}
           <Form.Group>
-            <Form.Label>Category</Form.Label>
-            <Form.Control as="select" name="category" value={item.category} onChange={handleChange}>
-              <option value="">Select a category</option>
-              <option value="Fruit">Fruit</option>
-              <option value="Vegetable">Vegetable</option>
-              <option value="Meat">Meat</option>
-              <option value="Seafood">Seafood</option>
-              <option value="Dairy/Eggs">Dairy/Eggs</option>
-              <option value="Grains">Grains</option>
-              <option value="Banchan">Banchan</option>
-              <option value="Fastfood">Fastfood</option>
-              <option value="Drink">Drink</option>
-              <option value="Other">Other</option>
-              
-            </Form.Control>
+            <Form.Label>Good Until</Form.Label>
+            <Form.Control type="date" name="goodUntil" value={item.goodUntil} onChange={handleChange} />
           </Form.Group>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>

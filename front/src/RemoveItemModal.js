@@ -1,24 +1,21 @@
 // src //RemoveItemModal.js
 
-import React, { useState } from 'react';
+import React from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { removeItem } from './redux/actions';
 
-function RemoveItemModal({ show, handleClose, onRemoveItem, selectedCategory }) {
-  const [selectedItemId, setSelectedItemId] = useState('');
+function RemoveItemModal({ show, handleClose, onRemoveItem, selectedItemToRemove, selectedCategory }) {
 
-  const handleItemSelection = (e) => {
-    setSelectedItemId(e.target.value);
-  };
-
+  // handleRemove 함수 내부 로직
   const handleRemove = () => {
-    if (!selectedCategory || !selectedItemId) {
-      console.error('No category or item selected');
+    const itemId = selectedItemToRemove.name;
+    if (!itemId) {
+      console.error('No item selected for removal');
       return;
     }
-    // 여기서 selectedItemId는 제거하려는 아이템의 이름입니다.
-    onRemoveItem(selectedCategory.name, selectedItemId);
+    console.log('Removing item:', selectedItemToRemove);
+    onRemoveItem(selectedCategory.name, itemId);
     handleClose();
   };
   
@@ -29,22 +26,16 @@ function RemoveItemModal({ show, handleClose, onRemoveItem, selectedCategory }) 
         <Modal.Title>Remove Item</Modal.Title>
     </Modal.Header>
     <Modal.Body>
-        <Form>
+      <Form>
         <Form.Group>
-            <Form.Label>Select Item to Remove</Form.Label>
-            <Form.Control as="select" value={selectedItemId} onChange={handleItemSelection}>
-            <option value="">Select an item</option>
-            {selectedCategory && selectedCategory.items.map(item => (
-                <option key={item.id} value={item.id}>{item.name}</option>
-            ))}
-            </Form.Control>
+            <Form.Label>Are you sure you want to remove the item: {selectedItemToRemove.name}?</Form.Label>
         </Form.Group>
-        </Form>
-  </Modal.Body>
-      <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>Cancel</Button>
-        <Button variant="danger" onClick={handleRemove}>Remove</Button>
-      </Modal.Footer>
+      </Form>
+    </Modal.Body>
+    <Modal.Footer>
+      <Button variant="secondary" onClick={handleClose}>Cancel</Button>
+      <Button variant="danger" onClick={handleRemove}>Remove</Button>
+    </Modal.Footer>
     </Modal>
   );
 }

@@ -58,16 +58,16 @@ function renderBarChart(data, field) {
 
     // SVG 설정
 
-    const margin = {top: 20, right: 20, bottom: 60, left: 60}; // 여기서 오른쪽 마진을 조정할 수 있음
-    const width = 1200 - margin.left - margin.right; // 전체 너비를 1200px로 설정하였다고 가정
+    const margin = {top: 20, right: 20, bottom: 60, left: 60};
+    const width = 1200 - margin.left - margin.right;
     const height = 500 - margin.top - margin.bottom;
-    const svgWidth = width + margin.left + margin.right; // 너비를 조정
-    const svgHeight = height + margin.top + margin.bottom; // 높이는 그대로 유지
+    const svgWidth = width + margin.left + margin.right;
+    const svgHeight = height + margin.top + margin.bottom;
     const svg = d3.select("#barChart").append("svg")
         .attr("width", svgWidth)
         .attr("height", svgHeight)
-        .style("background", "#f5f5f5") // 배경색
-        .style("border", "1px solid #ccc") // 테두리
+        .style("background", "#f5f5f5")
+        .style("border", "1px solid #ccc")
       .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -92,10 +92,6 @@ function renderBarChart(data, field) {
         .attr("transform", `translate(0,${height})`)
         .call(d3.axisBottom(x))
         .selectAll("text")
-        //.attr("y", 0)
-        //.attr("x", 9)
-        //.attr("dy", ".35em")
-        //.attr("transform", "rotate(45)")
         .style("text-anchor", "middle");
 
     svg.append("g")
@@ -117,8 +113,8 @@ function renderBarChart(data, field) {
             .attr("fill", (d, i) => d3.schemeCategory10[i % 10])
             .on("mouseover", function(event, d) {
                 tooltip.transition().duration(200).style("opacity", .9);
-                let xPosition = event.clientX + 20; // 브라우저 뷰포트 기준 X 위치
-                let yPosition = event.clientY + 20; // 뷰포트 기준 Y 위치
+                let xPosition = event.clientX + 20; 
+                let yPosition = event.clientY + 20; 
             
                 let tooltipWidth = tooltip.node().getBoundingClientRect().width;
                 let tooltipHeight = tooltip.node().getBoundingClientRect().height;

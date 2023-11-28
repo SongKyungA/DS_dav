@@ -57,21 +57,33 @@ const rootReducer = (state = initialState, action) => {
       
       
 
-        case MODIFY_ITEM:
+        case MODIFY_ITEM: {
+          const { categoryName, itemId, newItemDetails } = action.payload;
+          const updatedUnits = parseInt(newItemDetails.units, 10);
+        
           return {
             ...state,
             categories: state.categories.map(category => {
-              if (category.name === action.payload.categoryName) {
-                return {
-                  ...category,
-                  items: category.items.map(item => 
-                    item.id === action.payload.itemId ? { ...item, ...action.payload.newItemDetails } : item
-                  ),
-                };
+              if (category.name === categoryName) {
+                let unitDifference = 0;
+                const updatedItems = category.items.map(item => {
+                  if (item.name === itemId) {
+                    unitDifference = updatedUnits - item.units;
+                    return { ...item, ...newItemDetails, units: updatedUnits };
+                  }
+                  return item;
+                });
+                const updatedCount = category.count + unitDifference; // 단위 차이를 더하여 카운트를 업데이트합니다.
+                return { ...category, items: updatedItems, count: updatedCount };
               }
               return category;
-            })
+            }),
           };
+        }
+        
+        
+        
+
 
     default:
       return state;

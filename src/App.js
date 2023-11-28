@@ -31,11 +31,10 @@ function App({ categories, addItem, removeItem, modifyItem }) {
     setSelectedCategory(category);
     console.log("handleAddItem - Selected Category:", category.name);
   };
-
-  const handleRemoveItem = categoryName => removeItem(categoryName);
-  const handleModifyItem = itemId => modifyItem(itemId);
+  
   const viewRecipes = () => {
-    console.log('View recipes functionality not implemented yet.');
+    console.log('Opening recipes visualization.');
+    window.open(window.location.origin + '/complete_recipe_visualization.html', '_blank');
   };
 
   const totalCapacity = 100;
@@ -53,31 +52,30 @@ function App({ categories, addItem, removeItem, modifyItem }) {
     icon: ''
   });
 
-  const handleItemDetailChange = (e) => {
-    const { name, value } = e.target;
-    setNewItemDetails({ ...newItemDetails, [name]: value });
-  };
+    const handleItemDetailChange = (e) => {
+      const { name, value } = e.target;
+      setNewItemDetails({ ...newItemDetails, [name]: value });
+    };
 
-  const handleShowAddItemModal = () => {
-    console.log("Showing modal for category:", selectedCategory);
-    setShowAddItemModal(true);
-  };
+    const handleShowAddItemModal = () => {
+      console.log("Showing modal for category:", selectedCategory);
+      setShowAddItemModal(true);
+    };
 
-  const handleHideAddItemModal = () => {
-    setShowAddItemModal(false);
-  };
-  // Remove 모달을 보여주는 함수를 수정합니다.
-  const handleShowRemoveItemModal = (itemName) => {
-    setSelectedItemName(itemName); // 이 부분에서 상태를 설정합니다.
-    setShowRemoveItemModal(true);
-  };
-  const handleHideRemoveItemModal = () => setShowRemoveItemModal(false);
-  const handleSelectItemToModify = (item, category) => {
-    setSelectedItemToModify(item);
-    setSelectedCategory(category); // Ensure the correct category is also selected
-    handleShowModifyItemModal();
-  };
-    // 수정 모달을 표시하는 함수
+    const handleHideAddItemModal = () => {
+      setShowAddItemModal(false);
+    };
+    
+    const handleShowRemoveItemModal = (itemName) => {
+      setSelectedItemName(itemName); 
+      setShowRemoveItemModal(true);
+    };
+    const handleHideRemoveItemModal = () => setShowRemoveItemModal(false);
+    const handleSelectItemToModify = (item) => {
+      setSelectedItemToModify(item);
+      setShowModifyItemModal(true);
+    };
+    
     const handleShowModifyItemModal = () => {
       if (!selectedItemToModify) {
         alert('Please select an item to modify.');
@@ -89,7 +87,7 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   const handleHideModifyItemModal = () => setShowModifyItemModal(false);
   const handleAddNewItem = () => {
     if (selectedCategory) {
-      console.log("Adding item to category:", selectedCategory.name); // 카테고리 이름 출력
+      console.log("Adding item to category:", selectedCategory.name); 
       addItem({
         category: selectedCategory.name,
         itemDetails: {
@@ -162,42 +160,50 @@ function App({ categories, addItem, removeItem, modifyItem }) {
           <ProgressBar now={capacityPercentage} label={`${capacityPercentage.toFixed(0)}%`} />
           <Row>
             <Col md={6}>
-              <Button variant="outline-primary" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={handleShowAddItemModal}>ADD ITEM</Button>
+              <Button variant="outline-success" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={handleShowAddItemModal}>ADD ITEM</Button>
             </Col>
             <Col md={6}>
-              <Button variant="outline-secondary" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={() => handleShowRemoveItemModal('Fruit')}>REMOVE ITEM</Button>
+              <Button variant="outline-success" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={() => handleShowRemoveItemModal('Fruit')}>REMOVE ITEM</Button>
             </Col>
             <Col md={6}>
               <Button variant="outline-success" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={() => handleShowModifyItemModal}>MODIFY ITEM</Button>
             </Col>
             <Col md={6}>
-              <Button variant="outline-info" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={viewRecipes}>RECIPES</Button>
+              <Button variant="outline-success" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={viewRecipes}>RECIPES</Button>
             </Col>
           </Row>
         </Col>
       </Row>
-
+      
+      {showAddItemModal && (
       <AddItemModal 
-        show={showAddItemModal} 
+        show={showAddItemModal}
+        onHide={() => setShowAddItemModal(false)} 
         handleClose={handleHideAddItemModal}
         onAddNewItem={handleAddNewItem}
         itemDetails={newItemDetails}
         onItemDetailChange={handleItemDetailChange}
         selectedCategory={selectedCategory}
-      />
+      />)}
+
+      {showRemoveItemModal && (
       <RemoveItemModal 
         show={showRemoveItemModal} 
         handleClose={handleHideRemoveItemModal}
         onRemoveItem={removeItem}
         selectedCategory={selectedCategory}
-      />
+      />)}
+
+      {showModifyItemModal && (
       <ModifyItemModal 
         show={showModifyItemModal} 
+        onHide={() => setShowModifyItemModal(false)}
+        itemToModify={selectedItemToModify}
         handleClose={handleHideModifyItemModal}
         onModifyItem={modifyItem}
         selectedItemToModify={selectedItemToModify}
-        selectedCategory={selectedCategory} // Make sure this is passed correctly
-      />
+        selectedCategory={selectedCategory}
+      />)}
 
     </Container>
   );

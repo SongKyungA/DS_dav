@@ -17,17 +17,20 @@ function ModifyItemModal({ show, handleClose, onModifyItem, selectedItemToModify
 
     const handleDetailChange = (e) => {
       const { name, value } = e.target;
-      setItemDetails({ ...itemDetails, [name]: value });
+      setItemDetails(prevItemDetails => ({ ...prevItemDetails, [name]: value }));
     };
 
+    // handleModify 함수 내부 로직
     const handleModify = () => {
-        if (!itemDetails.id) {
-          console.error('No item selected for modification');
-          return;
-        }
-        onModifyItem(selectedCategory.name, itemDetails.id, itemDetails); // Ensure the correct category is used
-        handleClose();
-      };
+      const itemId = selectedItemToModify.name;
+      if (!itemId) {
+        console.error('No item selected for modification');
+        return;
+      }
+      console.log('Modifying item with details:', itemDetails);
+      modifyItem(selectedCategory.name, itemId, itemDetails);
+      handleClose();
+    };
 
   return (
     <Modal show={show} onHide={handleClose}>

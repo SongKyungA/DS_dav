@@ -54,12 +54,12 @@ function renderBarChart(data, field) {
     d3.select("#barChart").selectAll("svg").remove();
 
     // SVG 설정
-    const margin = {top: 20, right: 20, bottom: 60, left: 40};
-    const width = 960 - margin.left - margin.right;
-    const height = 500 - margin.top - margin.bottom;
-    const svgWidth = 1200; // 더 넓은 SVG 너비로 조정
-    const svgHeight = 500; // 높이 조정 가능
 
+    const margin = {top: 20, right: 20, bottom: 60, left: 60}; // 여기서 오른쪽 마진을 조정할 수 있음
+    const width = 1200 - margin.left - margin.right; // 전체 너비를 1200px로 설정하였다고 가정
+    const height = 500 - margin.top - margin.bottom;
+    const svgWidth = width + margin.left + margin.right; // 너비를 조정
+    const svgHeight = height + margin.top + margin.bottom; // 높이는 그대로 유지
     const svg = d3.select("#barChart").append("svg")
         .attr("width", svgWidth)
         .attr("height", svgHeight)
@@ -67,6 +67,15 @@ function renderBarChart(data, field) {
         .style("border", "1px solid #ccc") // 테두리
       .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    // 제목 추가
+    svg.append("text")
+        .attr("x", (width / 2))             
+        .attr("y", (margin.top / 2))
+        .attr("text-anchor", "middle")  
+        .style("font-size", "20px") 
+        .style("text-decoration", "underline")  
+        .text("조회수 기준 상위 10개 요리");
 
     // 축 설정
     const x = d3.scaleBand().range([0, width]).padding(0.1);
@@ -80,11 +89,11 @@ function renderBarChart(data, field) {
         .attr("transform", `translate(0,${height})`)
         .call(d3.axisBottom(x))
         .selectAll("text")
-        .attr("y", 0)
-        .attr("x", 9)
-        .attr("dy", ".35em")
-        .attr("transform", "rotate(45)")
-        .style("text-anchor", "start");
+        //.attr("y", 0)
+        //.attr("x", 9)
+        //.attr("dy", ".35em")
+        //.attr("transform", "rotate(45)")
+        .style("text-anchor", "middle");
 
     svg.append("g")
         .call(d3.axisLeft(y));
@@ -102,13 +111,34 @@ function renderBarChart(data, field) {
             .attr("x", d => x(d.CKG_NM))
             .attr("width", x.bandwidth())
             .attr("y", height)
-            .attr("fill", (d, i) => d3.schemeCategory10[i % 10]) // 색상
+            .attr("fill", (d, i) => d3.schemeCategory10[i % 10])
             .on("mouseover", function(event, d) {
                 tooltip.transition().duration(200).style("opacity", .9);
-                tooltip.html(`${d.CKG_NM}<br/>${field}: ${d[field]}`) // ES6 템플릿 리터럴 사용
-                    .style("left", (d3.pointer(event, this)[0] + 70) + "px")
-                    .style("top", (d3.pointer(event, this)[1]) + "px");
+                let xPosition = event.clientX + 20; // 브라우저 뷰포트 기준 X 위치
+                let yPosition = event.clientY + 20; // 뷰포트 기준 Y 위치
+            
+                // 화면 밖으로 나가지 않도록 위치 조정
+                let tooltipWidth = tooltip.node().getBoundingClientRect().width;
+                let tooltipHeight = tooltip.node().getBoundingClientRect().height;
+            
+                if (xPosition + tooltipWidth > window.innerWidth) {
+                    xPosition -= tooltipWidth + 40;
+                }
+            
+                if (yPosition + tooltipHeight > window.innerHeight) {
+                    yPosition -= tooltipHeight + 40;
+                }
+                tooltip.html(`
+                    <strong>요리명: ${d.CKG_NM}</strong><br/>
+                    조회 수: ${d.INQ_CNT}<br/>
+                    요리 방법: ${d.CKG_MTH_ACTO_NM}<br/>
+                    주재료: ${d.CKG_MTRL_ACTO_NM}<br/>
+                    요리 상황: ${d.CKG_STA_ACTO_NM}`
+                )
+                .style("left", xPosition + "px") 
+                .style("top", yPosition + "px");
             })
+            
             .on("mouseout", function(d) {
                 tooltip.transition().duration(500).style("opacity", 0);
             })

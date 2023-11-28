@@ -32,9 +32,19 @@ function App({ categories, addItem, removeItem, modifyItem }) {
     console.log("handleAddItem - Selected Category:", category.name);
   };
   
-  const viewRecipes = () => {
-    console.log('Opening recipes visualization.');
+  const viewFoodTop10 = () => {
+    console.log('Opening Food Top 10 visualization.');
     window.open(window.location.origin + '/complete_recipe_visualization.html', '_blank');
+  };
+
+  const viewCirclePackingFood = () => {
+    console.log('Circle Packing Food visualization not implemented yet.');
+    // Circle package food 시각화 tool 추가 예정
+  };
+
+  const viewRecipes = () => {
+    console.log('Recipes functionality not implemented yet.');
+    // 레시피 기능을 추가할 예정
   };
 
   const totalCapacity = 100;
@@ -159,17 +169,26 @@ function App({ categories, addItem, removeItem, modifyItem }) {
 
           <ProgressBar now={capacityPercentage} label={`${capacityPercentage.toFixed(0)}%`} />
           <Row>
-            <Col md={6}>
-              <Button variant="outline-success" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={handleShowAddItemModal}>ADD ITEM</Button>
+            <Col md={4}>
+              <Button variant="outline-success" block style={buttonStyle} onClick={handleShowAddItemModal}>ADD ITEM</Button>
             </Col>
-            <Col md={6}>
-              <Button variant="outline-success" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={() => handleShowRemoveItemModal('Fruit')}>REMOVE ITEM</Button>
+            <Col md={4}>
+              <Button variant="outline-danger" block style={buttonStyle} onClick={() => handleShowRemoveItemModal('Fruit')}>REMOVE ITEM</Button>
             </Col>
-            <Col md={6}>
-              <Button variant="outline-success" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={() => handleShowModifyItemModal}>MODIFY ITEM</Button>
+            <Col md={4}>
+              <Button variant="outline-warning" block style={buttonStyle} onClick={() => handleShowModifyItemModal}>MODIFY ITEM</Button>
             </Col>
-            <Col md={6}>
-              <Button variant="outline-success" block style={{ fontWeight: 'bold', width: '100%', height: '100px', fontSize: '24px' }} onClick={viewRecipes}>RECIPES</Button>
+          </Row>
+          <p><br /></p>
+          <Row>
+            <Col md={4}>
+              <Button variant="outline-info" block style={buttonStyle} onClick={viewFoodTop10}>FOOD TOP 10</Button>
+            </Col>
+            <Col md={4}>
+              <Button variant="outline-primary" block style={buttonStyle} onClick={viewCirclePackingFood}>CIRCLE PACKING FOOD</Button>
+            </Col>
+            <Col md={4}>
+              <Button variant="outline-secondary" block style={buttonStyle} onClick={viewRecipes}>RECIPES</Button>
             </Col>
           </Row>
         </Col>
@@ -208,6 +227,13 @@ function App({ categories, addItem, removeItem, modifyItem }) {
     </Container>
   );
 }
+
+const buttonStyle = { 
+  fontWeight: 'bold', 
+  width: '100%', 
+  height: '100px', 
+  fontSize: '24px'
+};
 
 const mapStateToProps = state => ({
   categories: state.categories

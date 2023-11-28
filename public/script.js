@@ -5,6 +5,7 @@ d3.csv("test2.csv").then(function(data) {
     createDropdown("#ckgMethod", uniqueValues(data, 'CKG_MTH_ACTO_NM'));
     createDropdown("#ckgSituation", uniqueValues(data, 'CKG_STA_ACTO_NM'));
     createDropdown("#ckgMaterial", uniqueValues(data, 'CKG_MTRL_ACTO_NM'));
+    createDropdown("#ckgTime", uniqueValues(data, 'CKG_TIME_NM'));
 
     updateBarChart(data); // 초기 차트 로드
 
@@ -31,11 +32,13 @@ function updateBarChart(data) {
     let method = d3.select("#ckgMethod").property("value");
     let situation = d3.select("#ckgSituation").property("value");
     let material = d3.select("#ckgMaterial").property("value");
+    let time = d3.select("#ckgTime").property("value");
 
     let filteredData = data.filter(d => 
         (method === "" || d.CKG_MTH_ACTO_NM === method) &&
         (situation === "" || d.CKG_STA_ACTO_NM === situation) &&
-        (material === "" || d.CKG_MTRL_ACTO_NM === material)
+        (material === "" || d.CKG_MTRL_ACTO_NM === material) &&
+        (time === "" || d.CKG_TIME_NM === time)
     );
 
     // 중복 제거 (예: 요리 이름을 기준으로)
@@ -117,7 +120,6 @@ function renderBarChart(data, field) {
                 let xPosition = event.clientX + 20; // 브라우저 뷰포트 기준 X 위치
                 let yPosition = event.clientY + 20; // 뷰포트 기준 Y 위치
             
-                // 화면 밖으로 나가지 않도록 위치 조정
                 let tooltipWidth = tooltip.node().getBoundingClientRect().width;
                 let tooltipHeight = tooltip.node().getBoundingClientRect().height;
             

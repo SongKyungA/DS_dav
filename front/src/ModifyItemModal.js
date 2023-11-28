@@ -28,7 +28,7 @@ function ModifyItemModal({ show, handleClose, onModifyItem, selectedItemToModify
         return;
       }
       console.log('Modifying item with details:', itemDetails);
-      modifyItem(selectedCategory.name, itemId, itemDetails);
+      onModifyItem(selectedCategory.name, itemId, itemDetails);
       handleClose();
     };
 

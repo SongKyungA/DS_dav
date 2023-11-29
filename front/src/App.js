@@ -38,8 +38,8 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   };
 
   const viewCirclePackingFood = () => {
-    console.log('Circle Packing Food visualization not implemented yet.');
-    // Circle package food 시각화 tool 추가 예정
+    console.log('Opening CirclePacking visualization.');
+    window.open(window.location.origin + '/circle_packing.html', '_blank');
   };
 
   const viewRecipes = () => {

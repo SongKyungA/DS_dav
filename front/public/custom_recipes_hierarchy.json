@@ -1,0 +1,1600 @@
+{
+    "name": "flare",
+    "children": [
+        {
+            "name": "가공식품류",
+            "children": [
+                {
+                    "name": "간식",
+                    "children": [
+                        {
+                            "name": "어묵김말이",
+                            "value": 1
+                        },
+                        {
+                            "name": "라볶이",
+                            "value": 1
+                        },
+                        {
+                            "name": "사탕",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "일상",
+                    "children": [
+                        {
+                            "name": "토마토스파게티",
+                            "value": 1
+                        },
+                        {
+                            "name": "어묵볶음",
+                            "value": 1
+                        },
+                        {
+                            "name": "베이컨그라탕",
+                            "value": 1
+                        },
+                        {
+                            "name": "어묵볶음",
+                            "value": 1
+                        },
+                        {
+                            "name": "부대찌개",
+                            "value": 1
+                        },
+                        {
+                            "name": "도토리묵전",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "도시락",
+                    "children": [
+                        {
+                            "name": "참치삼각김밥",
+                            "value": 1
+                        },
+                        {
+                            "name": "스팸쌈밥",
+                            "value": 1
+                        },
+                        {
+                            "name": "베이컨김치말이밥",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "야식",
+                    "children": [
+                        {
+                            "name": "뚝배기라면",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "술안주",
+                    "children": [
+                        {
+                            "name": "쏘야볶음",
+                            "value": 1
+                        },
+                        {
+                            "name": "어묵",
+                            "value": 1
+                        },
+                        {
+                            "name": "순대전골",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "손님접대",
+                    "children": [
+                        {
+                            "name": "카레어묵전골",
+                            "value": 1
+                        },
+                        {
+                            "name": "탕수만두",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "기타",
+                    "children": [
+                        {
+                            "name": "베이컨",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "초스피드",
+                    "children": [
+                        {
+                            "name": "칠리참치롤",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "쌀",
+            "children": [
+                {
+                    "name": "일상",
+                    "children": [
+                        {
+                            "name": "현미호두죽",
+                            "value": 1
+                        },
+                        {
+                            "name": "김치볶음밥",
+                            "value": 1
+                        },
+                        {
+                            "name": "모밀국수",
+                            "value": 1
+                        },
+                        {
+                            "name": "충무김밥",
+                            "value": 1
+                        },
+                        {
+                            "name": "김치볶음밥",
+                            "value": 1
+                        },
+                        {
+                            "name": "오므라이스",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "도시락",
+                    "children": [
+                        {
+                            "name": "꼬마김밥",
+                            "value": 1
+                        },
+                        {
+                            "name": "유부초밥",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "간식",
+                    "children": [
+                        {
+                            "name": "짜장떡볶이",
+                            "value": 1
+                        },
+                        {
+                            "name": "바나나찹쌀떡",
+                            "value": 1
+                        },
+                        {
+                            "name": "피낭시에",
+                            "value": 1
+                        },
+                        {
+                            "name": "전자렌지딸기찹쌀떡",
+                            "value": 1
+                        },
+                        {
+                            "name": "깻잎떡볶이",
+                            "value": 1
+                        },
+                        {
+                            "name": "복숭아찹쌀떡",
+                            "value": 1
+                        },
+                        {
+                            "name": "찹쌀경단",
+                            "value": 1
+                        },
+                        {
+                            "name": "식혜",
+                            "value": 1
+                        },
+                        {
+                            "name": "떡볶이",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "손님접대",
+                    "children": [
+                        {
+                            "name": "볶음밥",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "건어물류",
+            "children": [
+                {
+                    "name": "술안주",
+                    "children": [
+                        {
+                            "name": "북어갈비",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "일상",
+                    "children": [
+                        {
+                            "name": "코다리조림",
+                            "value": 1
+                        },
+                        {
+                            "name": "미역국",
+                            "value": 1
+                        },
+                        {
+                            "name": "코다리양념구이",
+                            "value": 1
+                        },
+                        {
+                            "name": "멸치무침",
+                            "value": 1
+                        },
+                        {
+                            "name": "코다리조림",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "손님접대",
+                    "children": [
+                        {
+                            "name": "깐풍코다리",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "버섯류",
+            "children": [
+                {
+                    "name": "손님접대",
+                    "children": [
+                        {
+                            "name": "표고버섯탕수",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "명절",
+                    "children": [
+                        {
+                            "name": "느타리버섯전",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "일상",
+                    "children": [
+                        {
+                            "name": "느타리버섯구이",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "닭고기",
+            "children": [
+                {
+                    "name": "손님접대",
+                    "children": [
+                        {
+                            "name": "갈릭치킨",
+                            "value": 1
+                        },
+                        {
+                            "name": "로스트치킨",
+                            "value": 1
+                        },
+                        {
+                            "name": "찜닭",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "간식",
+                    "children": [
+                        {
+                            "name": "닭꼬지",
+                            "value": 1
+                        },
+                        {
+                            "name": "닭강정",
+                            "value": 1
+                        },
+                        {
+                            "name": "불닭퀘사디아",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "도시락",
+                    "children": [
+                        {
+                            "name": "닭고기샌드위치",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "일상",
+                    "children": [
+                        {
+                            "name": "닭개장",
+                            "value": 1
+                        },
+                        {
+                            "name": "치킨까스카레덮밥",
+                            "value": 1
+                        },
+                        {
+                            "name": "닭가슴살두부강정",
+                            "value": 1
+                        },
+                        {
+                            "name": "닭개장",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "술안주",
+                    "children": [
+                        {
+                            "name": "오렌지닭봉구이",
+                            "value": 1
+                        },
+                        {
+                            "name": "닭매운탕",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "다이어트",
+                    "children": [
+                        {
+                            "name": "닭가슴살샐러드",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "채소류",
+            "children": [
+                {
+                    "name": "간식",
+                    "children": [
+                        {
+                            "name": "양파링튀김",
+                            "value": 1
+                        },
+                        {
+                            "name": "고구마치즈스틱",
+                            "value": 1
+                        },
+                        {
+                            "name": "고구마보트",
+                            "value": 1
+                        },
+                        {
+                            "name": "포테이토스킨",
+                            "value": 1
+                        },
+                        {
+                            "name": "고구마크림치즈구이",
+                            "value": 1
+                        },
+                        {
+                            "name": "고구마야채튀김",
+                            "value": 1
+                        },
+                        {
+                            "name": "깻잎떡볶이",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "도시락",
+                    "children": [
+                        {
+                            "name": "참치깻잎주먹밥",
+                            "value": 1
+                        },
+                        {
+                            "name": "쌈밥",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "일상",
+                    "children": [
+                        {
+                            "name": "고구마그라탕",
+                            "value": 1
+                        },
+                        {
+                            "name": "감자스프",
+                            "value": 1
+                        },
+                        {
+                            "name": "오븐웨지감자",
+                            "value": 1
+                        },
+                        {
+                            "name": "오이무침",
+                            "value": 1
+                        },
+                        {
+                            "name": "토마토카프레제샐러드",
+                            "value": 1
+                        },
+                        {
+                            "name": "샐러드오므라이스",
+                            "value": 1
+                        },
+                        {
+                            "name": "깻잎순조림",
+                            "value": 1
+                        },
+                        {
+                            "name": "깡장",
+                            "value": 1
+                        },
+                        {
+                            "name": "들깨무국",
+                            "value": 1
+                        },
+                        {
+                            "name": "연근전",
+                            "value": 1
+                        },
+                        {
+                            "name": "참치김치전",
+                            "value": 1
+                        },
+                        {
+                            "name": "연근전",
+                            "value": 1
+                        },
+                        {
+                            "name": "부추된장국",
+                            "value": 1
+                        },
+                        {
+                            "name": "야채피클",
+                            "value": 1
+                        },
+                        {
+                            "name": "달래김무침",
+                            "value": 1
+                        },
+                        {
+                            "name": "열무김치",
+                            "value": 1
+                        },
+                        {
+                            "name": "설렁탕깍두기",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "초스피드",
+                    "children": [
+                        {
+                            "name": "바질페스토",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "영양식",
+                    "children": [
+                        {
+                            "name": "시래기들깨탕",
+                            "value": 1
+                        },
+                        {
+                            "name": "소고기연근전",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "다이어트",
+                    "children": [
+                        {
+                            "name": "연어계란샐러드",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "해물류",
+            "children": [
+                {
+                    "name": "술안주",
+                    "children": [
+                        {
+                            "name": "뚝배기해물떡볶이",
+                            "value": 1
+                        },
+                        {
+                            "name": "홍합탕",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "도시락",
+                    "children": [
+                        {
+                            "name": "새우볶음밥고로케",
+                            "value": 1
+                        },
+                        {
+                            "name": "카레새우삼각김밥",
+                            "value": 1
+                        },
+                        {
+                            "name": "연어또띠아말이",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "일상",
+                    "children": [
+                        {
+                            "name": "오징어볶음우동",
+                            "value": 1
+                        },
+                        {
+                            "name": "미니새우버거",
+                            "value": 1
+                        },
+                        {
+                            "name": "오징어청양고추조림",
+                            "value": 1
+                        },
+                        {
+                            "name": "해물볶음라면",
+                            "value": 1
+                        },
+                        {
+                            "name": "오징어볶음",
+                            "value": 1
+                        },
+                        {
+                            "name": "꽁치김치찌개",
+                            "value": 1
+                        },
+                        {
+                            "name": "갈치조림",
+                            "value": 1
+                        },
+                        {
+                            "name": "연어간장조림",
+                            "value": 1
+                        },
+                        {
+                            "name": "양념꼬막",
+                            "value": 1
+                        },
+                        {
+                            "name": "꽃게된장찌개",
+                            "value": 1
+                        },
+                        {
+                            "name": "해물김치볶음밥",
+                            "value": 1
+                        },
+                        {
+                            "name": "꼬막볶음",
+                            "value": 1
+                        },
+                        {
+                            "name": "브로콜리새우볶음밥",
+                            "value": 1
+                        },
+                        {
+                            "name": "풋마늘오징어무침",
+                            "value": 1
+                        },
+                        {
+                            "name": "쉬림프딸기샐러드",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "손님접대",
+                    "children": [
+                        {
+                            "name": "단호박해물치즈구이",
+                            "value": 1
+                        },
+                        {
+                            "name": "크림소스",
+                            "value": 1
+                        },
+                        {
+                            "name": "조기매운탕",
+                            "value": 1
+                        },
+                        {
+                            "name": "꽃게매운탕",
+                            "value": 1
+                        },
+                        {
+                            "name": "대구탕",
+                            "value": 1
+                        },
+                        {
+                            "name": "굴비탕수육",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "영양식",
+                    "children": [
+                        {
+                            "name": "굴무밥",
+                            "value": 1
+                        },
+                        {
+                            "name": "굴무밥",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "밀가루",
+            "children": [
+                {
+                    "name": "도시락",
+                    "children": [
+                        {
+                            "name": "스팸샌드위치",
+                            "value": 1
+                        },
+                        {
+                            "name": "스팸오이식빵롤",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "간식",
+                    "children": [
+                        {
+                            "name": "밤식빵",
+                            "value": 1
+                        },
+                        {
+                            "name": "야끼만두",
+                            "value": 1
+                        },
+                        {
+                            "name": "에그스팸샌드위치",
+                            "value": 1
+                        },
+                        {
+                            "name": "단호박사블레",
+                            "value": 1
+                        },
+                        {
+                            "name": "뮈슬리초코칩쿠키",
+                            "value": 1
+                        },
+                        {
+                            "name": "팥파운드케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "브라우니",
+                            "value": 1
+                        },
+                        {
+                            "name": "브라우니치즈케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "브라우니",
+                            "value": 1
+                        },
+                        {
+                            "name": "밤머핀",
+                            "value": 1
+                        },
+                        {
+                            "name": "크랜베리브리오슈",
+                            "value": 1
+                        },
+                        {
+                            "name": "바나나프렌치토스트",
+                            "value": 1
+                        },
+                        {
+                            "name": "몽블랑",
+                            "value": 1
+                        },
+                        {
+                            "name": "포카치아",
+                            "value": 1
+                        },
+                        {
+                            "name": "흑미와플",
+                            "value": 1
+                        },
+                        {
+                            "name": "메론빵",
+                            "value": 1
+                        },
+                        {
+                            "name": "튜나에그샌드위치",
+                            "value": 1
+                        },
+                        {
+                            "name": "쿠키",
+                            "value": 1
+                        },
+                        {
+                            "name": "대추스콘",
+                            "value": 1
+                        },
+                        {
+                            "name": "모카머핀",
+                            "value": 1
+                        },
+                        {
+                            "name": "버섯포카치아",
+                            "value": 1
+                        },
+                        {
+                            "name": "파니니",
+                            "value": 1
+                        },
+                        {
+                            "name": "시나몬비스코티",
+                            "value": 1
+                        },
+                        {
+                            "name": "버터케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "레몬생크림케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "초콜릿케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "시나몬큐브",
+                            "value": 1
+                        },
+                        {
+                            "name": "초코바나나머핀",
+                            "value": 1
+                        },
+                        {
+                            "name": "애호박사워크림케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "브라우니",
+                            "value": 1
+                        },
+                        {
+                            "name": "초코뮈슬리쿠키",
+                            "value": 1
+                        },
+                        {
+                            "name": "소세지크로와상",
+                            "value": 1
+                        },
+                        {
+                            "name": "그린티현미쉬폰",
+                            "value": 1
+                        },
+                        {
+                            "name": "오트밀빵",
+                            "value": 1
+                        },
+                        {
+                            "name": "시나몬롤",
+                            "value": 1
+                        },
+                        {
+                            "name": "식빵꽃",
+                            "value": 1
+                        },
+                        {
+                            "name": "쇼콜라케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "바나나머핀",
+                            "value": 1
+                        },
+                        {
+                            "name": "카야쨈호떡",
+                            "value": 1
+                        },
+                        {
+                            "name": "초콜렛치즈머핀",
+                            "value": 1
+                        },
+                        {
+                            "name": "두부치즈케익",
+                            "value": 1
+                        },
+                        {
+                            "name": "쇼콜라",
+                            "value": 1
+                        },
+                        {
+                            "name": "티라미수컵케익",
+                            "value": 1
+                        },
+                        {
+                            "name": "초코칩케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "마로니에",
+                            "value": 1
+                        },
+                        {
+                            "name": "멀티그레인곡물빵",
+                            "value": 1
+                        },
+                        {
+                            "name": "초코파운드케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "컵케익",
+                            "value": 1
+                        },
+                        {
+                            "name": "와플",
+                            "value": 1
+                        },
+                        {
+                            "name": "홈런볼",
+                            "value": 1
+                        },
+                        {
+                            "name": "생크림케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "까망베르치즈케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "모카쿠키",
+                            "value": 1
+                        },
+                        {
+                            "name": "초코쉬폰케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "밤파운드케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "쿠키",
+                            "value": 1
+                        },
+                        {
+                            "name": "초코슈",
+                            "value": 1
+                        },
+                        {
+                            "name": "초코칩쿠키",
+                            "value": 1
+                        },
+                        {
+                            "name": "딸기케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "모카초코칩머핀",
+                            "value": 1
+                        },
+                        {
+                            "name": "무화과컵케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "시나몬메이플쿠키",
+                            "value": 1
+                        },
+                        {
+                            "name": "찐빵",
+                            "value": 1
+                        },
+                        {
+                            "name": "딸기가나슈케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "식빵",
+                            "value": 1
+                        },
+                        {
+                            "name": "카스테라",
+                            "value": 1
+                        },
+                        {
+                            "name": "퍼지브라우니",
+                            "value": 1
+                        },
+                        {
+                            "name": "마늘바게트",
+                            "value": 1
+                        },
+                        {
+                            "name": "모카빵",
+                            "value": 1
+                        },
+                        {
+                            "name": "옥수수식빵",
+                            "value": 1
+                        },
+                        {
+                            "name": "망고레어치즈케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "식빵",
+                            "value": 1
+                        },
+                        {
+                            "name": "케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "요거트스콘",
+                            "value": 1
+                        },
+                        {
+                            "name": "와플",
+                            "value": 1
+                        },
+                        {
+                            "name": "햄야채키슈",
+                            "value": 1
+                        },
+                        {
+                            "name": "쿠키",
+                            "value": 1
+                        },
+                        {
+                            "name": "파운드케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "캬라멜와플",
+                            "value": 1
+                        },
+                        {
+                            "name": "피낭시에",
+                            "value": 1
+                        },
+                        {
+                            "name": "잉글리시머핀",
+                            "value": 1
+                        },
+                        {
+                            "name": "단호박머핀",
+                            "value": 1
+                        },
+                        {
+                            "name": "캬라멜마블파운드케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "제누아즈",
+                            "value": 1
+                        },
+                        {
+                            "name": "딸기생크림케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "롤케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "오렌지마들렌",
+                            "value": 1
+                        },
+                        {
+                            "name": "아마씨식빵",
+                            "value": 1
+                        },
+                        {
+                            "name": "딸기버터케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "콘브레드",
+                            "value": 1
+                        },
+                        {
+                            "name": "버거",
+                            "value": 1
+                        },
+                        {
+                            "name": "치즈케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "초코케익",
+                            "value": 1
+                        },
+                        {
+                            "name": "식빵",
+                            "value": 1
+                        },
+                        {
+                            "name": "캬라멜비스코티",
+                            "value": 1
+                        },
+                        {
+                            "name": "딸기바나나크레이프",
+                            "value": 1
+                        },
+                        {
+                            "name": "녹차롤케이크",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "일상",
+                    "children": [
+                        {
+                            "name": "파네토네",
+                            "value": 1
+                        },
+                        {
+                            "name": "소고기크림치즈오븐스파게티",
+                            "value": 1
+                        },
+                        {
+                            "name": "파스타",
+                            "value": 1
+                        },
+                        {
+                            "name": "파니니",
+                            "value": 1
+                        },
+                        {
+                            "name": "얼큰수제비",
+                            "value": 1
+                        },
+                        {
+                            "name": "밥샌드위치",
+                            "value": 1
+                        },
+                        {
+                            "name": "새우버거",
+                            "value": 1
+                        },
+                        {
+                            "name": "김치스파게티",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "손님접대",
+                    "children": [
+                        {
+                            "name": "갸토쇼콜라",
+                            "value": 1
+                        },
+                        {
+                            "name": "단호박찜케익",
+                            "value": 1
+                        },
+                        {
+                            "name": "햄크림파스타",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "명절",
+                    "children": [
+                        {
+                            "name": "월병",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "콩/견과류",
+            "children": [
+                {
+                    "name": "영양식",
+                    "children": [
+                        {
+                            "name": "호두가래떡구이",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "일상",
+                    "children": [
+                        {
+                            "name": "두부조림",
+                            "value": 1
+                        },
+                        {
+                            "name": "마파두부덮밥",
+                            "value": 1
+                        },
+                        {
+                            "name": "밤조림",
+                            "value": 1
+                        },
+                        {
+                            "name": "냉이순두부찌개",
+                            "value": 1
+                        },
+                        {
+                            "name": "순두부찌개",
+                            "value": 1
+                        },
+                        {
+                            "name": "두부새우선",
+                            "value": 1
+                        },
+                        {
+                            "name": "두부명란젓찌개",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "간식",
+                    "children": [
+                        {
+                            "name": "쌀빵",
+                            "value": 1
+                        },
+                        {
+                            "name": "아몬드타르트",
+                            "value": 1
+                        },
+                        {
+                            "name": "견과류초콜릿",
+                            "value": 1
+                        },
+                        {
+                            "name": "모카쿠키",
+                            "value": 1
+                        },
+                        {
+                            "name": "아몬드초콜렛",
+                            "value": 1
+                        },
+                        {
+                            "name": "하트쿠키",
+                            "value": 1
+                        },
+                        {
+                            "name": "로쉐",
+                            "value": 1
+                        },
+                        {
+                            "name": "견과류파운드케익",
+                            "value": 1
+                        },
+                        {
+                            "name": "두부또띠아피자",
+                            "value": 1
+                        },
+                        {
+                            "name": "호두초코칩케이크",
+                            "value": 1
+                        },
+                        {
+                            "name": "두부샌드그라탕",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "다이어트",
+                    "children": [
+                        {
+                            "name": "크로켓",
+                            "value": 1
+                        },
+                        {
+                            "name": "연두부샐러드",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "과일류",
+            "children": [
+                {
+                    "name": "간식",
+                    "children": [
+                        {
+                            "name": "블루베리쨈",
+                            "value": 1
+                        },
+                        {
+                            "name": "홍시아이스크림",
+                            "value": 1
+                        },
+                        {
+                            "name": "귤머핀",
+                            "value": 1
+                        },
+                        {
+                            "name": "귤쥬스",
+                            "value": 1
+                        },
+                        {
+                            "name": "감귤젤리아이스바",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "술안주",
+                    "children": [
+                        {
+                            "name": "크림치즈딸기카나페",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "일상",
+                    "children": [
+                        {
+                            "name": "키위바나나잼",
+                            "value": 1
+                        },
+                        {
+                            "name": "모과차",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "다이어트",
+                    "children": [
+                        {
+                            "name": "딸기견과류샐러드",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "육류",
+            "children": [
+                {
+                    "name": "술안주",
+                    "children": [
+                        {
+                            "name": "오코노미야키",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "일상",
+                    "children": [
+                        {
+                            "name": "매운갈비찜",
+                            "value": 1
+                        },
+                        {
+                            "name": "떡갈비",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "달걀/유제품",
+            "children": [
+                {
+                    "name": "간식",
+                    "children": [
+                        {
+                            "name": "홍시요거트",
+                            "value": 1
+                        },
+                        {
+                            "name": "푸딩",
+                            "value": 1
+                        },
+                        {
+                            "name": "리코타치즈",
+                            "value": 1
+                        },
+                        {
+                            "name": "계란빵",
+                            "value": 1
+                        },
+                        {
+                            "name": "하트마카롱쿠키",
+                            "value": 1
+                        },
+                        {
+                            "name": "컵계란빵",
+                            "value": 1
+                        },
+                        {
+                            "name": "샤벳",
+                            "value": 1
+                        },
+                        {
+                            "name": "초콜렛",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "손님접대",
+                    "children": [
+                        {
+                            "name": "초콜렛",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "일상",
+                    "children": [
+                        {
+                            "name": "김치오믈렛",
+                            "value": 1
+                        },
+                        {
+                            "name": "캬라멜크림",
+                            "value": 1
+                        },
+                        {
+                            "name": "달걀찜",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "곡류",
+            "children": [
+                {
+                    "name": "간식",
+                    "children": [
+                        {
+                            "name": "팥양갱",
+                            "value": 1
+                        },
+                        {
+                            "name": "오트밀쿠키",
+                            "value": 1
+                        },
+                        {
+                            "name": "통밀쿠키",
+                            "value": 1
+                        },
+                        {
+                            "name": "뮈슬리바",
+                            "value": 1
+                        },
+                        {
+                            "name": "검은깨샤브레",
+                            "value": 1
+                        },
+                        {
+                            "name": "삼색상투과자",
+                            "value": 1
+                        },
+                        {
+                            "name": "쌀가루치즈케이크",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "손님접대",
+                    "children": [
+                        {
+                            "name": "메밀전병",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "명절",
+                    "children": [
+                        {
+                            "name": "약밥",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "일상",
+                    "children": [
+                        {
+                            "name": "떡케익",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "돼지고기",
+            "children": [
+                {
+                    "name": "일상",
+                    "children": [
+                        {
+                            "name": "돼지고기김치찌개",
+                            "value": 1
+                        },
+                        {
+                            "name": "부추제육볶음",
+                            "value": 1
+                        },
+                        {
+                            "name": "돼지고기야채볶음",
+                            "value": 1
+                        },
+                        {
+                            "name": "돼지고기카레불고기",
+                            "value": 1
+                        },
+                        {
+                            "name": "등갈비바베큐",
+                            "value": 1
+                        },
+                        {
+                            "name": "등갈비바베큐",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "술안주",
+                    "children": [
+                        {
+                            "name": "묵은지감자탕",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "손님접대",
+                    "children": [
+                        {
+                            "name": "오렌지탕수육",
+                            "value": 1
+                        },
+                        {
+                            "name": "유자제육볶음",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "소고기",
+            "children": [
+                {
+                    "name": "일상",
+                    "children": [
+                        {
+                            "name": "카레",
+                            "value": 1
+                        },
+                        {
+                            "name": "차돌박이된장찌개",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "기타",
+            "children": [
+                {
+                    "name": "명절",
+                    "children": [
+                        {
+                            "name": "잡채",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "간식",
+                    "children": [
+                        {
+                            "name": "초코바",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

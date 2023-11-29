@@ -1,0 +1,5105 @@
+{
+    "name": "Recipes",
+    "children": [
+        {
+            "name": "어묵김말이",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 128671,
+                "INQ_CNT": 9592,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 66,
+                "CKG_MTH_ACTO_NM": "튀김",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "현미호두죽",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 131871,
+                "INQ_CNT": 2912,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 9,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "북어갈비",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 139247,
+                "INQ_CNT": 6865,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 97,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "술안주",
+                "CKG_MTRL_ACTO_NM": "건어물류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "토마토스파게티",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 149207,
+                "INQ_CNT": 12754,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 36,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "면/만두",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "표고버섯탕수",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 151148,
+                "INQ_CNT": 16053,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 194,
+                "CKG_MTH_ACTO_NM": "튀김",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "버섯류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "갈릭치킨",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 153040,
+                "INQ_CNT": 8148,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 38,
+                "CKG_MTH_ACTO_NM": "튀김",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "닭고기",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "양파링튀김",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 221094,
+                "INQ_CNT": 17660,
+                "RCMM_CNT": 14,
+                "SRAP_CNT": 242,
+                "CKG_MTH_ACTO_NM": "튀김",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "참치삼각김밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 221097,
+                "INQ_CNT": 48896,
+                "RCMM_CNT": 8,
+                "SRAP_CNT": 351,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "도시락",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "뚝배기해물떡볶이",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 221098,
+                "INQ_CNT": 15714,
+                "RCMM_CNT": 8,
+                "SRAP_CNT": 37,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "술안주",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "스팸샌드위치",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 221101,
+                "INQ_CNT": 29293,
+                "RCMM_CNT": 10,
+                "SRAP_CNT": 98,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "도시락",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "15분이내"
+            }
+        },
+        {
+            "name": "참치깻잎주먹밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 221102,
+                "INQ_CNT": 30913,
+                "RCMM_CNT": 16,
+                "SRAP_CNT": 254,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "도시락",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "새우볶음밥고로케",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 223583,
+                "INQ_CNT": 27167,
+                "RCMM_CNT": 19,
+                "SRAP_CNT": 912,
+                "CKG_MTH_ACTO_NM": "튀김",
+                "CKG_STA_ACTO_NM": "도시락",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "스팸쌈밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 223584,
+                "INQ_CNT": 17889,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 100,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "도시락",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "베이컨김치말이밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 225141,
+                "INQ_CNT": 66460,
+                "RCMM_CNT": 53,
+                "SRAP_CNT": 2986,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "도시락",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "스팸오이식빵롤",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 225146,
+                "INQ_CNT": 36994,
+                "RCMM_CNT": 39,
+                "SRAP_CNT": 1006,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "도시락",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "고구마치즈스틱",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 331003,
+                "INQ_CNT": 16188,
+                "RCMM_CNT": 17,
+                "SRAP_CNT": 185,
+                "CKG_MTH_ACTO_NM": "튀김",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "오징어볶음우동",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 331006,
+                "INQ_CNT": 25124,
+                "RCMM_CNT": 8,
+                "SRAP_CNT": 95,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "면/만두",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "호두가래떡구이",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 333866,
+                "INQ_CNT": 8513,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 88,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "영양식",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "15분이내"
+            }
+        },
+        {
+            "name": "카레새우삼각김밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 333869,
+                "INQ_CNT": 11266,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 70,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "도시락",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "블루베리쨈",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 340534,
+                "INQ_CNT": 13783,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 76,
+                "CKG_MTH_ACTO_NM": "조림",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "과일류",
+                "CKG_KND_ACTO_NM": "양념/소스/잼",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "미니새우버거",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 340537,
+                "INQ_CNT": 6428,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 81,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "고구마그라탕",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 343935,
+                "INQ_CNT": 7297,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 42,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "양식",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "밤식빵",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 344698,
+                "INQ_CNT": 6664,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 65,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "고구마보트",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 345834,
+                "INQ_CNT": 4039,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 12,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "감자스프",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 346652,
+                "INQ_CNT": 9662,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 76,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "스프",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "뚝배기라면",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 346665,
+                "INQ_CNT": 36944,
+                "RCMM_CNT": 14,
+                "SRAP_CNT": 148,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "야식",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "면/만두",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "10분이내"
+            }
+        },
+        {
+            "name": "포테이토스킨",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 347791,
+                "INQ_CNT": 7546,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 108,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "오코노미야키",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 349330,
+                "INQ_CNT": 17312,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 219,
+                "CKG_MTH_ACTO_NM": "부침",
+                "CKG_STA_ACTO_NM": "술안주",
+                "CKG_MTRL_ACTO_NM": "육류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "야끼만두",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 349332,
+                "INQ_CNT": 23831,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 259,
+                "CKG_MTH_ACTO_NM": "튀김",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "면/만두",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "두부조림",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 349381,
+                "INQ_CNT": 17057,
+                "RCMM_CNT": 9,
+                "SRAP_CNT": 43,
+                "CKG_MTH_ACTO_NM": "조림",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "15분이내"
+            }
+        },
+        {
+            "name": "매운갈비찜",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 349386,
+                "INQ_CNT": 9561,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 26,
+                "CKG_MTH_ACTO_NM": "찜",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "육류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "어묵볶음",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 349740,
+                "INQ_CNT": 18559,
+                "RCMM_CNT": 10,
+                "SRAP_CNT": 30,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "꼬마김밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 352364,
+                "INQ_CNT": 26484,
+                "RCMM_CNT": 8,
+                "SRAP_CNT": 81,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "도시락",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "홍시아이스크림",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 352415,
+                "INQ_CNT": 4345,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 27,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "과일류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "에그스팸샌드위치",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 355810,
+                "INQ_CNT": 8461,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 27,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "단호박사블레",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 357068,
+                "INQ_CNT": 1807,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 19,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "뮈슬리초코칩쿠키",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 358881,
+                "INQ_CNT": 2879,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 24,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "쌀빵",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 369066,
+                "INQ_CNT": 2835,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 12,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "아몬드타르트",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 369072,
+                "INQ_CNT": 3597,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 29,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "팥파운드케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 369105,
+                "INQ_CNT": 2055,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 16,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "홍시요거트",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 369918,
+                "INQ_CNT": 2971,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 28,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "달걀/유제품",
+                "CKG_KND_ACTO_NM": "차/음료/술",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "5분이내"
+            }
+        },
+        {
+            "name": "닭꼬지",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 371267,
+                "INQ_CNT": 6312,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 48,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "닭고기",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "팥양갱",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 372893,
+                "INQ_CNT": 15633,
+                "RCMM_CNT": 9,
+                "SRAP_CNT": 121,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "곡류",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "파네토네",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 373342,
+                "INQ_CNT": 8632,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 39,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "소고기크림치즈오븐스파게티",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 374689,
+                "INQ_CNT": 7853,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 21,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "면/만두",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "브라우니",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 374775,
+                "INQ_CNT": 4026,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 40,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "브라우니치즈케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 375018,
+                "INQ_CNT": 2758,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 21,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "돼지고기김치찌개",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 375800,
+                "INQ_CNT": 24435,
+                "RCMM_CNT": 16,
+                "SRAP_CNT": 117,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "돼지고기",
+                "CKG_KND_ACTO_NM": "찌개",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "로스트치킨",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 376020,
+                "INQ_CNT": 5170,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 15,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "닭고기",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "브라우니",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 376773,
+                "INQ_CNT": 5721,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 26,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "오트밀쿠키",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 380654,
+                "INQ_CNT": 4194,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 19,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "곡류",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "밤머핀",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 380671,
+                "INQ_CNT": 2008,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 17,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "크랜베리브리오슈",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 380676,
+                "INQ_CNT": 7594,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 17,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "찜닭",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 380726,
+                "INQ_CNT": 15585,
+                "RCMM_CNT": 9,
+                "SRAP_CNT": 98,
+                "CKG_MTH_ACTO_NM": "찜",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "닭고기",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "바나나프렌치토스트",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 380934,
+                "INQ_CNT": 23657,
+                "RCMM_CNT": 10,
+                "SRAP_CNT": 15,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "베이컨그라탕",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 380960,
+                "INQ_CNT": 4839,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 44,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "양식",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "단호박해물치즈구이",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 381157,
+                "INQ_CNT": 16814,
+                "RCMM_CNT": 15,
+                "SRAP_CNT": 254,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "파스타",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 383305,
+                "INQ_CNT": 14078,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 15,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "면/만두",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "갸토쇼콜라",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 383788,
+                "INQ_CNT": 1891,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 9,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "몽블랑",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 384074,
+                "INQ_CNT": 4135,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 31,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "바질페스토",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 384426,
+                "INQ_CNT": 64019,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 268,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "초스피드",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "양념/소스/잼",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "5분이내"
+            }
+        },
+        {
+            "name": "포카치아",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 384503,
+                "INQ_CNT": 2904,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 15,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "흑미와플",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 384505,
+                "INQ_CNT": 1802,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 14,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "쏘야볶음",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 384508,
+                "INQ_CNT": 18595,
+                "RCMM_CNT": 11,
+                "SRAP_CNT": 171,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "술안주",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "15분이내"
+            }
+        },
+        {
+            "name": "메론빵",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 384706,
+                "INQ_CNT": 4594,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 50,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "2시간이내"
+            }
+        },
+        {
+            "name": "튜나에그샌드위치",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 384888,
+                "INQ_CNT": 19088,
+                "RCMM_CNT": 9,
+                "SRAP_CNT": 120,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "푸딩",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 385575,
+                "INQ_CNT": 82794,
+                "RCMM_CNT": 19,
+                "SRAP_CNT": 597,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "달걀/유제품",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "오븐웨지감자",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 385717,
+                "INQ_CNT": 53082,
+                "RCMM_CNT": 8,
+                "SRAP_CNT": 289,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "15분이내"
+            }
+        },
+        {
+            "name": "쿠키",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 386937,
+                "INQ_CNT": 2441,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 8,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "대추스콘",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 387111,
+                "INQ_CNT": 3304,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 10,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "짜장떡볶이",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 387126,
+                "INQ_CNT": 26187,
+                "RCMM_CNT": 15,
+                "SRAP_CNT": 332,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "바나나찹쌀떡",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 387415,
+                "INQ_CNT": 6997,
+                "RCMM_CNT": 7,
+                "SRAP_CNT": 103,
+                "CKG_MTH_ACTO_NM": "찜",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "카레어묵전골",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 387766,
+                "INQ_CNT": 5743,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 20,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "국/탕",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "모카머핀",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 387780,
+                "INQ_CNT": 6992,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 150,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "버섯포카치아",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 387790,
+                "INQ_CNT": 2680,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 10,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "어묵",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 387802,
+                "INQ_CNT": 11106,
+                "RCMM_CNT": 11,
+                "SRAP_CNT": 57,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "술안주",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "크림소스",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 387811,
+                "INQ_CNT": 4020,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 19,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "양념/소스/잼",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "파니니",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 388157,
+                "INQ_CNT": 2699,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 37,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "파니니",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 388168,
+                "INQ_CNT": 7421,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 23,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "5인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "시나몬비스코티",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 388473,
+                "INQ_CNT": 1667,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 5,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "버터케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 388477,
+                "INQ_CNT": 4291,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 11,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "리코타치즈",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 389261,
+                "INQ_CNT": 26042,
+                "RCMM_CNT": 7,
+                "SRAP_CNT": 585,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "달걀/유제품",
+                "CKG_KND_ACTO_NM": "양념/소스/잼",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "레몬생크림케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 390307,
+                "INQ_CNT": 2836,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 21,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "초콜릿케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 390524,
+                "INQ_CNT": 5803,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 68,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "통밀쿠키",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 390529,
+                "INQ_CNT": 6596,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 61,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "곡류",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "시나몬큐브",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 390949,
+                "INQ_CNT": 2343,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 49,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "초코바나나머핀",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 390973,
+                "INQ_CNT": 2981,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 39,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "애호박사워크림케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 391763,
+                "INQ_CNT": 1942,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 9,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "브라우니",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 393505,
+                "INQ_CNT": 4319,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 44,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "초코뮈슬리쿠키",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 393589,
+                "INQ_CNT": 2344,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 4,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "닭강정",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 394337,
+                "INQ_CNT": 9237,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 69,
+                "CKG_MTH_ACTO_NM": "튀김",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "닭고기",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "피낭시에",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 395162,
+                "INQ_CNT": 2665,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 20,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "소세지크로와상",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 395639,
+                "INQ_CNT": 3924,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 14,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이내"
+            }
+        },
+        {
+            "name": "뮈슬리바",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 396244,
+                "INQ_CNT": 2697,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 30,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "곡류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "그린티현미쉬폰",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 398391,
+                "INQ_CNT": 1500,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 16,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "카레",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 398430,
+                "INQ_CNT": 2074,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 2,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "소고기",
+                "CKG_KND_ACTO_NM": "양념/소스/잼",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "불닭퀘사디아",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 398436,
+                "INQ_CNT": 4739,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 45,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "닭고기",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "계란빵",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 400622,
+                "INQ_CNT": 15252,
+                "RCMM_CNT": 13,
+                "SRAP_CNT": 110,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "달걀/유제품",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "검은깨샤브레",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 409397,
+                "INQ_CNT": 1770,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 15,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "곡류",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "얼큰수제비",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 411750,
+                "INQ_CNT": 17779,
+                "RCMM_CNT": 11,
+                "SRAP_CNT": 134,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "면/만두",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "오트밀빵",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 412310,
+                "INQ_CNT": 3423,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 22,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "시나몬롤",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 413285,
+                "INQ_CNT": 2416,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 12,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "조기매운탕",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 413969,
+                "INQ_CNT": 17166,
+                "RCMM_CNT": 8,
+                "SRAP_CNT": 73,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "국/탕",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "오이무침",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 413979,
+                "INQ_CNT": 42841,
+                "RCMM_CNT": 26,
+                "SRAP_CNT": 384,
+                "CKG_MTH_ACTO_NM": "무침",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "10분이내"
+            }
+        },
+        {
+            "name": "식빵꽃",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 414073,
+                "INQ_CNT": 2894,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 39,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "고급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "쇼콜라케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 414094,
+                "INQ_CNT": 4316,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 39,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "전자렌지딸기찹쌀떡",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 414203,
+                "INQ_CNT": 9937,
+                "RCMM_CNT": 8,
+                "SRAP_CNT": 145,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "닭고기샌드위치",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 414255,
+                "INQ_CNT": 4445,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 31,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "도시락",
+                "CKG_MTRL_ACTO_NM": "닭고기",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "깻잎떡볶이",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 414263,
+                "INQ_CNT": 6338,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 39,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "연어또띠아말이",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 414319,
+                "INQ_CNT": 7355,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 74,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "도시락",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "15분이내"
+            }
+        },
+        {
+            "name": "김치볶음밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 414544,
+                "INQ_CNT": 17315,
+                "RCMM_CNT": 18,
+                "SRAP_CNT": 46,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "바나나머핀",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 415008,
+                "INQ_CNT": 2542,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 17,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "탕수만두",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 415169,
+                "INQ_CNT": 11650,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 118,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "면/만두",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "굴무밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 415189,
+                "INQ_CNT": 9593,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 123,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "영양식",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "2시간이내"
+            }
+        },
+        {
+            "name": "볶음밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 420112,
+                "INQ_CNT": 2425,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 11,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "모밀국수",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 420314,
+                "INQ_CNT": 14343,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 107,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "면/만두",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "토마토카프레제샐러드",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 420422,
+                "INQ_CNT": 64059,
+                "RCMM_CNT": 14,
+                "SRAP_CNT": 1690,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "샐러드",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "10분이내"
+            }
+        },
+        {
+            "name": "오징어청양고추조림",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 420425,
+                "INQ_CNT": 7554,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 41,
+                "CKG_MTH_ACTO_NM": "조림",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "코다리조림",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 420777,
+                "INQ_CNT": 287709,
+                "RCMM_CNT": 36,
+                "SRAP_CNT": 8363,
+                "CKG_MTH_ACTO_NM": "조림",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "건어물류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "카야쨈호떡",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 421146,
+                "INQ_CNT": 6270,
+                "RCMM_CNT": 7,
+                "SRAP_CNT": 43,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "초콜렛치즈머핀",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 421183,
+                "INQ_CNT": 2463,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 23,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "샐러드오므라이스",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 421940,
+                "INQ_CNT": 2285,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 3,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "어묵볶음",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 421942,
+                "INQ_CNT": 24211,
+                "RCMM_CNT": 43,
+                "SRAP_CNT": 22,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "두부치즈케익",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 423378,
+                "INQ_CNT": 9297,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 110,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이내"
+            }
+        },
+        {
+            "name": "메밀전병",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 423515,
+                "INQ_CNT": 25848,
+                "RCMM_CNT": 8,
+                "SRAP_CNT": 81,
+                "CKG_MTH_ACTO_NM": "부침",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "곡류",
+                "CKG_KND_ACTO_NM": "면/만두",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "깻잎순조림",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 423536,
+                "INQ_CNT": 28926,
+                "RCMM_CNT": 11,
+                "SRAP_CNT": 426,
+                "CKG_MTH_ACTO_NM": "조림",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "라볶이",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 424008,
+                "INQ_CNT": 93472,
+                "RCMM_CNT": 26,
+                "SRAP_CNT": 333,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "쇼콜라",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 424127,
+                "INQ_CNT": 1338,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 9,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "마파두부덮밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 426409,
+                "INQ_CNT": 14924,
+                "RCMM_CNT": 9,
+                "SRAP_CNT": 63,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "깡장",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 500753,
+                "INQ_CNT": 20191,
+                "RCMM_CNT": 35,
+                "SRAP_CNT": 75,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "양념/소스/잼",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "밤조림",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 501958,
+                "INQ_CNT": 8301,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 47,
+                "CKG_MTH_ACTO_NM": "조림",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "고급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "티라미수컵케익",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 502713,
+                "INQ_CNT": 7767,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 73,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "2시간이내"
+            }
+        },
+        {
+            "name": "크로켓",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 503870,
+                "INQ_CNT": 5054,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 24,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "다이어트",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "초코칩케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 506469,
+                "INQ_CNT": 2269,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 10,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "복숭아찹쌀떡",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 507388,
+                "INQ_CNT": 12656,
+                "RCMM_CNT": 15,
+                "SRAP_CNT": 147,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "굴무밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 508381,
+                "INQ_CNT": 5378,
+                "RCMM_CNT": 15,
+                "SRAP_CNT": 4,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "영양식",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "미역국",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 508960,
+                "INQ_CNT": 32675,
+                "RCMM_CNT": 23,
+                "SRAP_CNT": 82,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "건어물류",
+                "CKG_KND_ACTO_NM": "국/탕",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "느타리버섯전",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 508987,
+                "INQ_CNT": 28814,
+                "RCMM_CNT": 23,
+                "SRAP_CNT": 128,
+                "CKG_MTH_ACTO_NM": "부침",
+                "CKG_STA_ACTO_NM": "명절",
+                "CKG_MTRL_ACTO_NM": "버섯류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "마로니에",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 509457,
+                "INQ_CNT": 4223,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 50,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "멀티그레인곡물빵",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 511476,
+                "INQ_CNT": 6465,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 12,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "약밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 511732,
+                "INQ_CNT": 7362,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 64,
+                "CKG_MTH_ACTO_NM": "찜",
+                "CKG_STA_ACTO_NM": "명절",
+                "CKG_MTRL_ACTO_NM": "곡류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "초코파운드케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 512897,
+                "INQ_CNT": 3570,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 40,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "하트마카롱쿠키",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 512913,
+                "INQ_CNT": 9734,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 135,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "달걀/유제품",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "컵케익",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 513132,
+                "INQ_CNT": 6421,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 141,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "밥샌드위치",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 513745,
+                "INQ_CNT": 25022,
+                "RCMM_CNT": 25,
+                "SRAP_CNT": 83,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "견과류초콜릿",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 515823,
+                "INQ_CNT": 4033,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 9,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "와플",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 516336,
+                "INQ_CNT": 5570,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 27,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "들깨무국",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 516644,
+                "INQ_CNT": 33803,
+                "RCMM_CNT": 20,
+                "SRAP_CNT": 683,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "국/탕",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "연근전",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 517865,
+                "INQ_CNT": 13856,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 27,
+                "CKG_MTH_ACTO_NM": "부침",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "참치김치전",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 518675,
+                "INQ_CNT": 33259,
+                "RCMM_CNT": 33,
+                "SRAP_CNT": 196,
+                "CKG_MTH_ACTO_NM": "부침",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "홈런볼",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 519491,
+                "INQ_CNT": 11662,
+                "RCMM_CNT": 11,
+                "SRAP_CNT": 203,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "해물볶음라면",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 519510,
+                "INQ_CNT": 9873,
+                "RCMM_CNT": 14,
+                "SRAP_CNT": 78,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "면/만두",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "월병",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 519563,
+                "INQ_CNT": 10506,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 29,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "명절",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "찹쌀경단",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 520176,
+                "INQ_CNT": 23710,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 169,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "냉이순두부찌개",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 521163,
+                "INQ_CNT": 5211,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 7,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "찌개",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "잡채",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 521359,
+                "INQ_CNT": 18947,
+                "RCMM_CNT": 20,
+                "SRAP_CNT": 47,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "명절",
+                "CKG_MTRL_ACTO_NM": "기타",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "5인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "생크림케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 521782,
+                "INQ_CNT": 4295,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 29,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "까망베르치즈케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 521825,
+                "INQ_CNT": 8907,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 48,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이내"
+            }
+        },
+        {
+            "name": "시래기들깨탕",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 522434,
+                "INQ_CNT": 16483,
+                "RCMM_CNT": 12,
+                "SRAP_CNT": 342,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "영양식",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "국/탕",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "모카쿠키",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 523028,
+                "INQ_CNT": 3522,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 51,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "크림치즈딸기카나페",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 525020,
+                "INQ_CNT": 26437,
+                "RCMM_CNT": 16,
+                "SRAP_CNT": 63,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "술안주",
+                "CKG_MTRL_ACTO_NM": "과일류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "15분이내"
+            }
+        },
+        {
+            "name": "오징어볶음",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 526037,
+                "INQ_CNT": 13124,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 186,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "꽁치김치찌개",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 527132,
+                "INQ_CNT": 20483,
+                "RCMM_CNT": 20,
+                "SRAP_CNT": 99,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "찌개",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "연근전",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 527290,
+                "INQ_CNT": 17270,
+                "RCMM_CNT": 31,
+                "SRAP_CNT": 153,
+                "CKG_MTH_ACTO_NM": "부침",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "모카쿠키",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 529171,
+                "INQ_CNT": 3871,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 23,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "초코쉬폰케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 529343,
+                "INQ_CNT": 7119,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 113,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이내"
+            }
+        },
+        {
+            "name": "케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 529567,
+                "INQ_CNT": 1186,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 11,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "갈치조림",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 529603,
+                "INQ_CNT": 16061,
+                "RCMM_CNT": 18,
+                "SRAP_CNT": 90,
+                "CKG_MTH_ACTO_NM": "조림",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "밤파운드케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 529674,
+                "INQ_CNT": 2088,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 13,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "초콜렛",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 530452,
+                "INQ_CNT": 4135,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 83,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "달걀/유제품",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "유부초밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 532504,
+                "INQ_CNT": 14847,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 43,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "도시락",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "코다리양념구이",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 533182,
+                "INQ_CNT": 24015,
+                "RCMM_CNT": 28,
+                "SRAP_CNT": 99,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "건어물류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "쿠키",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 534928,
+                "INQ_CNT": 2525,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 34,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "고구마크림치즈구이",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 535507,
+                "INQ_CNT": 8295,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 65,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "초코슈",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 535916,
+                "INQ_CNT": 3014,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 62,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "부추된장국",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 536299,
+                "INQ_CNT": 17800,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 132,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "국/탕",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "초코칩쿠키",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 537653,
+                "INQ_CNT": 2125,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 34,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "깐풍코다리",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 538129,
+                "INQ_CNT": 3508,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 30,
+                "CKG_MTH_ACTO_NM": "튀김",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "건어물류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "묵은지감자탕",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 538734,
+                "INQ_CNT": 19037,
+                "RCMM_CNT": 13,
+                "SRAP_CNT": 60,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "술안주",
+                "CKG_MTRL_ACTO_NM": "돼지고기",
+                "CKG_KND_ACTO_NM": "국/탕",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "아몬드초콜렛",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 539654,
+                "INQ_CNT": 5353,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 93,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "딸기케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 539853,
+                "INQ_CNT": 7327,
+                "RCMM_CNT": 10,
+                "SRAP_CNT": 148,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "고급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "부추제육볶음",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 540257,
+                "INQ_CNT": 11915,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 230,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "돼지고기",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "하트쿠키",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 541618,
+                "INQ_CNT": 1711,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 5,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "모카초코칩머핀",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 542560,
+                "INQ_CNT": 3167,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 62,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "무화과컵케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 543214,
+                "INQ_CNT": 1405,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 9,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "김치오믈렛",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 544697,
+                "INQ_CNT": 8705,
+                "RCMM_CNT": 13,
+                "SRAP_CNT": 51,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "달걀/유제품",
+                "CKG_KND_ACTO_NM": "양식",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "꽃게매운탕",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 546875,
+                "INQ_CNT": 9094,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 34,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "국/탕",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "시나몬메이플쿠키",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 548061,
+                "INQ_CNT": 3858,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 69,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "새우버거",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 548674,
+                "INQ_CNT": 9709,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 117,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "충무김밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 549832,
+                "INQ_CNT": 9524,
+                "RCMM_CNT": 13,
+                "SRAP_CNT": 42,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "단호박찜케익",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 549897,
+                "INQ_CNT": 7950,
+                "RCMM_CNT": 10,
+                "SRAP_CNT": 34,
+                "CKG_MTH_ACTO_NM": "찜",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "연어간장조림",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 551169,
+                "INQ_CNT": 9669,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 41,
+                "CKG_MTH_ACTO_NM": "조림",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "햄크림파스타",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 552120,
+                "INQ_CNT": 5218,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 20,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "면/만두",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "로쉐",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 553130,
+                "INQ_CNT": 2001,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 32,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "찐빵",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 553211,
+                "INQ_CNT": 21608,
+                "RCMM_CNT": 12,
+                "SRAP_CNT": 74,
+                "CKG_MTH_ACTO_NM": "찜",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "느타리버섯구이",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 553795,
+                "INQ_CNT": 29118,
+                "RCMM_CNT": 59,
+                "SRAP_CNT": 868,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "버섯류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "딸기가나슈케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 554544,
+                "INQ_CNT": 5886,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 208,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "베이컨",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 554810,
+                "INQ_CNT": 8539,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 61,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "기타",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "쌈밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 554907,
+                "INQ_CNT": 28593,
+                "RCMM_CNT": 34,
+                "SRAP_CNT": 104,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "도시락",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "10분이내"
+            }
+        },
+        {
+            "name": "순두부찌개",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 556473,
+                "INQ_CNT": 26757,
+                "RCMM_CNT": 44,
+                "SRAP_CNT": 404,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "찌개",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "식혜",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 558747,
+                "INQ_CNT": 52837,
+                "RCMM_CNT": 30,
+                "SRAP_CNT": 600,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "차/음료/술",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "고구마야채튀김",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 558801,
+                "INQ_CNT": 9694,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 45,
+                "CKG_MTH_ACTO_NM": "튀김",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "부대찌개",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 559136,
+                "INQ_CNT": 17812,
+                "RCMM_CNT": 10,
+                "SRAP_CNT": 34,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "찌개",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "식빵",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 559333,
+                "INQ_CNT": 9276,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 99,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "카스테라",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 559402,
+                "INQ_CNT": 10879,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 99,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "닭개장",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 561422,
+                "INQ_CNT": 50732,
+                "RCMM_CNT": 19,
+                "SRAP_CNT": 644,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "닭고기",
+                "CKG_KND_ACTO_NM": "국/탕",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "초코바",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 562753,
+                "INQ_CNT": 3542,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 13,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "기타",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "떡볶이",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 563065,
+                "INQ_CNT": 8416,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 16,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "퍼지브라우니",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 563115,
+                "INQ_CNT": 29932,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 1645,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "마늘바게트",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 563128,
+                "INQ_CNT": 5556,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 32,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "모카빵",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 563148,
+                "INQ_CNT": 7132,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 80,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "삼색상투과자",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 563253,
+                "INQ_CNT": 5939,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 70,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "곡류",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "캬라멜크림",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 564525,
+                "INQ_CNT": 3844,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 80,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "달걀/유제품",
+                "CKG_KND_ACTO_NM": "양념/소스/잼",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "옥수수식빵",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 564527,
+                "INQ_CNT": 2928,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 26,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "망고레어치즈케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 564734,
+                "INQ_CNT": 7122,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 97,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "고급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "식빵",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 564760,
+                "INQ_CNT": 2383,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 15,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "고급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "양념꼬막",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 564860,
+                "INQ_CNT": 22544,
+                "RCMM_CNT": 24,
+                "SRAP_CNT": 119,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "치킨까스카레덮밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 565100,
+                "INQ_CNT": 5851,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 35,
+                "CKG_MTH_ACTO_NM": "튀김",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "닭고기",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 566034,
+                "INQ_CNT": 2197,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 15,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "요거트스콘",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 566275,
+                "INQ_CNT": 7870,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 165,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "야채피클",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 566544,
+                "INQ_CNT": 12176,
+                "RCMM_CNT": 11,
+                "SRAP_CNT": 164,
+                "CKG_MTH_ACTO_NM": "절임",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "홍합탕",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 566763,
+                "INQ_CNT": 7128,
+                "RCMM_CNT": 9,
+                "SRAP_CNT": 21,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "술안주",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "국/탕",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "오렌지탕수육",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 566802,
+                "INQ_CNT": 5321,
+                "RCMM_CNT": 5,
+                "SRAP_CNT": 36,
+                "CKG_MTH_ACTO_NM": "튀김",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "돼지고기",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "와플",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 567648,
+                "INQ_CNT": 5241,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 35,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "떡갈비",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 567655,
+                "INQ_CNT": 20952,
+                "RCMM_CNT": 15,
+                "SRAP_CNT": 243,
+                "CKG_MTH_ACTO_NM": "조림",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "육류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "달래김무침",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 567959,
+                "INQ_CNT": 7439,
+                "RCMM_CNT": 7,
+                "SRAP_CNT": 29,
+                "CKG_MTH_ACTO_NM": "무침",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "키위바나나잼",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 568281,
+                "INQ_CNT": 3937,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 30,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "과일류",
+                "CKG_KND_ACTO_NM": "양념/소스/잼",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "멸치무침",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 569360,
+                "INQ_CNT": 19479,
+                "RCMM_CNT": 44,
+                "SRAP_CNT": 82,
+                "CKG_MTH_ACTO_NM": "무침",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "건어물류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "달걀찜",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 569442,
+                "INQ_CNT": 19517,
+                "RCMM_CNT": 40,
+                "SRAP_CNT": 97,
+                "CKG_MTH_ACTO_NM": "찜",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "달걀/유제품",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "꽃게된장찌개",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 570245,
+                "INQ_CNT": 57214,
+                "RCMM_CNT": 29,
+                "SRAP_CNT": 669,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "찌개",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "오렌지닭봉구이",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 570643,
+                "INQ_CNT": 4091,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 31,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "술안주",
+                "CKG_MTRL_ACTO_NM": "닭고기",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "햄야채키슈",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 571167,
+                "INQ_CNT": 3456,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 46,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "견과류파운드케익",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 574700,
+                "INQ_CNT": 3549,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 24,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "쿠키",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 576309,
+                "INQ_CNT": 3729,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 51,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "파운드케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 576385,
+                "INQ_CNT": 1988,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 16,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "돼지고기야채볶음",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 576938,
+                "INQ_CNT": 12992,
+                "RCMM_CNT": 9,
+                "SRAP_CNT": 32,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "돼지고기",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "쌀가루치즈케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 577365,
+                "INQ_CNT": 1663,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 18,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "곡류",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "연어계란샐러드",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 578044,
+                "INQ_CNT": 4814,
+                "RCMM_CNT": 7,
+                "SRAP_CNT": 25,
+                "CKG_MTH_ACTO_NM": "찜",
+                "CKG_STA_ACTO_NM": "다이어트",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "샐러드",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "해물김치볶음밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 578456,
+                "INQ_CNT": 14554,
+                "RCMM_CNT": 16,
+                "SRAP_CNT": 51,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "닭가슴살두부강정",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 578673,
+                "INQ_CNT": 9744,
+                "RCMM_CNT": 9,
+                "SRAP_CNT": 60,
+                "CKG_MTH_ACTO_NM": "조림",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "닭고기",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "대구탕",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 578899,
+                "INQ_CNT": 9924,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 49,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "국/탕",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "도토리묵전",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 581070,
+                "INQ_CNT": 18254,
+                "RCMM_CNT": 8,
+                "SRAP_CNT": 56,
+                "CKG_MTH_ACTO_NM": "부침",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "두부또띠아피자",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 581188,
+                "INQ_CNT": 18138,
+                "RCMM_CNT": 21,
+                "SRAP_CNT": 91,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "차돌박이된장찌개",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 581890,
+                "INQ_CNT": 12299,
+                "RCMM_CNT": 8,
+                "SRAP_CNT": 138,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "소고기",
+                "CKG_KND_ACTO_NM": "찌개",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "캬라멜와플",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 582242,
+                "INQ_CNT": 2002,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 23,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "사탕",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 582755,
+                "INQ_CNT": 10679,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 60,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "떡케익",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 583962,
+                "INQ_CNT": 7208,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 39,
+                "CKG_MTH_ACTO_NM": "찜",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "곡류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "고급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "코다리조림",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 584304,
+                "INQ_CNT": 15591,
+                "RCMM_CNT": 12,
+                "SRAP_CNT": 73,
+                "CKG_MTH_ACTO_NM": "조림",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "건어물류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "소고기연근전",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 585073,
+                "INQ_CNT": 7398,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 13,
+                "CKG_MTH_ACTO_NM": "부침",
+                "CKG_STA_ACTO_NM": "영양식",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "꼬막볶음",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 585127,
+                "INQ_CNT": 24127,
+                "RCMM_CNT": 35,
+                "SRAP_CNT": 122,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "밑반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "호두초코칩케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 585261,
+                "INQ_CNT": 1408,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 8,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "피낭시에",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 585477,
+                "INQ_CNT": 3157,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 28,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "연두부샐러드",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 586244,
+                "INQ_CNT": 8020,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 47,
+                "CKG_MTH_ACTO_NM": "비빔",
+                "CKG_STA_ACTO_NM": "다이어트",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "샐러드",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "잉글리시머핀",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 587024,
+                "INQ_CNT": 9228,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 61,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "단호박머핀",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 587221,
+                "INQ_CNT": 3637,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 29,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "돼지고기카레불고기",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 587229,
+                "INQ_CNT": 5831,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 18,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "돼지고기",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "컵계란빵",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 587369,
+                "INQ_CNT": 52880,
+                "RCMM_CNT": 51,
+                "SRAP_CNT": 584,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "달걀/유제품",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "딸기견과류샐러드",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 587520,
+                "INQ_CNT": 9204,
+                "RCMM_CNT": 14,
+                "SRAP_CNT": 29,
+                "CKG_MTH_ACTO_NM": "비빔",
+                "CKG_STA_ACTO_NM": "다이어트",
+                "CKG_MTRL_ACTO_NM": "과일류",
+                "CKG_KND_ACTO_NM": "샐러드",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "두부새우선",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 589054,
+                "INQ_CNT": 2951,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 8,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "캬라멜마블파운드케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 589258,
+                "INQ_CNT": 1987,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 23,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "5인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "유자제육볶음",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 589655,
+                "INQ_CNT": 3552,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 14,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "돼지고기",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "제누아즈",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 590786,
+                "INQ_CNT": 60525,
+                "RCMM_CNT": 15,
+                "SRAP_CNT": 810,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "딸기생크림케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 590788,
+                "INQ_CNT": 10282,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 178,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "두부명란젓찌개",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 591138,
+                "INQ_CNT": 18983,
+                "RCMM_CNT": 7,
+                "SRAP_CNT": 175,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "찌개",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "닭가슴살샐러드",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 591345,
+                "INQ_CNT": 22939,
+                "RCMM_CNT": 16,
+                "SRAP_CNT": 163,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "다이어트",
+                "CKG_MTRL_ACTO_NM": "닭고기",
+                "CKG_KND_ACTO_NM": "샐러드",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "15분이내"
+            }
+        },
+        {
+            "name": "샤벳",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 591592,
+                "INQ_CNT": 4358,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 39,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "달걀/유제품",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "롤케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 591830,
+                "INQ_CNT": 5195,
+                "RCMM_CNT": 7,
+                "SRAP_CNT": 131,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "등갈비바베큐",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 591989,
+                "INQ_CNT": 5644,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 20,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "돼지고기",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "열무김치",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 592910,
+                "INQ_CNT": 15090,
+                "RCMM_CNT": 14,
+                "SRAP_CNT": 95,
+                "CKG_MTH_ACTO_NM": "절임",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "김치/젓갈/장류",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "2시간이내"
+            }
+        },
+        {
+            "name": "모과차",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 593089,
+                "INQ_CNT": 6551,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 32,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "과일류",
+                "CKG_KND_ACTO_NM": "차/음료/술",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "오렌지마들렌",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 593282,
+                "INQ_CNT": 2515,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 12,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "아마씨식빵",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 593304,
+                "INQ_CNT": 2102,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 13,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "두부샌드그라탕",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 593319,
+                "INQ_CNT": 7980,
+                "RCMM_CNT": 10,
+                "SRAP_CNT": 23,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "콩/견과류",
+                "CKG_KND_ACTO_NM": "양식",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "브로콜리새우볶음밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 593560,
+                "INQ_CNT": 9999,
+                "RCMM_CNT": 10,
+                "SRAP_CNT": 14,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "딸기버터케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 594797,
+                "INQ_CNT": 7640,
+                "RCMM_CNT": 6,
+                "SRAP_CNT": 113,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "고급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "김치스파게티",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 597079,
+                "INQ_CNT": 18680,
+                "RCMM_CNT": 16,
+                "SRAP_CNT": 47,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "면/만두",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "콘브레드",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 597108,
+                "INQ_CNT": 8861,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 126,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "닭개장",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 614854,
+                "INQ_CNT": 83401,
+                "RCMM_CNT": 21,
+                "SRAP_CNT": 728,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "닭고기",
+                "CKG_KND_ACTO_NM": "국/탕",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "초콜렛",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 615938,
+                "INQ_CNT": 7240,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 110,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "달걀/유제품",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "귤머핀",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 616478,
+                "INQ_CNT": 4622,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 116,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "과일류",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "굴비탕수육",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 616518,
+                "INQ_CNT": 3279,
+                "RCMM_CNT": 4,
+                "SRAP_CNT": 15,
+                "CKG_MTH_ACTO_NM": "튀김",
+                "CKG_STA_ACTO_NM": "손님접대",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "풋마늘오징어무침",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 617567,
+                "INQ_CNT": 18929,
+                "RCMM_CNT": 15,
+                "SRAP_CNT": 75,
+                "CKG_MTH_ACTO_NM": "무침",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "메인반찬",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "버거",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 617659,
+                "INQ_CNT": 2277,
+                "RCMM_CNT": 0,
+                "SRAP_CNT": 8,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "치즈케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 617899,
+                "INQ_CNT": 4031,
+                "RCMM_CNT": 8,
+                "SRAP_CNT": 106,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "칠리참치롤",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 617967,
+                "INQ_CNT": 7587,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 63,
+                "CKG_MTH_ACTO_NM": "비빔",
+                "CKG_STA_ACTO_NM": "초스피드",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "10분이내"
+            }
+        },
+        {
+            "name": "쉬림프딸기샐러드",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 618174,
+                "INQ_CNT": 5203,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 22,
+                "CKG_MTH_ACTO_NM": "튀김",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "해물류",
+                "CKG_KND_ACTO_NM": "샐러드",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "귤쥬스",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 618675,
+                "INQ_CNT": 28971,
+                "RCMM_CNT": 7,
+                "SRAP_CNT": 129,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "과일류",
+                "CKG_KND_ACTO_NM": "차/음료/술",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "초코케익",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 618685,
+                "INQ_CNT": 3346,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 23,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "김치볶음밥",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 618953,
+                "INQ_CNT": 21082,
+                "RCMM_CNT": 21,
+                "SRAP_CNT": 21,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "감귤젤리아이스바",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 619124,
+                "INQ_CNT": 6676,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 55,
+                "CKG_MTH_ACTO_NM": "기타",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "과일류",
+                "CKG_KND_ACTO_NM": "디저트",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "순대전골",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 619152,
+                "INQ_CNT": 20396,
+                "RCMM_CNT": 17,
+                "SRAP_CNT": 184,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "술안주",
+                "CKG_MTRL_ACTO_NM": "가공식품류",
+                "CKG_KND_ACTO_NM": "국/탕",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "식빵",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 619616,
+                "INQ_CNT": 2067,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 13,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "2시간이내"
+            }
+        },
+        {
+            "name": "캬라멜비스코티",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 620998,
+                "INQ_CNT": 1891,
+                "RCMM_CNT": 1,
+                "SRAP_CNT": 13,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "과자",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "중급",
+                "CKG_TIME_NM": "90분이내"
+            }
+        },
+        {
+            "name": "오므라이스",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 621936,
+                "INQ_CNT": 43084,
+                "RCMM_CNT": 14,
+                "SRAP_CNT": 174,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "쌀",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "1인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "닭매운탕",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 623103,
+                "INQ_CNT": 12309,
+                "RCMM_CNT": 7,
+                "SRAP_CNT": 65,
+                "CKG_MTH_ACTO_NM": "끓이기",
+                "CKG_STA_ACTO_NM": "술안주",
+                "CKG_MTRL_ACTO_NM": "닭고기",
+                "CKG_KND_ACTO_NM": "국/탕",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "아무나",
+                "CKG_TIME_NM": "60분이내"
+            }
+        },
+        {
+            "name": "등갈비바베큐",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 623615,
+                "INQ_CNT": 10409,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 36,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "돼지고기",
+                "CKG_KND_ACTO_NM": "양식",
+                "CKG_INBUN_NM": "6인분이상",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "2시간이상"
+            }
+        },
+        {
+            "name": "딸기바나나크레이프",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 623625,
+                "INQ_CNT": 4110,
+                "RCMM_CNT": 2,
+                "SRAP_CNT": 22,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "3인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "설렁탕깍두기",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 623805,
+                "INQ_CNT": 51390,
+                "RCMM_CNT": 50,
+                "SRAP_CNT": 788,
+                "CKG_MTH_ACTO_NM": "절임",
+                "CKG_STA_ACTO_NM": "일상",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "김치/젓갈/장류",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "2시간이내"
+            }
+        },
+        {
+            "name": "깻잎떡볶이",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 624947,
+                "INQ_CNT": 19283,
+                "RCMM_CNT": 15,
+                "SRAP_CNT": 75,
+                "CKG_MTH_ACTO_NM": "볶음",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "채소류",
+                "CKG_KND_ACTO_NM": "밥/죽/떡",
+                "CKG_INBUN_NM": "2인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "30분이내"
+            }
+        },
+        {
+            "name": "녹차롤케이크",
+            "value": 1,
+            "details": {
+                "RCP_SNO": 625080,
+                "INQ_CNT": 5911,
+                "RCMM_CNT": 3,
+                "SRAP_CNT": 115,
+                "CKG_MTH_ACTO_NM": "굽기",
+                "CKG_STA_ACTO_NM": "간식",
+                "CKG_MTRL_ACTO_NM": "밀가루",
+                "CKG_KND_ACTO_NM": "빵",
+                "CKG_INBUN_NM": "4인분",
+                "CKG_DODF_NM": "초급",
+                "CKG_TIME_NM": "60분이내"
+            }
+        }
+    ]
+}

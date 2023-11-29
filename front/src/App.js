@@ -152,7 +152,11 @@ function App({ categories, addItem, removeItem, modifyItem }) {
       <Row>
         <Col md={2} className="sidebar">
           {categories.map(category => (
-            <Card key={category.name} onClick={() => handleAddItem(category)}>
+            <Card
+            key={category.name}
+            onClick={() => handleAddItem(category)}
+            className={`category-card ${selectedCategory === category ? 'selected' : ''}`} // 클래스 적용
+            >
               <Card.Body style={{ backgroundColor: category.color }}>
                 <Card.Title>{category.name}</Card.Title>
                 <Card.Text>{category.count} items</Card.Text>

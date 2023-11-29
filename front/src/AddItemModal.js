@@ -4,28 +4,46 @@ import { Modal, Button, Form } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { addItem } from './redux/actions';
 
+import { db } from './firebase'
+import { collection, getDocs } from "firebase/firestore"; 
+
 function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDetailChange, selectedCategory }) {
   const today = new Date();
   const formattedToday = today.toISOString().substring(0, 10);
   
-  const [item, setItem] = useState({ name: '', units: 1, placedIn: '', goodUntil: formattedToday, category: '' });
+  const [item, setItem] = useState({ name: '', units: 1, placedIn: '', goodUntil: formattedToday, category: '', icon: '' });
   const [foodNames, setFoodNames] = useState([]);
   
   useEffect(() => {
     console.log('AddItemModal - Selected Category:', selectedCategory);
   }, [selectedCategory]);
-  
+
   useEffect(() => {
-    // 이 부분에서 CSV 파일의 데이터를 로드합니다. 실제 구현은 프로젝트의 구조에 따라 달라질 수 있습니다.
-    // 예를 들어, 서버에서 데이터를 가져오거나 프로젝트 내의 로컬 파일에서 로드할 수 있습니다.
-    // 여기서는 간단한 예시를 위해 직접 데이터를 명시하겠습니다.
-    const loadedFoodNames = ['apple', 'apricot', 'asparagus', 'avocado', 'bacon', /* ... 다른 항목들 ... */];
-    setFoodNames(loadedFoodNames);
-  }, []);  
+    const loadFoodNamesFromFirestore = async () => {
+        try {
+            const foodCollection = await getDocs(collection(db, "food"));
+            const loadedFoodNames = foodCollection.docs.map(doc => ({
+                name: doc.id,
+                url: doc.data().url,
+            }));
+            setFoodNames(loadedFoodNames);
+            console.log('Loaded Food Names:', loadedFoodNames);
+        } catch (error) {
+            console.error('Error loading data from Firestore:', error);
+        }
+    };
+
+    loadFoodNamesFromFirestore();
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setItem({ ...item, [name]: value });
+    const selectedFood = foodNames.find(food => food.name === value);
+    setItem((prevItem) => ({
+      ...prevItem,
+      [name]: value,
+      icon: selectedFood ? selectedFood.url : prevItem.icon,
+    }));
   };
 
   const handleSubmit = (e) => {
@@ -41,7 +59,7 @@ function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDeta
       ...item
     });
     handleClose();
-    setItem({ name: '', units: 1, placedIn: '', goodUntil: '' });
+    setItem({ name: '', units: 1, placedIn: '', goodUntil: '', icon: ''  });
   };
   
   
@@ -59,11 +77,17 @@ function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDeta
             <Form.Label>Item Name</Form.Label>
             <Form.Control as="select" name="name" value={item.name} onChange={handleChange}>
             <option value="">Select an item</option>
-            {foodNames.map(name => (
-            <option key={name} value={name}>{name}</option>
+            {foodNames.map(food => (
+            <option key={food.name} value={food.name}>{food.name}</option>
             ))}
             </Form.Control>
         </Form.Group>
+        {item.icon && (
+          <div>
+            <p>Selected Image:</p>
+            <img src={item.icon} alt="Selected Item" style={{ maxWidth: '100px', maxHeight: '100px' }} />
+          </div>
+        )}
           <Form.Group>
             <Form.Label>Units</Form.Label>
             <Form.Control type="number" name="units" value={item.units} onChange={handleChange} />

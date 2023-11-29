@@ -15,6 +15,20 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedItemToRemove, setSelectedItemToRemove] = useState(null); // 추가
   const [selectedItemToModify, setSelectedItemToModify] = useState(null);
+  const [selectedItemDetails, setSelectedItemDetails] = useState(null);
+  const [showRemoveModifyButtons, setShowRemoveModifyButtons] = useState(false);
+
+  const handleCardClick = (item) => {
+    if (selectedItemDetails === item) {
+      // 같은 아이템을 다시 클릭하면 상세 정보와 버튼 숨기기
+      setSelectedItemDetails(null);
+      setShowRemoveModifyButtons(false);
+    } else {
+      // 다른 아이템을 클릭하면 상세 정보 표시 및 버튼 보이기
+      setSelectedItemDetails(item);
+      setShowRemoveModifyButtons(true);
+    }
+  };
 
   useEffect(() => {
     const timerId = setInterval(() => setCurrentTime(new Date()), 1000);
@@ -24,6 +38,7 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   useEffect(() => {
     if (categories.length > 0) {
       setSelectedCategory(categories[0]);
+      console.log(categories[0])
     }
   }, [categories]);
 
@@ -92,13 +107,18 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   const handleHideAddItemModal = () => {
     setShowAddItemModal(false);
   };
+
+  const handleRemoveItem = () => {
+    // Remove 버튼 클릭 시 수행할 작업 추가
+    handleSelectItemToRemove(selectedItemDetails);
+  };
   
   const handleSelectItemToRemove = (item) => {
     setSelectedItemToRemove(item);
     setShowRemoveItemModal(true);
   };
 
-  const handleShowRemoveItemModal = (item) => {
+  const handleShowRemoveItemModal = () => {
     if (!selectedItemToRemove) {
       alert('Please select an item to remove.');
       return;
@@ -106,6 +126,11 @@ function App({ categories, addItem, removeItem, modifyItem }) {
     setShowRemoveItemModal(true); 
   };
   const handleHideRemoveItemModal = () => setShowRemoveItemModal(false);
+
+  const handleModifyItem = () => {
+    // Modify 버튼 클릭 시 수행할 작업 추가
+    handleSelectItemToModify(selectedItemDetails);
+  };
 
   const handleSelectItemToModify = (item) => {
     setSelectedItemToModify(item);
@@ -160,15 +185,32 @@ function App({ categories, addItem, removeItem, modifyItem }) {
             <Row className="category-items">
               {selectedCategory.items.map((item, index) => (
                 <Col key={index} xs={6} md={4} lg={3}>
-                  <Card>
-                    <Card.Body>
-                      <Card.Title>{item.name}</Card.Title>
-                      <Card.Text>Units: {item.units}</Card.Text>
-                      <Card.Text>Good Until: {item.goodUntil}</Card.Text>
-                      <div className="item-action-buttons">
-                        <Button onClick={() => handleSelectItemToRemove(item)}>Remove</Button>
-                        <Button onClick={() => handleSelectItemToModify(item)}>Modify</Button>
+                  <Card onClick={() => handleCardClick(item)}>
+                    <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start'  }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>                        
+                        <div>
+                          <Card.Title>{item.name}</Card.Title>
+                          <Card.Text>Units: {item.units}</Card.Text>
+                        </div>
+                        {item.icon && (
+                          <div style={{ marginLeft: 'auto' }}>
+                            <img src={item.icon} alt="Item Icon" style={{ maxWidth: '50px', maxHeight: '50px' }} />
+                          </div>
+                        )}
                       </div>
+                    
+                    {/* Additional information and actions displayed on card click */}
+                    {selectedItemDetails === item && (
+                      <div>
+                        <Card.Text>Good Until: {item.goodUntil}</Card.Text>
+                        {showRemoveModifyButtons && (
+                          <div className="item-action-buttons" style={{ display: 'flex', justifyContent: 'space-between', marginTop: '10px' }}>
+                            <Button onClick={handleRemoveItem}>Remove</Button>
+                            <Button onClick={handleModifyItem}>Modify</Button>
+                          </div>
+                        )}
+                      </div>
+                    )}
                     </Card.Body>
                   </Card>
                 </Col>
@@ -182,7 +224,7 @@ function App({ categories, addItem, removeItem, modifyItem }) {
               <Button variant="outline-success" block style={buttonStyle} onClick={handleShowAddItemModal}>ADD ITEM</Button>
             </Col>
             <Col md={4}>
-              <Button variant="outline-danger" block style={buttonStyle} onClick={() => handleShowRemoveItemModal('Fruit')}>REMOVE ITEM</Button>
+              <Button variant="outline-danger" block style={buttonStyle} onClick={() => handleShowRemoveItemModal}>REMOVE ITEM</Button>
             </Col>
             <Col md={4}>
               <Button variant="outline-warning" block style={buttonStyle} onClick={() => handleShowModifyItemModal}>MODIFY ITEM</Button>

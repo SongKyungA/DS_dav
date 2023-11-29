@@ -42,9 +42,9 @@ function App({ categories, addItem, removeItem, modifyItem }) {
     window.open(window.location.origin + '/circle_packing.html', '_blank');
   };
 
-  const viewRecipes = () => {
-    console.log('Recipes functionality not implemented yet.');
-    // 레시피 기능을 추가할 예정
+  const viewUsers = () => {
+    console.log('Opening Feedback Form.');
+    window.open(window.location.origin + '/FeedbackForm.html', '_blank');
   };
 
   const totalCapacity = 100;
@@ -197,7 +197,7 @@ function App({ categories, addItem, removeItem, modifyItem }) {
               <Button variant="outline-primary" block style={buttonStyle} onClick={viewCirclePackingFood}>CIRCLE PACKING FOOD</Button>
             </Col>
             <Col md={4}>
-              <Button variant="outline-secondary" block style={buttonStyle} onClick={viewRecipes}>RECIPES</Button>
+              <Button variant="outline-secondary" block style={buttonStyle} onClick={viewUsers}>User Feedback</Button>
             </Col>
           </Row>
         </Col>

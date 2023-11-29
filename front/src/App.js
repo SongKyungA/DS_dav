@@ -29,7 +29,7 @@ function App({ categories, addItem, removeItem, modifyItem }) {
 
   const handleAddItem = (category) => {
     setSelectedCategory(category);
-    console.log("handleAddItem - Selected Category:", category.name);
+    console.log("handleAddItem - Selected Category: test", category.name);
   };
   
   const viewFoodTop10 = () => {

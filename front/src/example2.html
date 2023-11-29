@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3 Expiry Simulation</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+    <div id="fridge"></div>
+
+    <script>
+        // 데이터셋 - 예시 데이터
+        const items = [
+            { name: 'Milk1', imageUrl: '2.jpg', expiryDate: new Date(new Date().getTime() + 10000) },
+            { name: 'Milk2', imageUrl: '3.jpg', expiryDate: new Date(new Date().getTime() + 10000) },
+            { name: 'Milk3', imageUrl: '4.jpg', expiryDate: new Date(new Date().getTime() + 10000) },
+            // 다른 아이템들...
+        ];
+
+        // D3.js를 사용하여 아이템 이미지와 유통 기한 텍스트 추가
+        const fridge = d3.select('#fridge').selectAll('div')
+            .data(items)
+            .enter()
+            .append('div')
+            .style('position', 'relative')
+            .style('margin-bottom', '20px'); // 각 아이템 사이에 여백 추가
+
+        fridge.append('img')
+            .attr('src', d => d.imageUrl)
+            .attr('alt', d => d.name)
+            .style('opacity', 1) // 초기 투명도 설정
+            .style('transition', 'filter 1s linear') // 색상 변화 애니메이션
+            .style('position', 'absolute')
+            .style('width', '100px') // 이미지 크기 설정
+            .style('height', '100px');
+
+        fridge.append('span')
+            .text(d => `Expiry: ${d.expiryDate.toISOString().substring(0, 10)}`)
+            .style('z-index', 10)
+            .style('position', 'absolute')
+            .style('color', 'white')
+            .style('padding', '5px')
+            .style('left', 0)
+            .style('bottom', '-20px'); // 글자 위치를 이미지 아래로 조정
+
+        // 유통기한에 따른 색 변화 계산 함수
+        function calculateColorFilter(expiryDate) {
+            const diffTime = expiryDate - new Date();
+            const diffSeconds = diffTime / 1000;
+
+            if (diffSeconds <= 0) {
+                // 유통 기한이 지났을 때 붉은색으로
+                return 'sepia(100%) hue-rotate(-50deg) saturate(500%)';
+            }
+
+            // 시간이 지남에 따라 붉은색으로 변함
+            let sepia = Math.min(100, 100 - (diffSeconds / 10) * 100);
+            return `sepia(${sepia}%) hue-rotate(-50deg) saturate(${5 * sepia}%)`;
+        }
+
+        // 시뮬레이션 업데이트 함수
+        function updateSimulation() {
+            fridge.data(items)
+                .select('img')
+                .style('filter', d => calculateColorFilter(d.expiryDate));
+        }
+
+        // 1초마다 색상 업데이트
+        setInterval(updateSimulation, 1000);
+    </script>
+</body>
+</html>

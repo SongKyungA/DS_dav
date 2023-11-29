@@ -13,7 +13,7 @@ import { MdEco } from 'react-icons/md';
 function App({ categories, addItem, removeItem, modifyItem }) {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const [selectedItemToRemove, setSelectedItemToRemove] = useState(null); // 추가
+  const [selectedItemToRemove, setSelectedItemToRemove] = useState(null);
   const [selectedItemToModify, setSelectedItemToModify] = useState(null);
 
   useEffect(() => {

@@ -13,7 +13,7 @@ import { MdEco } from 'react-icons/md';
 function App({ categories, addItem, removeItem, modifyItem }) {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const [selectedItemToRemove, setSelectedItemToRemove] = useState(null); // 추가
+  const [selectedItemToRemove, setSelectedItemToRemove] = useState(null);
   const [selectedItemToModify, setSelectedItemToModify] = useState(null);
   const [selectedItemDetails, setSelectedItemDetails] = useState(null);
   const [showRemoveModifyButtons, setShowRemoveModifyButtons] = useState(false);
@@ -44,7 +44,7 @@ function App({ categories, addItem, removeItem, modifyItem }) {
 
   const handleAddItem = (category) => {
     setSelectedCategory(category);
-    console.log("handleAddItem - Selected Category:", category.name);
+    console.log("handleAddItem - Selected Category: test", category.name);
   };
   
   const viewFoodTop10 = () => {
@@ -53,13 +53,13 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   };
 
   const viewCirclePackingFood = () => {
-    console.log('Circle Packing Food visualization not implemented yet.');
-    // Circle package food 시각화 tool 추가 예정
+    console.log('Opening CirclePacking visualization.');
+    window.open(window.location.origin + '/circle_packing.html', '_blank');
   };
 
-  const viewRecipes = () => {
-    console.log('Recipes functionality not implemented yet.');
-    // 레시피 기능을 추가할 예정
+  const viewUsers = () => {
+    console.log('Opening Feedback Form.');
+    window.open(window.location.origin + '/FeedbackForm.html', '_blank');
   };
 
   const totalCapacity = 100;
@@ -239,7 +239,7 @@ function App({ categories, addItem, removeItem, modifyItem }) {
               <Button variant="outline-primary" block style={buttonStyle} onClick={viewCirclePackingFood}>CIRCLE PACKING FOOD</Button>
             </Col>
             <Col md={4}>
-              <Button variant="outline-secondary" block style={buttonStyle} onClick={viewRecipes}>RECIPES</Button>
+              <Button variant="outline-secondary" block style={buttonStyle} onClick={viewUsers}>User Feedback</Button>
             </Col>
           </Row>
         </Col>

@@ -12,6 +12,7 @@ import { MdEco } from 'react-icons/md';
 
 function App({ categories, addItem, removeItem, modifyItem }) {
   const [currentTime, setCurrentTime] = useState(new Date());
+  const [isHome, setIsHome] = useState(true); // Home 상태 추가
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedItemToRemove, setSelectedItemToRemove] = useState(null);
   const [selectedItemToModify, setSelectedItemToModify] = useState(null);
@@ -42,9 +43,15 @@ function App({ categories, addItem, removeItem, modifyItem }) {
     }
   }, [categories]);
 
+  // Home 버튼 클릭 핸들러
+  const handleHomeClick = () => {
+    setIsHome(true);
+    setSelectedCategory(null);
+  };
+
   const handleAddItem = (category) => {
+    setIsHome(false);
     setSelectedCategory(category);
-    console.log("handleAddItem - Selected Category: test", category.name);
   };
   
   const viewFoodTop10 = () => {
@@ -151,8 +158,21 @@ function App({ categories, addItem, removeItem, modifyItem }) {
     <Container fluid>
       <Row>
         <Col md={2} className="sidebar">
+        <Button
+          onClick={handleHomeClick}
+          style={{
+            marginBottom: '10px',
+            marginLeft: '10px',
+            backgroundColor: '#5F9F9F',
+            borderColor: '#5F9F9F', 
+            color: 'White', 
+            fontSize: '20px',
+          }}
+        >
+          🏠 Home 🏠
+        </Button>
           {categories.map(category => (
-            <Card key={category.name} onClick={() => handleAddItem(category)}>
+            <Card key={category.name} onClick={() => handleAddItem(category)} className={`category-card ${selectedCategory === category ? 'selected' : ''}`}>
               <Card.Body style={{ backgroundColor: category.color }}>
                 <Card.Title>{category.name}</Card.Title>
                 <Card.Text>{category.count} items</Card.Text>
@@ -170,7 +190,9 @@ function App({ categories, addItem, removeItem, modifyItem }) {
             <h1 style={{ textAlign: 'right', fontSize: '36px' }}>{currentTime.toLocaleTimeString()}</h1>
             <p style={{ textAlign: 'right', fontSize: '20px' }}>7°C / Cloudy</p>
           </div>
-          <div className="user-message" style={{ textAlign: 'left', fontSize: '20px' }}>
+
+          {isHome && (
+            <div className="user-message" style={{ textAlign: 'left', fontSize: '20px' }}>
             <p>Good evening!</p>
             <p><br /></p>
             <p>You are advised to throw out your avocado, asparagus,</p>
@@ -180,7 +202,7 @@ function App({ categories, addItem, removeItem, modifyItem }) {
             <p>You seem to have alot of fruits and vegetables right now.</p>
             <p>How about making a healthy avocado BLT salad?</p>
           </div>
-
+          )}
           {selectedCategory && (
             <Row className="category-items">
               {selectedCategory.items.map((item, index) => (

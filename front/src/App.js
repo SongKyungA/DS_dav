@@ -161,29 +161,22 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   return (
     <Container fluid>
       <Row>
-        <Col md={2} className="sidebar">
-        <Button
-          onClick={handleHomeClick}
-          style={{
-            marginBottom: '10px',
-            marginLeft: '10px',
-            backgroundColor: '#5F9F9F',
-            borderColor: '#5F9F9F', 
-            color: 'White', 
-            fontSize: '20px',
-          }}
-        >
-          🏠 Home 🏠
-        </Button>
-          {categories.map(category => (
-            <Card key={category.name} onClick={() => handleAddItem(category)} className={`category-card ${selectedCategory === category ? 'selected' : ''}`}>
-              <Card.Body style={{ backgroundColor: category.color }}>
-                <Card.Title>{category.name}</Card.Title>
-                <Card.Text>{category.count} items</Card.Text>
-              </Card.Body>
-            </Card>
-          ))}
-        </Col>
+      <Col md={2} className="sidebar">
+        <Card onClick={handleHomeClick} className="category-card" style={{ backgroundColor: '#5F9F9F' }}>
+          <Card.Body>
+            <Card.Title style={{ color: 'white' }}>🏠 Home 🏠</Card.Title>
+          </Card.Body>
+        </Card>
+        {categories.map(category => (
+          <Card key={category.name} onClick={() => handleAddItem(category)} className={`category-card ${selectedCategory === category ? 'selected' : ''}`}>
+            <Card.Body style={{ backgroundColor: category.color }}>
+              <Card.Title>{category.name}</Card.Title>
+              <Card.Text>{category.count} items</Card.Text>
+            </Card.Body>
+          </Card>
+        ))}
+        
+      </Col>
 
         <Col md={10} className="main-content">
           <div className="dashboard-header">
@@ -243,8 +236,9 @@ function App({ categories, addItem, removeItem, modifyItem }) {
               ))}
             </Row>
           )}
-
-          <ProgressBar now={capacityPercentage} label={`${capacityPercentage.toFixed(0)}%`} />
+          <div style={{ margin: '20px 0' }}>
+            <ProgressBar now={capacityPercentage} label={`${capacityPercentage.toFixed(0)}%`} />
+          </div>
           <Row>
             <Col md={4}>
               <Button variant="outline-success" block style={buttonStyle} onClick={handleShowAddItemModal}>ADD ITEM</Button>

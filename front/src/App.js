@@ -7,10 +7,12 @@ import './App.css';
 import AddItemModal from './AddItemModal';
 import RemoveItemModal from './RemoveItemModal';
 import ModifyItemModal from './ModifyItemModal';
+import { removeItems } from './redux/actions';
+import { Form } from 'react-bootstrap';
 
 import { MdEco } from 'react-icons/md';
 
-function App({ categories, addItem, removeItem, modifyItem }) {
+function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [isHome, setIsHome] = useState(true); // Home 상태 추가
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -18,6 +20,40 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   const [selectedItemToModify, setSelectedItemToModify] = useState(null);
   const [selectedItemDetails, setSelectedItemDetails] = useState(null);
   const [showRemoveModifyButtons, setShowRemoveModifyButtons] = useState(false);
+  const [selectedItems, setSelectedItems] = useState([]);
+
+  const handleCheckboxChange = (item, isChecked) => {
+    setSelectedItems(prevSelectedItems => {
+      if (isChecked) {
+        return [...prevSelectedItems, item];
+      } else {
+        return prevSelectedItems.filter(selectedItem => selectedItem !== item);
+      }
+    });
+  };
+
+  const handleRemoveSelectedItems = () => {
+    if (selectedItems.length === 0) {
+      alert('Please select at least one item to remove.');
+      return;
+    }
+  
+    // Confirm dialog before removing items
+    const confirmDelete = window.confirm('Are you sure you want to delete the selected items?');
+    if (confirmDelete) {
+      // Create an array of item names to be removed
+      const itemNamesToRemove = selectedItems.map(item => item.name);
+      
+      // Dispatch the action with the array of names
+      removeItems(selectedCategory.name, itemNamesToRemove);
+      setSelectedItems([]);
+    } else {
+      // User clicked 'Cancel', do not delete items
+      console.log('Item removal cancelled by user.');
+    }
+  };
+  
+  
 
   const handleCardClick = (item) => {
     if (selectedItemDetails === item) {
@@ -222,6 +258,11 @@ function App({ categories, addItem, removeItem, modifyItem }) {
                     <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start'  }}>
                       <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>                        
                         <div>
+                          <Form.Check 
+                            type="checkbox"
+                            checked={selectedItems.includes(item)}
+                            onChange={(e) => handleCheckboxChange(item, e.target.checked)}
+                          />
                           <Card.Title>{item.name}</Card.Title>
                           <Card.Text>Units: {item.units}</Card.Text>
                         </div>
@@ -267,7 +308,7 @@ function App({ categories, addItem, removeItem, modifyItem }) {
               <Button variant="outline-success" block style={buttonStyle} onClick={handleShowAddItemModal}>ADD ITEM</Button>
             </Col>
             <Col md={4}>
-              <Button variant="outline-danger" block style={buttonStyle} onClick={() => handleShowRemoveItemModal}>REMOVE ITEM</Button>
+            <Button variant="outline-danger" block style={buttonStyle} onClick={handleRemoveSelectedItems}>REMOVE ITEM</Button>
             </Col>
             <Col md={4}>
               <Button variant="outline-warning" block style={buttonStyle} onClick={() => handleShowModifyItemModal}>MODIFY ITEM</Button>
@@ -335,7 +376,8 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = {
   addItem: addItemAction,
   removeItem,
-  modifyItem
+  modifyItem,
+  removeItems
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);

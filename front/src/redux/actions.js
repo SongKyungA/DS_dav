@@ -1,5 +1,5 @@
 // src/redux/actions.js
-import { ADD_ITEM, REMOVE_ITEM, MODIFY_ITEM } from './actionTypes';
+import { ADD_ITEM, REMOVE_ITEM, MODIFY_ITEM, REMOVE_ITEMS } from './actionTypes';
 
 export const addItem = (categoryName, itemDetails) => ({
   type: ADD_ITEM,
@@ -11,6 +11,10 @@ export const removeItem = (categoryName, itemName) => ({
   payload: { categoryName, itemName }
 });
 
+export const removeItems = (categoryName, itemsNamesToRemove) => ({
+  type: REMOVE_ITEMS,
+  payload: { categoryName, itemsNamesToRemove }
+});
 
 export const modifyItem = (categoryName, itemId, newItemDetails) => {
   console.log('Modifying item:', newItemDetails);

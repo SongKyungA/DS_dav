@@ -81,11 +81,11 @@
 /* 추가된 스타일 */
 
 /* 카테고리 카드에 아이콘 추가 */
-.category-card .card-title:before {
-  font-family: 'Font Awesome 5 Free'; /* FontAwesome 아이콘 폰트 */
-  content: '\f06b'; /* 예시 아이콘 코드 */
+/* .category-card .card-title:before {
+  font-family: 'Font Awesome 5 Free'; 
+  content: ''; 
   margin-right: 10px;
-}
+} */
 
 /* 액션 버튼 크기 조정 */
 .action-buttons .btn {

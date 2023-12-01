@@ -168,14 +168,14 @@ function App({ categories, addItem, removeItem, modifyItem }) {
           </Card.Body>
         </Card>
         {categories.map(category => (
-          <Card key={category.name} onClick={() => handleAddItem(category)} className={`category-card ${selectedCategory === category ? 'selected' : ''}`}>
-            <Card.Body style={{ backgroundColor: category.color }}>
-              <Card.Title>{category.name}</Card.Title>
-              <Card.Text>{category.count} items</Card.Text>
-            </Card.Body>
-          </Card>
-        ))}
-        
+  <Card key={category.name} onClick={() => handleAddItem(category)} className={`category-card ${selectedCategory === category ? 'selected' : ''}`}>
+    <Card.Body style={{ backgroundColor: category.color }}>
+      <Card.Title>{category.name}</Card.Title> {/* 여기에서 [] 아이콘을 제거했습니다 */}
+      <Card.Text>{category.count} items</Card.Text>
+    </Card.Body>
+  </Card>
+))}
+
       </Col>
 
         <Col md={10} className="main-content">

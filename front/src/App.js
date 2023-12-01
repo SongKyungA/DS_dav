@@ -190,19 +190,19 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
 
   const handleHideModifyItemModal = () => setShowModifyItemModal(false);  
 
-  const calculateOpacity = (goodUntil) => {
+  const calculateOpacity = (placedIn, goodUntil) => {
+    const placedDate = new Date(placedIn)
     const expiryDate = new Date(goodUntil);
     const currentDate = new Date();
-    const diffTime = expiryDate - currentDate;
-    const diffSeconds = diffTime / 1000;
-    console.log(diffSeconds,"초")
+    const ratio = expiryDate-placedDate == 0? 0: (expiryDate-currentDate)/(expiryDate-placedDate);
+    console.log(ratio)
 
-    if (diffSeconds <= 0) {
+    if (expiryDate-currentDate < 0 ) {
       return 0.2; // 만료 날짜가 지났을 때 투명도를 20%로 설정
     }
 
     // 남은 일 수에 따라 투명도를 계산
-    const opacity = Math.max(0.2, 1 - diffSeconds / 10)
+    const opacity = Math.max(0.2, ratio)
 
     console.log('투명도:', opacity);
     return opacity;
@@ -274,7 +274,7 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
                               style={{ 
                                 maxWidth: '50px', 
                                 maxHeight: '50px',
-                                opacity: calculateOpacity(item.goodUntil)
+                                opacity: calculateOpacity(item.placedIn, item.goodUntil)
                               }} 
                             />
                           </div>
@@ -284,6 +284,7 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
                     {/* Additional information and actions displayed on card click */}
                     {selectedItemDetails === item && (
                       <div>
+                        <Card.Text>Placed In : {item.placedIn}</Card.Text>
                         <Card.Text>Good Until: {item.goodUntil}</Card.Text>
                         {showRemoveModifyButtons && (
                           <div className="item-action-buttons" style={{ display: 'flex', justifyContent: 'space-between', marginTop: '10px' }}>

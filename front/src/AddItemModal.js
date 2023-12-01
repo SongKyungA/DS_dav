@@ -11,7 +11,7 @@ function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDeta
   const today = new Date();
   const formattedToday = today.toISOString().substring(0, 10);
   
-  const [item, setItem] = useState({ name: '', units: 1, placedIn: '', goodUntil: formattedToday, category: '', icon: '' });
+  const [item, setItem] = useState({ name: '', units: 1, placedIn: formattedToday, goodUntil: formattedToday, icon: '' });
   const [foodNames, setFoodNames] = useState([]);
   
   useEffect(() => {
@@ -97,11 +97,14 @@ function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDeta
             <Form.Label>Units</Form.Label>
             <Form.Control type="number" name="units" value={item.units} onChange={handleChange} />
           </Form.Group>
-          {/* Additional input fields can be added here */}
+          <Form.Group>
+            <Form.Label>Placed In</Form.Label>
+            <Form.Control type="date" name="placedIn" value={item.placedIn} onChange={handleChange} />
+          </Form.Group>
           <Form.Group>
             <Form.Label>Good Until</Form.Label>
             <Form.Control type="date" name="goodUntil" value={item.goodUntil} onChange={handleChange} />
-          </Form.Group>
+          </Form.Group>          
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
               Cancel

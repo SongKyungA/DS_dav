@@ -49,12 +49,17 @@ function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDeta
   const handleSubmit = (e) => {
     e.preventDefault();
   
+    // add 진행 시 item 선택하지 않으면 경고창 띄어주기
+    if (item.name === '') {
+      alert('Please select an item name.');
+      return; 
+    }
+  
     if (!selectedCategory) {
       console.error('No category selected');
       return;
     }
     console.log('Selected Category in Modal:', selectedCategory.name);
-    // selectedCategory의 이름을 onAddNewItem 함수에 전달합니다.
     onAddNewItem(selectedCategory.name, {
       ...item
     });

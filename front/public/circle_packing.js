@@ -45,7 +45,7 @@ async function createChart() {
   
     // Append the text labels.
     const label = svg.append("g")
-        .style("font", "16px sans-serif")
+        .style("font", "20px 'BMJUA', sans-serif")
         .attr("pointer-events", "none")
         .attr("text-anchor", "middle")
       .selectAll("text")

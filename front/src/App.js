@@ -217,7 +217,7 @@ function App({ categories, addItem, removeItem, modifyItem }) {
           {selectedCategory && (
             <Row className="category-items">
               {selectedCategory.items.map((item, index) => (
-                <Col key={index} xs={6} md={4} lg={3}>
+                <Col key={index} xs={6} md={4} lg={3} style={{ marginBottom: '20px' }}>
                   <Card onClick={() => handleCardClick(item)}>
                     <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start'  }}>
                       <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>                        

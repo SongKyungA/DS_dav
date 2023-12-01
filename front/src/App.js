@@ -168,14 +168,14 @@ function App({ categories, addItem, removeItem, modifyItem }) {
           </Card.Body>
         </Card>
         {categories.map(category => (
-  <Card key={category.name} onClick={() => handleAddItem(category)} className={`category-card ${selectedCategory === category ? 'selected' : ''}`}>
-    <Card.Body style={{ backgroundColor: category.color }}>
-      <Card.Title>{category.name}</Card.Title> {/* 여기에서 [] 아이콘을 제거했습니다 */}
-      <Card.Text>{category.count} items</Card.Text>
-    </Card.Body>
-  </Card>
-))}
-
+          <Card key={category.name} onClick={() => handleAddItem(category)} className={`category-card ${selectedCategory === category ? 'selected' : ''}`}>
+            <Card.Body style={{ backgroundColor: category.color }}>
+              <Card.Title>{category.name}</Card.Title>
+              <Card.Text>{category.count} items</Card.Text>
+            </Card.Body>
+          </Card>
+        ))}
+        
       </Col>
 
         <Col md={10} className="main-content">
@@ -203,7 +203,7 @@ function App({ categories, addItem, removeItem, modifyItem }) {
           {selectedCategory && (
             <Row className="category-items">
               {selectedCategory.items.map((item, index) => (
-                <Col key={index} xs={6} md={4} lg={3}>
+                <Col key={index} xs={6} md={4} lg={3} style={{ marginBottom: '20px' }}>
                   <Card onClick={() => handleCardClick(item)}>
                     <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start'  }}>
                       <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>                        

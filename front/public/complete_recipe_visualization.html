@@ -6,10 +6,13 @@
     <title>Top 10 Recipes Visualization</title>
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <style>
-        
+        @font-face {
+            font-family: 'BMJUA';
+            src: url('fonts/BMJUA_ttf.ttf') format('truetype');
+        }
         /* CSS 스타일링*/
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'BMJUA', sans-serif;
             background: #f4f4f4;
             margin: 0;
             padding: 20px;
@@ -69,29 +72,29 @@
 
 
     </style>
-</head>
-<body>
+    </head>
     <body>
-        <div class="container">
-            <div class="select-container">
-                <label for="ckgMethod">요리 방법:</label>
-                <select id="ckgMethod"></select>
-    
-                <label for="ckgSituation">요리 상황:</label>
-                <select id="ckgSituation"></select>
-    
-                <label for="ckgMaterial">주재료:</label>
-                <select id="ckgMaterial"></select>
+        <body>
+            <div class="container">
+                <div class="select-container">
+                    <label for="ckgMethod">요리 방법:</label>
+                    <select id="ckgMethod"></select>
+        
+                    <label for="ckgSituation">요리 상황:</label>
+                    <select id="ckgSituation"></select>
+        
+                    <label for="ckgMaterial">주재료:</label>
+                    <select id="ckgMaterial"></select>
 
-                <label for="ckgTime">조리시간:</label>
-                <select id="ckgTime"></select>
+                    <label for="ckgTime">조리시간:</label>
+                    <select id="ckgTime"></select>
 
 
+                </div>
+                <div id="barChart"></div>
             </div>
-            <div id="barChart"></div>
-        </div>
-    
-        <script src="script.js"></script>
-    </body>
-    
-</html>
+        
+            <script src="script.js"></script>
+        </body>
+        
+    </html>

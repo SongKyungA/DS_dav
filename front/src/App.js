@@ -300,20 +300,25 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
               ))}
             </Row>
           )}
+
           <div style={{ margin: '20px 0' }}>
             <ProgressBar now={capacityPercentage} label={`${capacityPercentage.toFixed(0)}%`} />
           </div>
-          <Row>
-            <Col md={4}>
-              <Button variant="outline-success" block style={buttonStyle} onClick={handleShowAddItemModal}>ADD ITEM</Button>
-            </Col>
-            <Col md={4}>
-            <Button variant="outline-danger" block style={buttonStyle} onClick={handleRemoveSelectedItems}>REMOVE ITEM</Button>
-            </Col>
-            <Col md={4}>
-              <Button variant="outline-warning" block style={buttonStyle} onClick={() => handleShowModifyItemModal}>MODIFY ITEM</Button>
-            </Col>
-          </Row>
+
+          {/* Home 상태가 아닐 때만 아이템 관련 버튼을 표시합니다. */}
+          {!isHome && (
+            <Row>
+              <Col md={4}>
+                <Button variant="outline-success" block style={buttonStyle} onClick={handleShowAddItemModal}>ADD ITEM</Button>
+              </Col>
+              <Col md={4}>
+                <Button variant="outline-danger" block style={buttonStyle} onClick={handleRemoveSelectedItems}>REMOVE ITEM</Button>
+              </Col>
+              <Col md={4}>
+                <Button variant="outline-warning" block style={buttonStyle} onClick={handleShowModifyItemModal}>MODIFY ITEM</Button>
+              </Col>
+            </Row>
+          )}          
           <p><br /></p>
           <Row>
             <Col md={4}>

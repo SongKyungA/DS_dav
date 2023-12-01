@@ -13,7 +13,6 @@ function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDeta
   
   const [item, setItem] = useState({ name: '', units: 1, placedIn: formattedToday, goodUntil: formattedToday, icon: '' });
   const [foodNames, setFoodNames] = useState([]);
-
   const [searchTerm, setSearchTerm] = useState('');
   
   useEffect(() => {
@@ -22,28 +21,33 @@ function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDeta
 
   useEffect(() => {
     const loadFoodNamesFromFirestore = async () => {
-        try {
-            const foodCollection = await getDocs(collection(db, "food"));
-            const loadedFoodNames = foodCollection.docs.map(doc => ({
-                name: doc.id,
-                url: doc.data().url,
-            }));
-            setFoodNames(loadedFoodNames);
-            console.log('Loaded Food Names:', loadedFoodNames);
-        } catch (error) {
-            console.error('Error loading data from Firestore:', error);
-        }
+      try {
+        const foodCollection = await getDocs(collection(db, "food"));
+        const loadedFoodNames = foodCollection.docs.map(doc => ({
+          name: doc.id,
+          url: doc.data().url,
+        }));
+        setFoodNames(loadedFoodNames);
+        console.log('Loaded Food Names:', loadedFoodNames);
+      } catch (error) {
+        console.error('Error loading data from Firestore:', error);
+      }
     };
 
     loadFoodNamesFromFirestore();
   }, []);
 
-  const handleSearch = (e) => {
-    setSearchTerm(e.target.value);
-  };
+  useEffect(() => {
+    setSearchTerm(item.name); 
+  }, [item.name]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+
+    if (name === "name") {
+      setSearchTerm(value);
+    }
+
     const selectedFood = foodNames.find(food => food.name === value);
     setItem((prevItem) => ({
       ...prevItem,
@@ -86,7 +90,12 @@ function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDeta
         <Form onSubmit={handleSubmit}>
         <Form.Group>
             <Form.Label>Item Name</Form.Label>
-            <Form.Control as="select" name="name" value={item.name} onChange={handleChange} onInput={handleSearch}>
+            <Form.Control 
+              as="select" 
+              name="name" 
+              value={item.name} 
+              onChange={handleChange}
+            >
             <option value="">Select an item</option>
             {foodNames
               .filter((food) =>

@@ -49,6 +49,15 @@ function ModifyItemModal({ show, handleClose, onModifyItem, selectedItemToModify
             />
           </Form.Group>
           <Form.Group>
+            <Form.Label>Placed In</Form.Label>
+            <Form.Control 
+              type="date" 
+              name="placedIn" 
+              value={itemDetails.placedIn} 
+              onChange={handleDetailChange} 
+            />
+          </Form.Group>
+          <Form.Group>
             <Form.Label>Good Until</Form.Label>
             <Form.Control
               type="date"

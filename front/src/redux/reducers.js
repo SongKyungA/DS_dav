@@ -1,5 +1,5 @@
 // src/redux/reducers.js
-import { ADD_ITEM, REMOVE_ITEM, MODIFY_ITEM } from './actionTypes';
+import { ADD_ITEM, REMOVE_ITEM, MODIFY_ITEM, REMOVE_ITEMS } from './actionTypes';
 
 const initialState = {
   categories: [
@@ -78,6 +78,26 @@ const rootReducer = (state = initialState, action) => {
         }),
       };
     }  
+
+    case REMOVE_ITEMS: {
+      const { categoryName, itemsNamesToRemove } = action.payload;
+      return {
+        ...state,
+        categories: state.categories.map(category => {
+          if (category.name === categoryName) {
+            const newItems = category.items.filter(item => !itemsNamesToRemove.includes(item.name));
+            const newCount = newItems.length;
+            return {
+              ...category,
+              items: newItems,
+              count: newCount
+            };
+          }
+          return category;
+        })
+      };
+    }
+       
 
     default:
       return state;

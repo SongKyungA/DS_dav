@@ -158,16 +158,15 @@ function App({ categories, addItem, removeItem, modifyItem }) {
     const expiryDate = new Date(goodUntil);
     const currentDate = new Date();
     const diffTime = expiryDate - currentDate;
-    const diffDays = diffTime / (1000 * 60 * 60 * 24);
-    console.log(diffDays, "일")
+    const diffSeconds = diffTime / 1000;
+    console.log(diffSeconds,"초")
 
-    const diffDays_sec = diffDays
-    if (diffDays_sec <= 0) {
+    if (diffSeconds <= 0) {
       return 0.2; // 만료 날짜가 지났을 때 투명도를 20%로 설정
     }
 
     // 남은 일 수에 따라 투명도를 계산
-    const opacity = Math.max(0.2, 1 - diffDays_sec / (24 * 60 * 60)); // 최대 24시간까지 허용
+    const opacity = Math.max(0.2, 1 - diffSeconds / 10)
 
     console.log('투명도:', opacity);
     return opacity;
@@ -176,30 +175,22 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   return (
     <Container fluid>
       <Row>
-        <Col md={2} className="sidebar">
-        <Button
-          onClick={handleHomeClick}
-          style={{
-            marginBottom: '10px',
-            marginLeft: '10px',
-            backgroundColor: '#5F9F9F',
-            borderColor: '#5F9F9F', 
-            color: 'White', 
-            fontSize: '20px',
-            justifyContent: 'center', // 수평 중앙 정렬
-          }}
-        >
-          🏠 Home 🏠
-        </Button>
-          {categories.map(category => (
-            <Card key={category.name} onClick={() => handleAddItem(category)} className={`category-card ${selectedCategory === category ? 'selected' : ''}`}>
-              <Card.Body style={{ backgroundColor: category.color }}>
-                <Card.Title>{category.name}</Card.Title>
-                <Card.Text>{category.count} items</Card.Text>
-              </Card.Body>
-            </Card>
-          ))}
-        </Col>
+      <Col md={2} className="sidebar">
+        <Card onClick={handleHomeClick} className="category-card" style={{ backgroundColor: '#5F9F9F' }}>
+          <Card.Body>
+            <Card.Title style={{ color: 'white' }}>🏠 Home 🏠</Card.Title>
+          </Card.Body>
+        </Card>
+        {categories.map(category => (
+          <Card key={category.name} onClick={() => handleAddItem(category)} className={`category-card ${selectedCategory === category ? 'selected' : ''}`}>
+            <Card.Body style={{ backgroundColor: category.color }}>
+              <Card.Title>{category.name}</Card.Title>
+              <Card.Text>{category.count} items</Card.Text>
+            </Card.Body>
+          </Card>
+        ))}
+        
+      </Col>
 
         <Col md={10} className="main-content">
           <div className="dashboard-header">
@@ -267,8 +258,9 @@ function App({ categories, addItem, removeItem, modifyItem }) {
               ))}
             </Row>
           )}
-
-          <ProgressBar now={capacityPercentage} label={`${capacityPercentage.toFixed(0)}%`} />
+          <div style={{ margin: '20px 0' }}>
+            <ProgressBar now={capacityPercentage} label={`${capacityPercentage.toFixed(0)}%`} />
+          </div>
           <Row>
             <Col md={4}>
               <Button variant="outline-success" block style={buttonStyle} onClick={handleShowAddItemModal}>ADD ITEM</Button>

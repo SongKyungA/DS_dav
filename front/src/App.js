@@ -9,12 +9,11 @@ import RemoveItemModal from './RemoveItemModal';
 import ModifyItemModal from './ModifyItemModal';
 import { removeItems } from './redux/actions';
 import { Form } from 'react-bootstrap';
-
 import { MdEco } from 'react-icons/md';
 
 function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
   const [currentTime, setCurrentTime] = useState(new Date());
-  const [isHome, setIsHome] = useState(true); // Home 상태 추가
+  const [isHome, setIsHome] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedItemToRemove, setSelectedItemToRemove] = useState(null);
   const [selectedItemToModify, setSelectedItemToModify] = useState(null);
@@ -38,22 +37,15 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
       return;
     }
   
-    // Confirm dialog before removing items
-    const confirmDelete = window.confirm('Are you sure you want to delete the selected items?');
+  const confirmDelete = window.confirm('Are you sure you want to delete the selected items?');
     if (confirmDelete) {
-      // Create an array of item names to be removed
       const itemNamesToRemove = selectedItems.map(item => item.name);
-      
-      // Dispatch the action with the array of names
       removeItems(selectedCategory.name, itemNamesToRemove);
       setSelectedItems([]);
     } else {
-      // User clicked 'Cancel', do not delete items
       console.log('Item removal cancelled by user.');
     }
   };
-  
-  
 
   const handleCardClick = (item) => {
     if (selectedItemDetails === item) {
@@ -81,7 +73,7 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
     }
   }, [categories, selectedCategory]);
 
-  // Home 버튼 클릭 핸들러
+  
   const handleHomeClick = () => {
     setIsHome(true);
     setSelectedCategory(null);
@@ -190,6 +182,7 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
 
   const handleHideModifyItemModal = () => setShowModifyItemModal(false);  
 
+  // 개발 1번 : Real time 기반
   const calculateOpacity = (placedIn, goodUntil) => {
     const placedDate = new Date(placedIn)
     const expiryDate = new Date(goodUntil);
@@ -207,6 +200,22 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
     console.log('투명도:', opacity);
     return opacity;
   }
+
+  // 개발 2번 : 초 단위 기반
+  // const calculateOpacity = (placedIn) => {
+  //   const placedDate = new Date(placedIn).getTime(); 
+  //   const currentDate = Date.now();
+  //   const elapsedSeconds = (currentDate - placedDate) / 1000;
+
+    
+  //   if (elapsedSeconds > 10) {
+  //     return 0.2; 
+  //   }
+    
+  //   const opacity = 1 - (elapsedSeconds * 0.08); 
+  //   return Math.max(opacity, 0.2);
+  // }  
+
 
   return (
     <Container fluid>
@@ -268,6 +277,7 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
                         </div>
                         {item.icon && (
                           <div style={{ marginLeft: 'auto' }}>
+                            {/* 개발 1번 : Real time 기준 개발 version */}
                             <img 
                               src={item.icon} 
                               alt="Item Icon" 
@@ -277,11 +287,20 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
                                 opacity: calculateOpacity(item.placedIn, item.goodUntil)
                               }} 
                             />
+                            {/* 개발 2번 : 초 단위 개발 version */}
+                            {/* <img 
+                              src={item.icon} 
+                              alt="Item Icon" 
+                              style={{ 
+                                maxWidth: '50px', 
+                                maxHeight: '50px',
+                                opacity: calculateOpacity(item.placedIn)
+                              }} 
+                            /> */}
                           </div>
                         )}
                       </div>
                     
-                    {/* Additional information and actions displayed on card click */}
                     {selectedItemDetails === item && (
                       <div>
                         <Card.Text>Placed In&nbsp;&nbsp;: {item.placedIn}</Card.Text>

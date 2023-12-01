@@ -21,11 +21,9 @@ function App({ categories, addItem, removeItem, modifyItem }) {
 
   const handleCardClick = (item) => {
     if (selectedItemDetails === item) {
-      // 같은 아이템을 다시 클릭하면 상세 정보와 버튼 숨기기
       setSelectedItemDetails(null);
       setShowRemoveModifyButtons(false);
     } else {
-      // 다른 아이템을 클릭하면 상세 정보 표시 및 버튼 보이기
       setSelectedItemDetails(item);
       setShowRemoveModifyButtons(true);
     }
@@ -120,7 +118,6 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   };
 
   const handleRemoveItem = () => {
-    // Remove 버튼 클릭 시 수행할 작업 추가
     handleSelectItemToRemove(selectedItemDetails);
   };
   
@@ -139,7 +136,6 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   const handleHideRemoveItemModal = () => setShowRemoveItemModal(false);
 
   const handleModifyItem = () => {
-    // Modify 버튼 클릭 시 수행할 작업 추가
     handleSelectItemToModify(selectedItemDetails);
   };
 
@@ -157,6 +153,24 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   };
 
   const handleHideModifyItemModal = () => setShowModifyItemModal(false);  
+
+  const calculateOpacity = (goodUntil) => {
+    const expiryDate = new Date(goodUntil);
+    const currentDate = new Date();
+    const diffTime = expiryDate - currentDate;
+    const diffSeconds = diffTime / 1000;
+    console.log(diffSeconds,"초")
+
+    if (diffSeconds <= 0) {
+      return 0.2; // 만료 날짜가 지났을 때 투명도를 20%로 설정
+    }
+
+    // 남은 일 수에 따라 투명도를 계산
+    const opacity = Math.max(0.2, 1 - diffSeconds / 10)
+
+    console.log('투명도:', opacity);
+    return opacity;
+  }
 
   return (
     <Container fluid>
@@ -213,7 +227,15 @@ function App({ categories, addItem, removeItem, modifyItem }) {
                         </div>
                         {item.icon && (
                           <div style={{ marginLeft: 'auto' }}>
-                            <img src={item.icon} alt="Item Icon" style={{ maxWidth: '50px', maxHeight: '50px' }} />
+                            <img 
+                              src={item.icon} 
+                              alt="Item Icon" 
+                              style={{ 
+                                maxWidth: '50px', 
+                                maxHeight: '50px',
+                                opacity: calculateOpacity(item.goodUntil)
+                              }} 
+                            />
                           </div>
                         )}
                       </div>

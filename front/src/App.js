@@ -284,7 +284,7 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
                     {/* Additional information and actions displayed on card click */}
                     {selectedItemDetails === item && (
                       <div>
-                        <Card.Text>Placed In : {item.placedIn}</Card.Text>
+                        <Card.Text>Placed In&nbsp;&nbsp;: {item.placedIn}</Card.Text>
                         <Card.Text>Good Until: {item.goodUntil}</Card.Text>
                         {showRemoveModifyButtons && (
                           <div className="item-action-buttons" style={{ display: 'flex', justifyContent: 'space-between', marginTop: '10px' }}>

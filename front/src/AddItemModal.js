@@ -13,6 +13,8 @@ function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDeta
   
   const [item, setItem] = useState({ name: '', units: 1, placedIn: formattedToday, goodUntil: formattedToday, icon: '' });
   const [foodNames, setFoodNames] = useState([]);
+
+  const [searchTerm, setSearchTerm] = useState('');
   
   useEffect(() => {
     console.log('AddItemModal - Selected Category:', selectedCategory);
@@ -35,6 +37,10 @@ function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDeta
 
     loadFoodNamesFromFirestore();
   }, []);
+
+  const handleSearch = (e) => {
+    setSearchTerm(e.target.value);
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -80,10 +86,16 @@ function AddItemModal({ show, handleClose, onAddNewItem, itemDetails, onItemDeta
         <Form onSubmit={handleSubmit}>
         <Form.Group>
             <Form.Label>Item Name</Form.Label>
-            <Form.Control as="select" name="name" value={item.name} onChange={handleChange}>
+            <Form.Control as="select" name="name" value={item.name} onChange={handleChange} onInput={handleSearch}>
             <option value="">Select an item</option>
-            {foodNames.map(food => (
-            <option key={food.name} value={food.name}>{food.name}</option>
+            {foodNames
+              .filter((food) =>
+                food.name.toLowerCase().includes(searchTerm.toLowerCase())
+              )
+              .map((food) => (
+                <option key={food.name} value={food.name}>
+                  {food.name}
+                </option>
             ))}
             </Form.Control>
         </Form.Group>

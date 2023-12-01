@@ -37,11 +37,15 @@ function App({ categories, addItem, removeItem, modifyItem }) {
   }, []);
 
   useEffect(() => {
-    if (categories.length > 0) {
-      setSelectedCategory(categories[0]);
-      console.log(categories[0])
+    if (selectedCategory) {
+      const categoryExists = categories.find(c => c.name === selectedCategory.name);
+      if (categoryExists) {
+        setSelectedCategory(categoryExists);
+      } else {
+        setSelectedCategory(categories[0]);
+      }
     }
-  }, [categories]);
+  }, [categories, selectedCategory]);
 
   // Home 버튼 클릭 핸들러
   const handleHomeClick = () => {

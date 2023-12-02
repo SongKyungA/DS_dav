@@ -1,0 +1,2461 @@
+{
+    "nodes": [
+        {
+            "id": "어묵김말이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/128671"
+        },
+        {
+            "id": "현미호두죽",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/131871"
+        },
+        {
+            "id": "북어갈비",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/139247"
+        },
+        {
+            "id": "토마토스파게티",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/149207"
+        },
+        {
+            "id": "표고버섯탕수",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/151148"
+        },
+        {
+            "id": "갈릭치킨",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/153040"
+        },
+        {
+            "id": "양파링튀김",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/221094"
+        },
+        {
+            "id": "참치삼각김밥",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/221097"
+        },
+        {
+            "id": "뚝배기해물떡볶이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/221098"
+        },
+        {
+            "id": "스팸샌드위치",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/221101"
+        },
+        {
+            "id": "참치깻잎주먹밥",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/221102"
+        },
+        {
+            "id": "새우볶음밥고로케",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/223583"
+        },
+        {
+            "id": "스팸쌈밥",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/223584"
+        },
+        {
+            "id": "베이컨김치말이밥",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/225141"
+        },
+        {
+            "id": "스팸오이식빵롤",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/225146"
+        },
+        {
+            "id": "고구마치즈스틱",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/331003"
+        },
+        {
+            "id": "오징어볶음우동",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/331006"
+        },
+        {
+            "id": "호두가래떡구이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/333866"
+        },
+        {
+            "id": "카레새우삼각김밥",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/333869"
+        },
+        {
+            "id": "블루베리쨈",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/340534"
+        },
+        {
+            "id": "미니새우버거",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/340537"
+        },
+        {
+            "id": "고구마그라탕",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/343935"
+        },
+        {
+            "id": "밤식빵",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/344698"
+        },
+        {
+            "id": "고구마보트",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/345834"
+        },
+        {
+            "id": "감자스프",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/346652"
+        },
+        {
+            "id": "뚝배기라면",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/346665"
+        },
+        {
+            "id": "포테이토스킨",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/347791"
+        },
+        {
+            "id": "오코노미야키",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/349330"
+        },
+        {
+            "id": "야끼만두",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/349332"
+        },
+        {
+            "id": "두부조림",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/349381"
+        },
+        {
+            "id": "매운갈비찜",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/349386"
+        },
+        {
+            "id": "어묵볶음",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/421942"
+        },
+        {
+            "id": "꼬마김밥",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/352364"
+        },
+        {
+            "id": "홍시아이스크림",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/352415"
+        },
+        {
+            "id": "단호박사블레",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/357068"
+        },
+        {
+            "id": "뮈슬리초코칩쿠키",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/358881"
+        },
+        {
+            "id": "아몬드타르트",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/369072"
+        },
+        {
+            "id": "홍시요거트",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/369918"
+        },
+        {
+            "id": "파네토네",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/373342"
+        },
+        {
+            "id": "소고기크림치즈오븐스파게티",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/374689"
+        },
+        {
+            "id": "돼지고기김치찌개",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/375800"
+        },
+        {
+            "id": "밤머핀",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/380671"
+        },
+        {
+            "id": "찜닭",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/380726"
+        },
+        {
+            "id": "바나나프렌치토스트",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/380934"
+        },
+        {
+            "id": "단호박해물치즈구이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/381157"
+        },
+        {
+            "id": "파스타",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/383305"
+        },
+        {
+            "id": "갸토쇼콜라",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/383788"
+        },
+        {
+            "id": "바질페스토",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/384426"
+        },
+        {
+            "id": "포카치아",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/384503"
+        },
+        {
+            "id": "흑미와플",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/384505"
+        },
+        {
+            "id": "쏘야볶음",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/384508"
+        },
+        {
+            "id": "튜나에그샌드위치",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/384888"
+        },
+        {
+            "id": "푸딩",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/385575"
+        },
+        {
+            "id": "오븐웨지감자",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/385717"
+        },
+        {
+            "id": "대추스콘",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387111"
+        },
+        {
+            "id": "짜장떡볶이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387126"
+        },
+        {
+            "id": "바나나찹쌀떡",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387415"
+        },
+        {
+            "id": "카레어묵전골",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387766"
+        },
+        {
+            "id": "모카머핀",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387780"
+        },
+        {
+            "id": "버섯포카치아",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387790"
+        },
+        {
+            "id": "어묵",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387802"
+        },
+        {
+            "id": "크림소스",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387811"
+        },
+        {
+            "id": "파니니",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/388168"
+        },
+        {
+            "id": "리코타치즈",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/389261"
+        },
+        {
+            "id": "레몬생크림케이크",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/390307"
+        },
+        {
+            "id": "시나몬큐브",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/390949"
+        },
+        {
+            "id": "초코바나나머핀",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/390973"
+        },
+        {
+            "id": "애호박사워크림케이크",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/391763"
+        },
+        {
+            "id": "브라우니",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/393505"
+        },
+        {
+            "id": "피낭시에",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/395162"
+        },
+        {
+            "id": "뮈슬리바",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/396244"
+        },
+        {
+            "id": "그린티현미쉬폰",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/398391"
+        },
+        {
+            "id": "카레",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/398430"
+        },
+        {
+            "id": "불닭퀘사디아",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/398436"
+        },
+        {
+            "id": "계란빵",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/400622"
+        },
+        {
+            "id": "얼큰수제비",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/411750"
+        },
+        {
+            "id": "시나몬롤",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/413285"
+        },
+        {
+            "id": "오이무침",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/413979"
+        },
+        {
+            "id": "식빵꽃",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/414073"
+        },
+        {
+            "id": "쇼콜라케이크",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/414094"
+        },
+        {
+            "id": "전자렌지딸기찹쌀떡",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/414203"
+        },
+        {
+            "id": "닭고기샌드위치",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/414255"
+        },
+        {
+            "id": "깻잎떡볶이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/414263"
+        },
+        {
+            "id": "연어또띠아말이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/414319"
+        },
+        {
+            "id": "김치볶음밥",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/414544"
+        },
+        {
+            "id": "바나나머핀",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/415008"
+        },
+        {
+            "id": "모밀국수",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/420314"
+        },
+        {
+            "id": "토마토카프레제샐러드",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/420422"
+        },
+        {
+            "id": "오징어청양고추조림",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/420425"
+        },
+        {
+            "id": "카야쨈호떡",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/421146"
+        },
+        {
+            "id": "초콜렛치즈머핀",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/421183"
+        },
+        {
+            "id": "샐러드오므라이스",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/421940"
+        },
+        {
+            "id": "두부치즈케익",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/423378"
+        },
+        {
+            "id": "라볶이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/424008"
+        },
+        {
+            "id": "깡장",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/500753"
+        },
+        {
+            "id": "밤조림",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/501958"
+        },
+        {
+            "id": "티라미수컵케익",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/502713"
+        },
+        {
+            "id": "크로켓",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/503870"
+        }
+    ],
+    "links": [
+        {
+            "source": "어묵김말이",
+            "target": "어묵",
+            "value": 1
+        },
+        {
+            "source": "어묵김말이",
+            "target": "김밥용김",
+            "value": 1
+        },
+        {
+            "source": "어묵김말이",
+            "target": "당면",
+            "value": 1
+        },
+        {
+            "source": "어묵김말이",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "현미호두죽",
+            "target": "현미",
+            "value": 1
+        },
+        {
+            "source": "현미호두죽",
+            "target": "찹쌀",
+            "value": 1
+        },
+        {
+            "source": "현미호두죽",
+            "target": "호두",
+            "value": 1
+        },
+        {
+            "source": "현미호두죽",
+            "target": "물",
+            "value": 1
+        },
+        {
+            "source": "북어갈비",
+            "target": "북어포",
+            "value": 1
+        },
+        {
+            "source": "북어갈비",
+            "target": "찹쌀가루",
+            "value": 1
+        },
+        {
+            "source": "북어갈비",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "북어갈비",
+            "target": "물",
+            "value": 1
+        },
+        {
+            "source": "토마토스파게티",
+            "target": "파스타면",
+            "value": 1
+        },
+        {
+            "source": "토마토스파게티",
+            "target": "토마토 페이스트",
+            "value": 1
+        },
+        {
+            "source": "토마토스파게티",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "토마토스파게티",
+            "target": "다진마늘",
+            "value": 1
+        },
+        {
+            "source": "표고버섯탕수",
+            "target": "건표고버섯",
+            "value": 1
+        },
+        {
+            "source": "표고버섯탕수",
+            "target": "오이",
+            "value": 1
+        },
+        {
+            "source": "표고버섯탕수",
+            "target": "당근",
+            "value": 1
+        },
+        {
+            "source": "표고버섯탕수",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "갈릭치킨",
+            "target": "닭",
+            "value": 1
+        },
+        {
+            "source": "갈릭치킨",
+            "target": "다진마늘",
+            "value": 1
+        },
+        {
+            "source": "갈릭치킨",
+            "target": "화이트와인",
+            "value": 1
+        },
+        {
+            "source": "갈릭치킨",
+            "target": "올리브유",
+            "value": 1
+        },
+        {
+            "source": "양파링튀김",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "양파링튀김",
+            "target": "빵가루",
+            "value": 1
+        },
+        {
+            "source": "양파링튀김",
+            "target": "계란",
+            "value": 1
+        },
+        {
+            "source": "양파링튀김",
+            "target": "밀가루",
+            "value": 1
+        },
+        {
+            "source": "참치삼각김밥",
+            "target": "밥",
+            "value": 1
+        },
+        {
+            "source": "참치삼각김밥",
+            "target": "참치캔 큰거",
+            "value": 1
+        },
+        {
+            "source": "참치삼각김밥",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "참치삼각김밥",
+            "target": "다진김치",
+            "value": 1
+        },
+        {
+            "source": "뚝배기해물떡볶이",
+            "target": "떡볶이떡",
+            "value": 1
+        },
+        {
+            "source": "뚝배기해물떡볶이",
+            "target": "당근",
+            "value": 1
+        },
+        {
+            "source": "뚝배기해물떡볶이",
+            "target": "파",
+            "value": 1
+        },
+        {
+            "source": "뚝배기해물떡볶이",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "스팸샌드위치",
+            "target": "스팸 싱글",
+            "value": 1
+        },
+        {
+            "source": "스팸샌드위치",
+            "target": "샌드위치용 식빵",
+            "value": 1
+        },
+        {
+            "source": "스팸샌드위치",
+            "target": "토마토",
+            "value": 1
+        },
+        {
+            "source": "스팸샌드위치",
+            "target": "상추",
+            "value": 1
+        },
+        {
+            "source": "참치깻잎주먹밥",
+            "target": "밥",
+            "value": 1
+        },
+        {
+            "source": "참치깻잎주먹밥",
+            "target": "깻잎",
+            "value": 1
+        },
+        {
+            "source": "참치깻잎주먹밥",
+            "target": "참치 작은캔",
+            "value": 1
+        },
+        {
+            "source": "참치깻잎주먹밥",
+            "target": "당근",
+            "value": 1
+        },
+        {
+            "source": "새우볶음밥고로케",
+            "target": "새우",
+            "value": 1
+        },
+        {
+            "source": "새우볶음밥고로케",
+            "target": "밥",
+            "value": 1
+        },
+        {
+            "source": "새우볶음밥고로케",
+            "target": "김치",
+            "value": 1
+        },
+        {
+            "source": "새우볶음밥고로케",
+            "target": "당근",
+            "value": 1
+        },
+        {
+            "source": "스팸쌈밥",
+            "target": "밥",
+            "value": 1
+        },
+        {
+            "source": "스팸쌈밥",
+            "target": "상추",
+            "value": 1
+        },
+        {
+            "source": "스팸쌈밥",
+            "target": "스팸",
+            "value": 1
+        },
+        {
+            "source": "스팸쌈밥",
+            "target": "참기름",
+            "value": 1
+        },
+        {
+            "source": "베이컨김치말이밥",
+            "target": "밥",
+            "value": 1
+        },
+        {
+            "source": "베이컨김치말이밥",
+            "target": "김치",
+            "value": 1
+        },
+        {
+            "source": "베이컨김치말이밥",
+            "target": "베이컨 적당량",
+            "value": 1
+        },
+        {
+            "source": "베이컨김치말이밥",
+            "target": "깻잎",
+            "value": 1
+        },
+        {
+            "source": "스팸오이식빵롤",
+            "target": "식빵",
+            "value": 1
+        },
+        {
+            "source": "스팸오이식빵롤",
+            "target": "스팸",
+            "value": 1
+        },
+        {
+            "source": "스팸오이식빵롤",
+            "target": "오이",
+            "value": 1
+        },
+        {
+            "source": "스팸오이식빵롤",
+            "target": "머스터드",
+            "value": 1
+        },
+        {
+            "source": "고구마치즈스틱",
+            "target": "고구마",
+            "value": 1
+        },
+        {
+            "source": "고구마치즈스틱",
+            "target": "모차렐라치즈",
+            "value": 1
+        },
+        {
+            "source": "고구마치즈스틱",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "고구마치즈스틱",
+            "target": "밀가루",
+            "value": 1
+        },
+        {
+            "source": "오징어볶음우동",
+            "target": "오징어",
+            "value": 1
+        },
+        {
+            "source": "오징어볶음우동",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "오징어볶음우동",
+            "target": "대파",
+            "value": 1
+        },
+        {
+            "source": "오징어볶음우동",
+            "target": "당근",
+            "value": 1
+        },
+        {
+            "source": "호두가래떡구이",
+            "target": "가래떡",
+            "value": 1
+        },
+        {
+            "source": "호두가래떡구이",
+            "target": "호두",
+            "value": 1
+        },
+        {
+            "source": "호두가래떡구이",
+            "target": "꿀",
+            "value": 1
+        },
+        {
+            "source": "카레새우삼각김밥",
+            "target": "새우",
+            "value": 1
+        },
+        {
+            "source": "카레새우삼각김밥",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "카레새우삼각김밥",
+            "target": "김치",
+            "value": 1
+        },
+        {
+            "source": "카레새우삼각김밥",
+            "target": "밥지을쌀",
+            "value": 1
+        },
+        {
+            "source": "블루베리쨈",
+            "target": "블루베리",
+            "value": 1
+        },
+        {
+            "source": "블루베리쨈",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "블루베리쨈",
+            "target": "레몬즙",
+            "value": 1
+        },
+        {
+            "source": "블루베리쨈",
+            "target": "럼",
+            "value": 1
+        },
+        {
+            "source": "미니새우버거",
+            "target": "모닝빵",
+            "value": 1
+        },
+        {
+            "source": "미니새우버거",
+            "target": "새우",
+            "value": 1
+        },
+        {
+            "source": "미니새우버거",
+            "target": "상추",
+            "value": 1
+        },
+        {
+            "source": "미니새우버거",
+            "target": "토마토",
+            "value": 1
+        },
+        {
+            "source": "고구마그라탕",
+            "target": "고구마",
+            "value": 1
+        },
+        {
+            "source": "고구마그라탕",
+            "target": "생크림",
+            "value": 1
+        },
+        {
+            "source": "고구마그라탕",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "고구마그라탕",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "밤식빵",
+            "target": "쌀가루",
+            "value": 1
+        },
+        {
+            "source": "밤식빵",
+            "target": "계란",
+            "value": 1
+        },
+        {
+            "source": "밤식빵",
+            "target": "우유",
+            "value": 1
+        },
+        {
+            "source": "밤식빵",
+            "target": "인스턴트 드라이 이스트",
+            "value": 1
+        },
+        {
+            "source": "고구마보트",
+            "target": "고구마",
+            "value": 1
+        },
+        {
+            "source": "고구마보트",
+            "target": "생크림",
+            "value": 1
+        },
+        {
+            "source": "고구마보트",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "고구마보트",
+            "target": "커스타드크림",
+            "value": 1
+        },
+        {
+            "source": "감자스프",
+            "target": "감자",
+            "value": 1
+        },
+        {
+            "source": "감자스프",
+            "target": "생크림",
+            "value": 1
+        },
+        {
+            "source": "감자스프",
+            "target": "우유",
+            "value": 1
+        },
+        {
+            "source": "감자스프",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "뚝배기라면",
+            "target": "라면",
+            "value": 1
+        },
+        {
+            "source": "뚝배기라면",
+            "target": "김치",
+            "value": 1
+        },
+        {
+            "source": "뚝배기라면",
+            "target": "굴",
+            "value": 1
+        },
+        {
+            "source": "뚝배기라면",
+            "target": "파",
+            "value": 1
+        },
+        {
+            "source": "포테이토스킨",
+            "target": "감자",
+            "value": 1
+        },
+        {
+            "source": "포테이토스킨",
+            "target": "올리브유 약간",
+            "value": 1
+        },
+        {
+            "source": "포테이토스킨",
+            "target": "베이컨",
+            "value": 1
+        },
+        {
+            "source": "포테이토스킨",
+            "target": "모짜렐라치즈",
+            "value": 1
+        },
+        {
+            "source": "오코노미야키",
+            "target": "양배추",
+            "value": 1
+        },
+        {
+            "source": "오코노미야키",
+            "target": "숙주",
+            "value": 1
+        },
+        {
+            "source": "오코노미야키",
+            "target": "오징어",
+            "value": 1
+        },
+        {
+            "source": "오코노미야키",
+            "target": "새우",
+            "value": 1
+        },
+        {
+            "source": "야끼만두",
+            "target": "당면",
+            "value": 1
+        },
+        {
+            "source": "야끼만두",
+            "target": "부추",
+            "value": 1
+        },
+        {
+            "source": "야끼만두",
+            "target": "만두피",
+            "value": 1
+        },
+        {
+            "source": "야끼만두",
+            "target": "물엿 또는 설탕",
+            "value": 1
+        },
+        {
+            "source": "두부조림",
+            "target": "손두부",
+            "value": 1
+        },
+        {
+            "source": "두부조림",
+            "target": "포도씨유",
+            "value": 1
+        },
+        {
+            "source": "두부조림",
+            "target": "소금 약간",
+            "value": 1
+        },
+        {
+            "source": "두부조림",
+            "target": "꽈리고추",
+            "value": 1
+        },
+        {
+            "source": "매운갈비찜",
+            "target": "갈비",
+            "value": 1
+        },
+        {
+            "source": "매운갈비찜",
+            "target": "월계수잎",
+            "value": 1
+        },
+        {
+            "source": "매운갈비찜",
+            "target": "통마늘",
+            "value": 1
+        },
+        {
+            "source": "매운갈비찜",
+            "target": "후춧가루",
+            "value": 1
+        },
+        {
+            "source": "어묵볶음",
+            "target": "어묵",
+            "value": 1
+        },
+        {
+            "source": "어묵볶음",
+            "target": "포도씨유 적당량",
+            "value": 1
+        },
+        {
+            "source": "어묵볶음",
+            "target": "꽈리고추",
+            "value": 1
+        },
+        {
+            "source": "어묵볶음",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "꼬마김밥",
+            "target": "밥",
+            "value": 1
+        },
+        {
+            "source": "꼬마김밥",
+            "target": "어묵",
+            "value": 1
+        },
+        {
+            "source": "꼬마김밥",
+            "target": "오이",
+            "value": 1
+        },
+        {
+            "source": "꼬마김밥",
+            "target": "햄",
+            "value": 1
+        },
+        {
+            "source": "홍시아이스크림",
+            "target": "홍시",
+            "value": 1
+        },
+        {
+            "source": "홍시아이스크림",
+            "target": "생크림",
+            "value": 1
+        },
+        {
+            "source": "홍시아이스크림",
+            "target": "레몬즙",
+            "value": 1
+        },
+        {
+            "source": "단호박사블레",
+            "target": "박력분",
+            "value": 1
+        },
+        {
+            "source": "단호박사블레",
+            "target": "단호박가루",
+            "value": 1
+        },
+        {
+            "source": "단호박사블레",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "단호박사블레",
+            "target": "슈가파우더",
+            "value": 1
+        },
+        {
+            "source": "뮈슬리초코칩쿠키",
+            "target": "박력분",
+            "value": 1
+        },
+        {
+            "source": "뮈슬리초코칩쿠키",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "뮈슬리초코칩쿠키",
+            "target": "베이킹 파우더",
+            "value": 1
+        },
+        {
+            "source": "뮈슬리초코칩쿠키",
+            "target": "베이킹 소다",
+            "value": 1
+        },
+        {
+            "source": "아몬드타르트",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "아몬드타르트",
+            "target": "박력분",
+            "value": 1
+        },
+        {
+            "source": "아몬드타르트",
+            "target": "소금",
+            "value": 1
+        },
+        {
+            "source": "아몬드타르트",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "홍시요거트",
+            "target": "홍시 큰것",
+            "value": 1
+        },
+        {
+            "source": "홍시요거트",
+            "target": "레몬즙",
+            "value": 1
+        },
+        {
+            "source": "홍시요거트",
+            "target": "플레인 요거트",
+            "value": 1
+        },
+        {
+            "source": "파네토네",
+            "target": "강력분",
+            "value": 1
+        },
+        {
+            "source": "파네토네",
+            "target": "우유",
+            "value": 1
+        },
+        {
+            "source": "파네토네",
+            "target": "인스턴드 드라이 이스트",
+            "value": 1
+        },
+        {
+            "source": "파네토네",
+            "target": "소금",
+            "value": 1
+        },
+        {
+            "source": "소고기크림치즈오븐스파게티",
+            "target": "배추김치",
+            "value": 1
+        },
+        {
+            "source": "소고기크림치즈오븐스파게티",
+            "target": "소고기",
+            "value": 1
+        },
+        {
+            "source": "소고기크림치즈오븐스파게티",
+            "target": "치즈",
+            "value": 1
+        },
+        {
+            "source": "소고기크림치즈오븐스파게티",
+            "target": "국수",
+            "value": 1
+        },
+        {
+            "source": "돼지고기김치찌개",
+            "target": "돼지고기",
+            "value": 1
+        },
+        {
+            "source": "돼지고기김치찌개",
+            "target": "감자",
+            "value": 1
+        },
+        {
+            "source": "돼지고기김치찌개",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "돼지고기김치찌개",
+            "target": "두부",
+            "value": 1
+        },
+        {
+            "source": "밤머핀",
+            "target": "박력분",
+            "value": 1
+        },
+        {
+            "source": "밤머핀",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "밤머핀",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "밤머핀",
+            "target": "밤페이스트",
+            "value": 1
+        },
+        {
+            "source": "찜닭",
+            "target": "닭",
+            "value": 1
+        },
+        {
+            "source": "찜닭",
+            "target": "청양고추",
+            "value": 1
+        },
+        {
+            "source": "찜닭",
+            "target": "건고추",
+            "value": 1
+        },
+        {
+            "source": "찜닭",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "바나나프렌치토스트",
+            "target": "브리오슈슬라이스",
+            "value": 1
+        },
+        {
+            "source": "바나나프렌치토스트",
+            "target": "바나나",
+            "value": 1
+        },
+        {
+            "source": "바나나프렌치토스트",
+            "target": "계란",
+            "value": 1
+        },
+        {
+            "source": "바나나프렌치토스트",
+            "target": "우유",
+            "value": 1
+        },
+        {
+            "source": "단호박해물치즈구이",
+            "target": "단호박",
+            "value": 1
+        },
+        {
+            "source": "단호박해물치즈구이",
+            "target": "낙지",
+            "value": 1
+        },
+        {
+            "source": "단호박해물치즈구이",
+            "target": "모듬해물",
+            "value": 1
+        },
+        {
+            "source": "단호박해물치즈구이",
+            "target": "새우",
+            "value": 1
+        },
+        {
+            "source": "파스타",
+            "target": "앤젤헤어 파스타",
+            "value": 1
+        },
+        {
+            "source": "파스타",
+            "target": "명란",
+            "value": 1
+        },
+        {
+            "source": "파스타",
+            "target": "마늘",
+            "value": 1
+        },
+        {
+            "source": "파스타",
+            "target": "우메보시",
+            "value": 1
+        },
+        {
+            "source": "갸토쇼콜라",
+            "target": "박력분",
+            "value": 1
+        },
+        {
+            "source": "갸토쇼콜라",
+            "target": "코코아가루",
+            "value": 1
+        },
+        {
+            "source": "갸토쇼콜라",
+            "target": "초콜릿",
+            "value": 1
+        },
+        {
+            "source": "갸토쇼콜라",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "바질페스토",
+            "target": "바질잎",
+            "value": 1
+        },
+        {
+            "source": "바질페스토",
+            "target": "통마늘",
+            "value": 1
+        },
+        {
+            "source": "바질페스토",
+            "target": "잣",
+            "value": 1
+        },
+        {
+            "source": "바질페스토",
+            "target": "올리브오일",
+            "value": 1
+        },
+        {
+            "source": "포카치아",
+            "target": "강력분",
+            "value": 1
+        },
+        {
+            "source": "포카치아",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "포카치아",
+            "target": "소금",
+            "value": 1
+        },
+        {
+            "source": "포카치아",
+            "target": "몰트",
+            "value": 1
+        },
+        {
+            "source": "흑미와플",
+            "target": "흑미가루",
+            "value": 1
+        },
+        {
+            "source": "흑미와플",
+            "target": "계란",
+            "value": 1
+        },
+        {
+            "source": "흑미와플",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "흑미와플",
+            "target": "소금",
+            "value": 1
+        },
+        {
+            "source": "쏘야볶음",
+            "target": "햄",
+            "value": 1
+        },
+        {
+            "source": "쏘야볶음",
+            "target": "파프리카",
+            "value": 1
+        },
+        {
+            "source": "쏘야볶음",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "쏘야볶음",
+            "target": "당근",
+            "value": 1
+        },
+        {
+            "source": "튜나에그샌드위치",
+            "target": "식빵",
+            "value": 1
+        },
+        {
+            "source": "튜나에그샌드위치",
+            "target": "양상추",
+            "value": 1
+        },
+        {
+            "source": "튜나에그샌드위치",
+            "target": "슬라이스햄",
+            "value": 1
+        },
+        {
+            "source": "튜나에그샌드위치",
+            "target": "토마토",
+            "value": 1
+        },
+        {
+            "source": "푸딩",
+            "target": "우유",
+            "value": 1
+        },
+        {
+            "source": "푸딩",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "푸딩",
+            "target": "계란",
+            "value": 1
+        },
+        {
+            "source": "푸딩",
+            "target": "바닐라오일",
+            "value": 1
+        },
+        {
+            "source": "오븐웨지감자",
+            "target": "감자",
+            "value": 1
+        },
+        {
+            "source": "오븐웨지감자",
+            "target": "소금",
+            "value": 1
+        },
+        {
+            "source": "오븐웨지감자",
+            "target": "후춧가루",
+            "value": 1
+        },
+        {
+            "source": "오븐웨지감자",
+            "target": "파슬리가루",
+            "value": 1
+        },
+        {
+            "source": "대추스콘",
+            "target": "강력분",
+            "value": 1
+        },
+        {
+            "source": "대추스콘",
+            "target": "박력분",
+            "value": 1
+        },
+        {
+            "source": "대추스콘",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "대추스콘",
+            "target": "소금",
+            "value": 1
+        },
+        {
+            "source": "짜장떡볶이",
+            "target": "떡볶이떡",
+            "value": 1
+        },
+        {
+            "source": "짜장떡볶이",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "짜장떡볶이",
+            "target": "양배추",
+            "value": 1
+        },
+        {
+            "source": "짜장떡볶이",
+            "target": "대파",
+            "value": 1
+        },
+        {
+            "source": "바나나찹쌀떡",
+            "target": "찹쌀가루",
+            "value": 1
+        },
+        {
+            "source": "바나나찹쌀떡",
+            "target": "찬물",
+            "value": 1
+        },
+        {
+            "source": "바나나찹쌀떡",
+            "target": "바나나",
+            "value": 1
+        },
+        {
+            "source": "바나나찹쌀떡",
+            "target": "옥수수전분",
+            "value": 1
+        },
+        {
+            "source": "카레어묵전골",
+            "target": "어묵",
+            "value": 1
+        },
+        {
+            "source": "카레어묵전골",
+            "target": "팽이버섯",
+            "value": 1
+        },
+        {
+            "source": "카레어묵전골",
+            "target": "쑥갓",
+            "value": 1
+        },
+        {
+            "source": "카레어묵전골",
+            "target": "당근",
+            "value": 1
+        },
+        {
+            "source": "모카머핀",
+            "target": "박력분",
+            "value": 1
+        },
+        {
+            "source": "모카머핀",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "모카머핀",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "모카머핀",
+            "target": "베이킹파우더",
+            "value": 1
+        },
+        {
+            "source": "버섯포카치아",
+            "target": "박력분",
+            "value": 1
+        },
+        {
+            "source": "버섯포카치아",
+            "target": "물",
+            "value": 1
+        },
+        {
+            "source": "버섯포카치아",
+            "target": "표고버섯",
+            "value": 1
+        },
+        {
+            "source": "버섯포카치아",
+            "target": "이스트",
+            "value": 1
+        },
+        {
+            "source": "어묵",
+            "target": "어묵",
+            "value": 1
+        },
+        {
+            "source": "어묵",
+            "target": "양배추",
+            "value": 1
+        },
+        {
+            "source": "어묵",
+            "target": "파",
+            "value": 1
+        },
+        {
+            "source": "어묵",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "크림소스",
+            "target": "홍합",
+            "value": 1
+        },
+        {
+            "source": "크림소스",
+            "target": "베이컨",
+            "value": 1
+        },
+        {
+            "source": "크림소스",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "크림소스",
+            "target": "파프리카",
+            "value": 1
+        },
+        {
+            "source": "파니니",
+            "target": "강력분",
+            "value": 1
+        },
+        {
+            "source": "파니니",
+            "target": "몰트",
+            "value": 1
+        },
+        {
+            "source": "파니니",
+            "target": "드라이이스트",
+            "value": 1
+        },
+        {
+            "source": "파니니",
+            "target": "카놀라유 라이트",
+            "value": 1
+        },
+        {
+            "source": "파니니",
+            "target": "파니니",
+            "value": 1
+        },
+        {
+            "source": "파니니",
+            "target": "불고기",
+            "value": 1
+        },
+        {
+            "source": "파니니",
+            "target": "닭가슴살",
+            "value": 1
+        },
+        {
+            "source": "파니니",
+            "target": "양상추",
+            "value": 1
+        },
+        {
+            "source": "리코타치즈",
+            "target": "우유",
+            "value": 1
+        },
+        {
+            "source": "리코타치즈",
+            "target": "생크림",
+            "value": 1
+        },
+        {
+            "source": "리코타치즈",
+            "target": "소금",
+            "value": 1
+        },
+        {
+            "source": "레몬생크림케이크",
+            "target": "생크림",
+            "value": 1
+        },
+        {
+            "source": "레몬생크림케이크",
+            "target": "박력분",
+            "value": 1
+        },
+        {
+            "source": "레몬생크림케이크",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "레몬생크림케이크",
+            "target": "베이킹파우더",
+            "value": 1
+        },
+        {
+            "source": "시나몬큐브",
+            "target": "박력분",
+            "value": 1
+        },
+        {
+            "source": "시나몬큐브",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "시나몬큐브",
+            "target": "바닐라오일",
+            "value": 1
+        },
+        {
+            "source": "시나몬큐브",
+            "target": "아몬드파우더",
+            "value": 1
+        },
+        {
+            "source": "초코바나나머핀",
+            "target": "바나나",
+            "value": 1
+        },
+        {
+            "source": "초코바나나머핀",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "초코바나나머핀",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "애호박사워크림케이크",
+            "target": "박력분",
+            "value": 1
+        },
+        {
+            "source": "애호박사워크림케이크",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "애호박사워크림케이크",
+            "target": "계란",
+            "value": 1
+        },
+        {
+            "source": "애호박사워크림케이크",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "브라우니",
+            "target": "다크커버춰",
+            "value": 1
+        },
+        {
+            "source": "브라우니",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "브라우니",
+            "target": "박력분",
+            "value": 1
+        },
+        {
+            "source": "브라우니",
+            "target": "코코아",
+            "value": 1
+        },
+        {
+            "source": "피낭시에",
+            "target": "백미가루",
+            "value": 1
+        },
+        {
+            "source": "피낭시에",
+            "target": "아몬드가루",
+            "value": 1
+        },
+        {
+            "source": "피낭시에",
+            "target": "슈가파우더",
+            "value": 1
+        },
+        {
+            "source": "피낭시에",
+            "target": "베이킹 파우더",
+            "value": 1
+        },
+        {
+            "source": "뮈슬리바",
+            "target": "뮈슬리",
+            "value": 1
+        },
+        {
+            "source": "뮈슬리바",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "뮈슬리바",
+            "target": "요리당",
+            "value": 1
+        },
+        {
+            "source": "뮈슬리바",
+            "target": "꿀",
+            "value": 1
+        },
+        {
+            "source": "그린티현미쉬폰",
+            "target": "현미가루",
+            "value": 1
+        },
+        {
+            "source": "그린티현미쉬폰",
+            "target": "노른자",
+            "value": 1
+        },
+        {
+            "source": "그린티현미쉬폰",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "그린티현미쉬폰",
+            "target": "우유 또는 물",
+            "value": 1
+        },
+        {
+            "source": "카레",
+            "target": "돼지고기",
+            "value": 1
+        },
+        {
+            "source": "카레",
+            "target": "당근",
+            "value": 1
+        },
+        {
+            "source": "카레",
+            "target": "감자",
+            "value": 1
+        },
+        {
+            "source": "카레",
+            "target": "파프리카",
+            "value": 1
+        },
+        {
+            "source": "불닭퀘사디아",
+            "target": "닭가슴살",
+            "value": 1
+        },
+        {
+            "source": "불닭퀘사디아",
+            "target": "홍피망",
+            "value": 1
+        },
+        {
+            "source": "불닭퀘사디아",
+            "target": "청피망",
+            "value": 1
+        },
+        {
+            "source": "불닭퀘사디아",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "계란빵",
+            "target": "핫케이크가루",
+            "value": 1
+        },
+        {
+            "source": "계란빵",
+            "target": "우유",
+            "value": 1
+        },
+        {
+            "source": "계란빵",
+            "target": "치즈",
+            "value": 1
+        },
+        {
+            "source": "계란빵",
+            "target": "파슬리가루",
+            "value": 1
+        },
+        {
+            "source": "얼큰수제비",
+            "target": "중력분",
+            "value": 1
+        },
+        {
+            "source": "얼큰수제비",
+            "target": "찬물",
+            "value": 1
+        },
+        {
+            "source": "얼큰수제비",
+            "target": "올리브유",
+            "value": 1
+        },
+        {
+            "source": "얼큰수제비",
+            "target": "소금",
+            "value": 1
+        },
+        {
+            "source": "시나몬롤",
+            "target": "통밀브레드믹스",
+            "value": 1
+        },
+        {
+            "source": "시나몬롤",
+            "target": "우유",
+            "value": 1
+        },
+        {
+            "source": "시나몬롤",
+            "target": "카놀라유",
+            "value": 1
+        },
+        {
+            "source": "시나몬롤",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "오이무침",
+            "target": "오이",
+            "value": 1
+        },
+        {
+            "source": "오이무침",
+            "target": "대파",
+            "value": 1
+        },
+        {
+            "source": "오이무침",
+            "target": "마늘",
+            "value": 1
+        },
+        {
+            "source": "오이무침",
+            "target": "고추장",
+            "value": 1
+        },
+        {
+            "source": "식빵꽃",
+            "target": "강력분",
+            "value": 1
+        },
+        {
+            "source": "식빵꽃",
+            "target": "박력분",
+            "value": 1
+        },
+        {
+            "source": "식빵꽃",
+            "target": "우유",
+            "value": 1
+        },
+        {
+            "source": "식빵꽃",
+            "target": "물",
+            "value": 1
+        },
+        {
+            "source": "쇼콜라케이크",
+            "target": "초콜렛",
+            "value": 1
+        },
+        {
+            "source": "쇼콜라케이크",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "쇼콜라케이크",
+            "target": "박력분",
+            "value": 1
+        },
+        {
+            "source": "쇼콜라케이크",
+            "target": "코코아파우더",
+            "value": 1
+        },
+        {
+            "source": "전자렌지딸기찹쌀떡",
+            "target": "딸기",
+            "value": 1
+        },
+        {
+            "source": "전자렌지딸기찹쌀떡",
+            "target": "녹말가루",
+            "value": 1
+        },
+        {
+            "source": "전자렌지딸기찹쌀떡",
+            "target": "팥소",
+            "value": 1
+        },
+        {
+            "source": "전자렌지딸기찹쌀떡",
+            "target": "찹쌀가루",
+            "value": 1
+        },
+        {
+            "source": "닭고기샌드위치",
+            "target": "닭",
+            "value": 1
+        },
+        {
+            "source": "닭고기샌드위치",
+            "target": "베이비채소",
+            "value": 1
+        },
+        {
+            "source": "닭고기샌드위치",
+            "target": "파프리카",
+            "value": 1
+        },
+        {
+            "source": "닭고기샌드위치",
+            "target": "식빵",
+            "value": 1
+        },
+        {
+            "source": "깻잎떡볶이",
+            "target": "떡볶이떡",
+            "value": 1
+        },
+        {
+            "source": "깻잎떡볶이",
+            "target": "어묵",
+            "value": 1
+        },
+        {
+            "source": "깻잎떡볶이",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "깻잎떡볶이",
+            "target": "양배추 조금",
+            "value": 1
+        },
+        {
+            "source": "연어또띠아말이",
+            "target": "또띠아",
+            "value": 1
+        },
+        {
+            "source": "연어또띠아말이",
+            "target": "훈제연어",
+            "value": 1
+        },
+        {
+            "source": "연어또띠아말이",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "연어또띠아말이",
+            "target": "오이",
+            "value": 1
+        },
+        {
+            "source": "김치볶음밥",
+            "target": "밥",
+            "value": 1
+        },
+        {
+            "source": "김치볶음밥",
+            "target": "김치",
+            "value": 1
+        },
+        {
+            "source": "김치볶음밥",
+            "target": "어묵",
+            "value": 1
+        },
+        {
+            "source": "김치볶음밥",
+            "target": "계란",
+            "value": 1
+        },
+        {
+            "source": "바나나머핀",
+            "target": "바나나 작은것",
+            "value": 1
+        },
+        {
+            "source": "바나나머핀",
+            "target": "버터",
+            "value": 1
+        },
+        {
+            "source": "바나나머핀",
+            "target": "박력분",
+            "value": 1
+        },
+        {
+            "source": "바나나머핀",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "모밀국수",
+            "target": "다시마",
+            "value": 1
+        },
+        {
+            "source": "모밀국수",
+            "target": "가다랑이포",
+            "value": 1
+        },
+        {
+            "source": "모밀국수",
+            "target": "모밀면",
+            "value": 1
+        },
+        {
+            "source": "모밀국수",
+            "target": "김",
+            "value": 1
+        },
+        {
+            "source": "토마토카프레제샐러드",
+            "target": "토마토",
+            "value": 1
+        },
+        {
+            "source": "토마토카프레제샐러드",
+            "target": "바질",
+            "value": 1
+        },
+        {
+            "source": "토마토카프레제샐러드",
+            "target": "치즈",
+            "value": 1
+        },
+        {
+            "source": "토마토카프레제샐러드",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "오징어청양고추조림",
+            "target": "오징어",
+            "value": 1
+        },
+        {
+            "source": "오징어청양고추조림",
+            "target": "고추",
+            "value": 1
+        },
+        {
+            "source": "오징어청양고추조림",
+            "target": "다시마",
+            "value": 1
+        },
+        {
+            "source": "오징어청양고추조림",
+            "target": "통마늘",
+            "value": 1
+        },
+        {
+            "source": "카야쨈호떡",
+            "target": "호떡믹스",
+            "value": 1
+        },
+        {
+            "source": "카야쨈호떡",
+            "target": "카야잼",
+            "value": 1
+        },
+        {
+            "source": "카야쨈호떡",
+            "target": "피칸",
+            "value": 1
+        },
+        {
+            "source": "초콜렛치즈머핀",
+            "target": "초코머핀믹스",
+            "value": 1
+        },
+        {
+            "source": "초콜렛치즈머핀",
+            "target": "카놀라유",
+            "value": 1
+        },
+        {
+            "source": "초콜렛치즈머핀",
+            "target": "계란",
+            "value": 1
+        },
+        {
+            "source": "샐러드오므라이스",
+            "target": "밥",
+            "value": 1
+        },
+        {
+            "source": "샐러드오므라이스",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "샐러드오므라이스",
+            "target": "닭",
+            "value": 1
+        },
+        {
+            "source": "샐러드오므라이스",
+            "target": "계란",
+            "value": 1
+        },
+        {
+            "source": "어묵볶음",
+            "target": "어묵",
+            "value": 1
+        },
+        {
+            "source": "어묵볶음",
+            "target": "돼지호박",
+            "value": 1
+        },
+        {
+            "source": "어묵볶음",
+            "target": "풋고추",
+            "value": 1
+        },
+        {
+            "source": "어묵볶음",
+            "target": "홍고추",
+            "value": 1
+        },
+        {
+            "source": "두부치즈케익",
+            "target": "두부",
+            "value": 1
+        },
+        {
+            "source": "두부치즈케익",
+            "target": "치즈",
+            "value": 1
+        },
+        {
+            "source": "두부치즈케익",
+            "target": "생크림",
+            "value": 1
+        },
+        {
+            "source": "두부치즈케익",
+            "target": "다이제쿠키",
+            "value": 1
+        },
+        {
+            "source": "라볶이",
+            "target": "멸치",
+            "value": 1
+        },
+        {
+            "source": "라볶이",
+            "target": "다시마",
+            "value": 1
+        },
+        {
+            "source": "라볶이",
+            "target": "말린표고버섯",
+            "value": 1
+        },
+        {
+            "source": "라볶이",
+            "target": "물",
+            "value": 1
+        },
+        {
+            "source": "깡장",
+            "target": "돼지고기",
+            "value": 1
+        },
+        {
+            "source": "깡장",
+            "target": "오징어",
+            "value": 1
+        },
+        {
+            "source": "깡장",
+            "target": "양파 큰것",
+            "value": 1
+        },
+        {
+            "source": "깡장",
+            "target": "홍고추",
+            "value": 1
+        },
+        {
+            "source": "밤조림",
+            "target": "밤",
+            "value": 1
+        },
+        {
+            "source": "밤조림",
+            "target": "중조",
+            "value": 1
+        },
+        {
+            "source": "밤조림",
+            "target": "럼주나 브랜디",
+            "value": 1
+        },
+        {
+            "source": "밤조림",
+            "target": "소금 약간",
+            "value": 1
+        },
+        {
+            "source": "티라미수컵케익",
+            "target": "마스카포네",
+            "value": 1
+        },
+        {
+            "source": "티라미수컵케익",
+            "target": "플레인요구르트",
+            "value": 1
+        },
+        {
+            "source": "티라미수컵케익",
+            "target": "설탕",
+            "value": 1
+        },
+        {
+            "source": "티라미수컵케익",
+            "target": "레몬즙",
+            "value": 1
+        },
+        {
+            "source": "크로켓",
+            "target": "디츠다짐",
+            "value": 1
+        },
+        {
+            "source": "크로켓",
+            "target": "두부",
+            "value": 1
+        },
+        {
+            "source": "크로켓",
+            "target": "야채",
+            "value": 1
+        },
+        {
+            "source": "크로켓",
+            "target": "녹말가루",
+            "value": 1
+        }
+    ]
+}

@@ -257,6 +257,10 @@
             "group": 2
         },
         {
+            "id": "밀가루",
+            "group": 2
+        },
+        {
             "id": "오징어볶음우동",
             "group": 1,
             "url": "https://www.10000recipe.com/recipe/331006"
@@ -535,11 +539,11 @@
             "url": "https://www.10000recipe.com/recipe/369918"
         },
         {
-            "id": "홍시 큰것",
+            "id": "홍시",
             "group": 2
         },
         {
-            "id": "플레인 요거트",
+            "id": "요거트",
             "group": 2
         },
         {
@@ -836,7 +840,7 @@
             "group": 2
         },
         {
-            "id": "파니니",
+            "id": "파니니샌드위치",
             "group": 1,
             "url": "https://www.10000recipe.com/recipe/388168"
         },
@@ -1116,7 +1120,7 @@
             "url": "https://www.10000recipe.com/recipe/421146"
         },
         {
-            "id": "호떡믹스",
+            "id": "밀가루",
             "group": 2
         },
         {
@@ -1966,7 +1970,7 @@
         },
         {
             "source": "홍시요거트",
-            "target": "홍시 큰것",
+            "target": "홍시",
             "value": 1
         },
         {
@@ -1976,7 +1980,7 @@
         },
         {
             "source": "홍시요거트",
-            "target": "플레인 요거트",
+            "target": "요거트",
             "value": 1
         },
         {
@@ -2480,22 +2484,17 @@
             "value": 1
         },
         {
-            "source": "파니니",
-            "target": "파니니",
-            "value": 1
-        },
-        {
-            "source": "파니니",
+            "source": "파니니샌드위치",
             "target": "불고기",
             "value": 1
         },
         {
-            "source": "파니니",
+            "source": "파니니샌드위치",
             "target": "닭가슴살",
             "value": 1
         },
         {
-            "source": "파니니",
+            "source": "파니니샌드위치",
             "target": "양상추",
             "value": 1
         },
@@ -3011,7 +3010,7 @@
         },
         {
             "source": "카야쨈호떡",
-            "target": "호떡믹스",
+            "target": "밀가루",
             "value": 1
         },
         {
@@ -3197,6 +3196,31 @@
         {
             "source": "크로켓",
             "target": "녹말가루",
+            "value": 1
+        },
+        {
+            "source": "매콤빨간어묵",
+            "target": "어묵",
+            "value": 1
+        },
+        {
+            "source": "매콤빨간어묵",
+            "target": "양파",
+            "value": 1
+        },
+        {
+            "source": "매콤빨간어묵",
+            "target": "고추장",
+            "value": 1
+        },
+        {
+            "source": "어묵볶음",
+            "target": "어묵",
+            "value": 1
+        },
+        {
+            "source": "어묵볶음",
+            "target": "양파",
             "value": 1
         }
     ]

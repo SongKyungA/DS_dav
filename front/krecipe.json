@@ -1,0 +1,494 @@
+{
+    "nodes": [
+        {
+            "id": "어묵김말이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/128671"
+        },
+        {
+            "id": "현미호두죽",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/131871"
+        },
+        {
+            "id": "북어갈비",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/139247"
+        },
+        {
+            "id": "토마토스파게티",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/149207"
+        },
+        {
+            "id": "표고버섯탕수",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/151148"
+        },
+        {
+            "id": "갈릭치킨",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/153040"
+        },
+        {
+            "id": "양파링튀김",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/221094"
+        },
+        {
+            "id": "참치삼각김밥",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/221097"
+        },
+        {
+            "id": "뚝배기해물떡볶이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/221098"
+        },
+        {
+            "id": "스팸샌드위치",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/221101"
+        },
+        {
+            "id": "참치깻잎주먹밥",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/221102"
+        },
+        {
+            "id": "새우볶음밥고로케",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/223583"
+        },
+        {
+            "id": "스팸쌈밥",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/223584"
+        },
+        {
+            "id": "베이컨김치말이밥",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/225141"
+        },
+        {
+            "id": "스팸오이식빵롤",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/225146"
+        },
+        {
+            "id": "고구마치즈스틱",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/331003"
+        },
+        {
+            "id": "오징어볶음우동",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/331006"
+        },
+        {
+            "id": "호두가래떡구이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/333866"
+        },
+        {
+            "id": "카레새우삼각김밥",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/333869"
+        },
+        {
+            "id": "블루베리쨈",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/340534"
+        },
+        {
+            "id": "미니새우버거",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/340537"
+        },
+        {
+            "id": "고구마그라탕",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/343935"
+        },
+        {
+            "id": "밤식빵",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/344698"
+        },
+        {
+            "id": "고구마보트",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/345834"
+        },
+        {
+            "id": "감자스프",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/346652"
+        },
+        {
+            "id": "뚝배기라면",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/346665"
+        },
+        {
+            "id": "포테이토스킨",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/347791"
+        },
+        {
+            "id": "오코노미야키",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/349330"
+        },
+        {
+            "id": "야끼만두",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/349332"
+        },
+        {
+            "id": "두부조림",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/349381"
+        },
+        {
+            "id": "매운갈비찜",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/349386"
+        },
+        {
+            "id": "어묵볶음",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/421942"
+        },
+        {
+            "id": "꼬마김밥",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/352364"
+        },
+        {
+            "id": "홍시아이스크림",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/352415"
+        },
+        {
+            "id": "단호박사블레",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/357068"
+        },
+        {
+            "id": "뮈슬리초코칩쿠키",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/358881"
+        },
+        {
+            "id": "아몬드타르트",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/369072"
+        },
+        {
+            "id": "홍시요거트",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/369918"
+        },
+        {
+            "id": "파네토네",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/373342"
+        },
+        {
+            "id": "소고기크림치즈오븐스파게티",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/374689"
+        },
+        {
+            "id": "돼지고기김치찌개",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/375800"
+        },
+        {
+            "id": "밤머핀",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/380671"
+        },
+        {
+            "id": "찜닭",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/380726"
+        },
+        {
+            "id": "바나나프렌치토스트",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/380934"
+        },
+        {
+            "id": "단호박해물치즈구이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/381157"
+        },
+        {
+            "id": "파스타",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/383305"
+        },
+        {
+            "id": "갸토쇼콜라",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/383788"
+        },
+        {
+            "id": "바질페스토",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/384426"
+        },
+        {
+            "id": "포카치아",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/384503"
+        },
+        {
+            "id": "흑미와플",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/384505"
+        },
+        {
+            "id": "쏘야볶음",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/384508"
+        },
+        {
+            "id": "튜나에그샌드위치",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/384888"
+        },
+        {
+            "id": "푸딩",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/385575"
+        },
+        {
+            "id": "오븐웨지감자",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/385717"
+        },
+        {
+            "id": "대추스콘",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387111"
+        },
+        {
+            "id": "짜장떡볶이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387126"
+        },
+        {
+            "id": "바나나찹쌀떡",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387415"
+        },
+        {
+            "id": "카레어묵전골",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387766"
+        },
+        {
+            "id": "모카머핀",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387780"
+        },
+        {
+            "id": "버섯포카치아",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387790"
+        },
+        {
+            "id": "어묵",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387802"
+        },
+        {
+            "id": "크림소스",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/387811"
+        },
+        {
+            "id": "파니니",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/388168"
+        },
+        {
+            "id": "리코타치즈",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/389261"
+        },
+        {
+            "id": "레몬생크림케이크",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/390307"
+        },
+        {
+            "id": "시나몬큐브",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/390949"
+        },
+        {
+            "id": "초코바나나머핀",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/390973"
+        },
+        {
+            "id": "애호박사워크림케이크",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/391763"
+        },
+        {
+            "id": "브라우니",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/393505"
+        },
+        {
+            "id": "피낭시에",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/395162"
+        },
+        {
+            "id": "뮈슬리바",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/396244"
+        },
+        {
+            "id": "그린티현미쉬폰",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/398391"
+        },
+        {
+            "id": "카레",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/398430"
+        },
+        {
+            "id": "불닭퀘사디아",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/398436"
+        },
+        {
+            "id": "계란빵",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/400622"
+        },
+        {
+            "id": "얼큰수제비",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/411750"
+        },
+        {
+            "id": "시나몬롤",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/413285"
+        },
+        {
+            "id": "오이무침",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/413979"
+        },
+        {
+            "id": "식빵꽃",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/414073"
+        },
+        {
+            "id": "쇼콜라케이크",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/414094"
+        },
+        {
+            "id": "전자렌지딸기찹쌀떡",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/414203"
+        },
+        {
+            "id": "닭고기샌드위치",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/414255"
+        },
+        {
+            "id": "깻잎떡볶이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/414263"
+        },
+        {
+            "id": "연어또띠아말이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/414319"
+        },
+        {
+            "id": "김치볶음밥",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/414544"
+        },
+        {
+            "id": "바나나머핀",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/415008"
+        },
+        {
+            "id": "모밀국수",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/420314"
+        },
+        {
+            "id": "토마토카프레제샐러드",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/420422"
+        },
+        {
+            "id": "오징어청양고추조림",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/420425"
+        },
+        {
+            "id": "카야쨈호떡",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/421146"
+        },
+        {
+            "id": "초콜렛치즈머핀",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/421183"
+        },
+        {
+            "id": "샐러드오므라이스",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/421940"
+        },
+        {
+            "id": "두부치즈케익",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/423378"
+        },
+        {
+            "id": "라볶이",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/424008"
+        },
+        {
+            "id": "깡장",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/500753"
+        },
+        {
+            "id": "밤조림",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/501958"
+        },
+        {
+            "id": "티라미수컵케익",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/502713"
+        },
+        {
+            "id": "크로켓",
+            "group": 1,
+            "url": "https://www.10000recipe.com/recipe/503870"
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+/* krecipe.css */
+
+/* General style resets for modern look */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, select, button {
+  font-family: 'BMJUA', sans-serif;
+}
+
+/* Container for graph controls */
+.controls-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* Button and select dropdown styles */
+button, select {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: 2px solid #667;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover, select:hover {
+  background-color: #f4f4f4;
+}
+
+button:active, select:active {
+  transform: scale(0.95);
+}
+
+/* Styles for the network nodes and links */
+.node {
+  fill: #6699cc; /* Soft blue for contrast */
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.node.highlight, .node:hover {
+  stroke-width: 3px;
+  stroke: #ff5733; /* Highlight color */
+}
+
+.link {
+  stroke: #999; /* Lighter grey for subtlety */
+  stroke-opacity: 0.6;
+  stroke-width: 1px; /* Thinner links for a refined look */
+}
+
+.link.highlight {
+  stroke-opacity: 0.9;
+  stroke-width: 2px;
+}
+
+/* Tooltip styling for a modern look */
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 12px 24px;
+  font-size: 14px;
+  background: rgba(50, 50, 50, 0.9);
+  color: #fff;
+  border-radius: 5px;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transform: scale(0.9);
+  opacity: 0;
+}
+
+.tooltip.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Zoom controls styling */
+#zoom-control {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+
+#zoom-slider {
+  width: 200px;
+}

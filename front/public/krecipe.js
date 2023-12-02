@@ -7,6 +7,49 @@ d3.json("krecipe_graph.json").then(function(graph) {
     const height = window.innerHeight;
     const nodeRadius = 20;
 
+    const colors = {
+        nodeDefault: '#66cc66',
+        nodeHighlight: '#ff5733',
+        linkDefault: '#999',
+        linkHighlight: '#ff5733'
+    };
+
+    // 드롭다운 메뉴 옵션 설정
+    const group1Nodes = graph.nodes.filter(node => node.group === 1);
+    const group2Nodes = graph.nodes.filter(node => node.group === 2);
+    d3.select("#group1-select")
+      .selectAll("option")
+      .data(group1Nodes)
+      .enter()
+      .append("option")
+      .text(d => d.id)
+      .attr("value", d => d.id);
+
+    d3.select("#group2-select")
+      .selectAll("option")
+      .data(group2Nodes)
+      .enter()
+      .append("option")
+      .text(d => d.id)
+      .attr("value", d => d.id);
+
+    // 드롭다운 변경 시 시각화 업데이트
+    d3.select("#group1-select").on("change", function(event) {
+        const selectedValue = event.target.value;
+        updateVisualization(selectedValue, 1);
+    });
+
+    d3.select("#group2-select").on("change", function(event) {
+        const selectedValue = event.target.value;
+        updateVisualization(selectedValue, 2);
+    });
+
+    function updateVisualization(selectedNodeId, group) {
+        // Apply styles to nodes and links based on selection
+        node.classed("highlight", d => d.id === selectedNodeId || isConnected(d, selectedNodeId));
+        link.classed("highlight", d => d.source.id === selectedNodeId || d.target.id === selectedNodeId);
+    }
+
     // SVG 요소를 생성하고 크기를 설정합니다.
     const svg = d3.select("body").append("svg")
         .attr("viewBox", [0, 0, width, height])
@@ -36,9 +79,9 @@ d3.json("krecipe_graph.json").then(function(graph) {
 
     // 확대/축소 기능을 위한 줌 핸들러
     const zoomHandler = d3.zoom()
-    .on("zoom", (event) => {
-        svg.attr("transform", event.transform);
-    });
+        .on("zoom", (event) => {
+            svg.attr("transform", event.transform);
+        });
 
     // SVG에 줌 핸들러를 적용
     svg.call(zoomHandler);
@@ -92,6 +135,18 @@ d3.json("krecipe_graph.json").then(function(graph) {
             .on("end", dragended);
     }
 
+    function findConnectedNodes(node, graph) {
+        const connectedNodes = [];
+        graph.links.forEach(link => {
+            if (link.source.id === node.id && node.group === 1) {
+                connectedNodes.push(link.target.id);
+            } else if (link.target.id === node.id && node.group === 2) {
+                connectedNodes.push(link.source.id);
+            }
+        });
+        return connectedNodes.join(', ');
+    }
+
     // 노드
     const node = svg.append("g")
         .attr("class", "nodes")
@@ -99,55 +154,30 @@ d3.json("krecipe_graph.json").then(function(graph) {
         .data(graph.nodes)
         .enter().append("circle")
         .attr("class", "node")
-        .attr("r", nodeRadius)
-        .style("fill", function(d) {return d.group === 1 ? "#ff5733" : "#6699cc";})
+        .attr("r", d => d.group === 1 ? 35 : nodeRadius)
+        .style("fill", d => d.group === 1 ? colors.nodeDefault : colors.nodeHighlight)
         .call(drag(simulation))
+        .on("mouseover", function(event, d) {
+            d3.select(this).transition()
+                .duration(150)
+                .attr("r", nodeRadius * 1.2);
+            tooltip
+                .html("Node ID: " + d.id + "<br>Connections: " + findConnectedNodes(d, graph))
+                .style("left", (event.pageX + 10) + "px")
+                .style("top", (event.pageY - 15) + "px")
+                .classed("visible", true);
+        })
+        .on("mouseout", function() {
+            d3.select(this).transition()
+                .duration(150)
+                .attr("r", nodeRadius);
+            tooltip.classed("visible", false);
+        })
         .on("click", function(event, d) {
             if (d.url) {
                 window.open(d.url, "_blank");
             }
-            // 선택한 노드의 ID를 업데이트하고 연결된 노드를 필터링
-            selectedNodeId = d.id;
-
-            // 연결된 노드만 표시
-            node.style("display", function(nodeData) {
-                return isConnected(nodeData, d) ? "block" : "none";
-            });
-
-            label.style("display", function(nodeData) {
-                return isConnected(nodeData, d) ? "block" : "none";
-            });
-
-            link.style("display", function(linkData) {
-                return linkData.source.id === selectedNodeId || linkData.target.id === selectedNodeId ? "block" : "none";
-            });
-        })
-        // 툴팁 스타일
-        .on("mouseover", function(event, d) {
-            tooltip.transition()
-                .duration(200)
-                .style("opacity", .9)
-                .style("background", "rgba(0, 0, 0, 0.8)")
-                .style("color", "#fff");
-            
-            
-            const linkedTarget = graph.links.find(link => link.source === d.id)?.target;
-            if (linkedTarget) {
-                tooltip.html(d.id + "<br>" + linkedTarget)
-                    .style("left", (event.pageX) + "px")
-                    .style("top", (event.pageY - 28) + "px");
-            } else {
-                tooltip.html(d.id + "<br>No target information")
-                    .style("left", (event.pageX) + "px")
-                    .style("top", (event.pageY - 28) + "px");
-            }
-        })
-        .on("mouseout", function() {
-            tooltip.transition()
-                .duration(500)
-                .style("opacity", 0)
-                .style("background", "rgba(0, 0, 0, 0.8)")
-                .style("color", "#fff");
+            updateVisualization(d.id, d.group);
         });
 
     // 레이블
@@ -164,44 +194,44 @@ d3.json("krecipe_graph.json").then(function(graph) {
     const collide = d3.forceCollide(nodeRadius + 5).iterations(4); // 충돌 감지 반복 횟수 조절
     simulation.force("collide", collide);    
 
-    // 시뮬레이션 갱신 함수
-    function ticked() {
+    simulation.on("tick", () => {
         link
-            .attr("x1", function(d) { return d.source.x; })
-            .attr("y1", function(d) { return d.source.y; })
-            .attr("x2", function(d) { return d.target.x; })
-            .attr("y2", function(d) { return d.target.y; });
+            .attr("x1", d => d.source.x)
+            .attr("y1", d => d.source.y)
+            .attr("x2", d => d.target.x)
+            .attr("y2", d => d.target.y);
 
         node
-            .transition()
-            .duration(1000) // 애니메이션 지속 시간
-            .attr("cx", function(d) { return d.x; })
-            .attr("cy", function(d) { return d.y; });
+            .attr("cx", d => d.x)
+            .attr("cy", d => d.y);
 
         label
-            .attr("x", function(d) { return d.x; })
-            .attr("y", function(d) { return d.y; });
-    }
-
-    simulation
-        .on("tick", ticked);
-    
-    // 노드 간의 연결 여부를 확인하는 함수
-    function isConnected(node1, node2) {
-        return graph.links.some(link => (link.source === node1 && link.target === node2) || (link.source === node2 && link.target === node1));
-    }
-    // 선택 원복 버튼을 가져옴
-    const restoreButton = document.getElementById("restoreButton");
-
-    // 선택 원복 버튼 클릭 이벤트 핸들러
-    restoreButton.addEventListener("click", function() {
-        // 선택한 노드와 연결된 노드를 다시 표시
-        node.style("display", "block");
-        label.style("display", "block");
-        link.style("display", "block");
-        
-        // 선택 취소
-        selectedNodeId = null;
+            .attr("x", d => d.x)
+            .attr("y", d => d.y);
     });
+
     
+    function isConnected(a, b) {
+        return graph.links.some(link => {
+            return (link.source.id === a.id && link.target.id === b.id) || (link.source.id === b.id && link.target.id === a.id);
+        });
+    }
+
+    
+    const restoreButton = document.getElementById("restoreButton");
+    restoreButton.addEventListener("click", function() {
+        
+        node.style("display", "block");
+        link.style("display", "block");
+        label.style("display", "block");
+
+        
+        node.classed("highlight", false);
+        link.classed("highlight", false);
+        
+        
+        simulation.alpha(1).restart();
+    });
+
+    simulation.alpha(1).restart();
 });

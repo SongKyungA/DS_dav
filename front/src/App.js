@@ -99,6 +99,9 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
     window.open(window.location.origin + '/FeedbackForm.html', '_blank');
   };
 
+  const viewRecipe = () => {
+    window.open(window.location.origin +'/krecipe.html', '_blank');
+  };
   const totalCapacity = 100;
   const usedCapacity = categories.reduce((sum, category) => sum + category.count, 0);
   const capacityPercentage = (usedCapacity / totalCapacity) * 100;
@@ -334,7 +337,7 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
                 <Button variant="outline-danger" block style={buttonStyle} onClick={handleRemoveSelectedItems}>REMOVE ITEM</Button>
               </Col>
               <Col md={4}>
-                <Button variant="outline-warning" block style={buttonStyle} onClick={handleShowModifyItemModal}>MODIFY ITEM</Button>
+                <Button variant="outline-warning" block style={buttonStyle} onClick={viewRecipe}>RECIPE</Button>
               </Col>
             </Row>
           )}          

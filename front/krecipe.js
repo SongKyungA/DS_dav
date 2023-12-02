@@ -67,6 +67,31 @@ d3.json("krecipe_graph.json").then(function(graph) {
         .enter().append("line")
         .attr("class", "link");
 
+    // 노드 드래그 이벤트 핸들러
+    function drag(simulation) {
+        function dragstarted(event, d) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+
+        function dragged(event, d) {
+            d.fx = event.x;
+            d.fy = event.y;
+        }
+
+        function dragended(event, d) {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+
+        return d3.drag()
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended);
+    }
+
     // 노드
     const node = svg.append("g")
         .attr("class", "nodes")
@@ -76,6 +101,7 @@ d3.json("krecipe_graph.json").then(function(graph) {
         .attr("class", "node")
         .attr("r", nodeRadius)
         .style("fill", function(d) {return d.group === 1 ? "#ff5733" : "#6699cc";})
+        .call(drag(simulation))
         .on("click", function(event, d) {
             if (d.url) {
                 window.open(d.url, "_blank");

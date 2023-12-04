@@ -19,6 +19,31 @@ d3.csv("cleaned_test2.csv").then(function(data) {
 
 function createDropdown(selector, options) {
     let select = d3.select(selector);
+    options.sort((a, b) => {
+        // Function to extract numeric part from string
+        const extractNumber = str => parseFloat(str.match(/\d+/)) || 0;
+
+        // Determine if both a and b have numeric parts
+        const hasNumericA = /\d+/.test(a);
+        const hasNumericB = /\d+/.test(b);
+
+        // If both have numeric parts, compare numerically
+        if (hasNumericA && hasNumericB) {
+            return extractNumber(a) - extractNumber(b);
+        }
+        // If only a has a numeric part, prioritize it
+        else if (hasNumericA) {
+            return -1;
+        }
+        // If only b has a numeric part, prioritize it
+        else if (hasNumericB) {
+            return 1;
+        }
+        // If neither has a numeric part, compare lexicographically
+        else {
+            return a.localeCompare(b);
+        }
+    });
     select.append("option").text("All").attr("value", "");
     options.forEach(option => {
         select.append("option").text(option).attr("value", option);

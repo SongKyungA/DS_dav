@@ -11,7 +11,10 @@ serviceAccountKey.json
 /coverage
 
 # production
-/build
+build
+.firebaserc
+firebase.json
+/front/.gitignore
 
 # misc
 .DS_Store

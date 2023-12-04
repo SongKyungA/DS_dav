@@ -8,8 +8,32 @@
   text-align: center;
 }
 
+/* 알림 영역 */
+.notification-box {
+  height: 205px;
+  position: relative;
+  background-color: #dfe7ef;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* 알림 */
+.notification {
+  position: absolute;
+  top: 45px;
+  left: 20px;
+  right: 20px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+  text-align: center;
+}
+
 /* 사용자 메시지 */
-.user-message {
+.recent-summary {
   background-color: #e9ecef;
   padding: 20px;
   border-radius: 5px;

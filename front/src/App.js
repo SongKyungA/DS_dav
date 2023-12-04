@@ -10,6 +10,7 @@ import ModifyItemModal from './ModifyItemModal';
 import { removeItems } from './redux/actions';
 import { Form } from 'react-bootstrap';
 import { MdEco } from 'react-icons/md';
+import TrendImage from './food-stock-trend.png';
 
 function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -239,22 +240,27 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
           <div className="dashboard-header">
           
           <h1 style={{ textAlign: 'center', fontSize: '46px' }}>
-            <MdEco /> GSDS Eco-Friendly Refrigeration!
+            <MdEco /> Home Refrigerator Fresh Food Tracker
           </h1>            
-            <h1 style={{ textAlign: 'right', fontSize: '36px' }}>{currentTime.toLocaleTimeString()}</h1>
-            <p style={{ textAlign: 'right', fontSize: '20px' }}>7°C / Cloudy</p>
+            <h1 style={{ textAlign: 'right', fontSize: '32px' }}>{currentTime.toLocaleTimeString()}</h1>
+            <p style={{ textAlign: 'right', fontSize: '20px' }}>4°C / Partly Cloudy (Seoul)</p>
           </div>
 
           {isHome && (
-            <div className="user-message" style={{ textAlign: 'left', fontSize: '20px' }}>
-            <p>Good evening!</p>
-            <p><br /></p>
-            <p>You are advised to throw out your avocado, asparagus,</p>
-            <p>sausage, clam, cliced bread, and sandwich</p>
-            <p> - these items are probably expired.</p>
-            <p><br /></p>
-            <p>You seem to have alot of fruits and vegetables right now.</p>
-            <p>How about making a healthy avocado BLT salad?</p>
+          <div className="notification-box" style={{ textAlign: 'left', fontSize: '20px'}}>
+            <p style={{ fontSize: '22px', fontWeight: 'bold' }}> Notifications </p>
+            <div className="notification" style={{ textAlign: 'left', fontSize: '18px'}}>
+              <p>3 food items will soon be <span style = {{fontWeight: 'bold', color: 'red'}}>expired: </span>
+              Avocado, Broccoli, Sausage</p>
+              <p style={{ textAlign: 'right', fontSize: '13px', fontStyle: 'italic', color:'ffffff'}}>12-05-2023</p>
+            </div>
+          </div>
+          )}
+
+          {isHome && (
+            <div className="recent-summary" style={{ textAlign: 'left', fontSize: '20px' }}>
+            <p style={{ fontSize: '22px', fontWeight: 'bold' }}>Recent Summary </p>
+            <img src={TrendImage} alt="14-day trend" style={{ width: '100%', maxWidth: '800px'}}/>
           </div>
           )}
           {selectedCategory && (

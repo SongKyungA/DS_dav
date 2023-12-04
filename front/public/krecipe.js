@@ -239,17 +239,19 @@ d3.json("krecipe_graph.json").then(function(graph) {
     
     const restoreButton = document.getElementById("restoreButton");
     restoreButton.addEventListener("click", function() {
-        
         node.style("display", "block");
         link.style("display", "block");
         label.style("display", "block");
-
         
-        node.classed("highlight", false);
-        link.classed("highlight", false);
+        node.attr("opacity", 1);
+        link.attr("opacity", 1);
+        label.attr("opacity", 1);
         
+        d3.select("#group1-select").property("value", "");
+        d3.select("#group2-select").property("value", "");
         
         simulation.alpha(1).restart();
+
     });
 
     simulation.alpha(1).restart();

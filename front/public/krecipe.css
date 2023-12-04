@@ -21,7 +21,7 @@ body, select, button {
 /* Button and select dropdown styles */
 button, select {
   padding: 10px 20px;
-  margin-right: 10px;
+  margin: 5px 5px;
   border: 2px solid #667;
   border-radius: 5px;
   background-color: #fff;

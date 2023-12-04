@@ -193,12 +193,12 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
     const ratio = expiryDate-placedDate == 0? 0: (expiryDate-currentDate)/(expiryDate-placedDate);
     console.log(ratio)
 
-    if (expiryDate-currentDate < 0 ) {
-      return 0.2; // 만료 날짜가 지났을 때 투명도를 20%로 설정
-    }
+    // if (expiryDate-currentDate < 0 ) {
+    //   return 0.2; // 만료 날짜가 지났을 때 투명도를 20%로 설정
+    // }
 
     // 남은 일 수에 따라 투명도를 계산
-    const opacity = Math.max(0.2, ratio)
+    const opacity = Math.max(0.1, ratio)
 
     console.log('투명도:', opacity);
     return opacity;
@@ -306,7 +306,7 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
                     
                     {selectedItemDetails === item && (
                       <div>
-                        <Card.Text>Placed In&nbsp;&nbsp;: {item.placedIn}</Card.Text>
+                        <Card.Text  style={{ marginBottom: '0' }}>Placed In&nbsp;&nbsp;: {item.placedIn}</Card.Text>
                         <Card.Text>Good Until: {item.goodUntil}</Card.Text>
                         {showRemoveModifyButtons && (
                           <div className="item-action-buttons" style={{ display: 'flex', justifyContent: 'space-between', marginTop: '10px' }}>

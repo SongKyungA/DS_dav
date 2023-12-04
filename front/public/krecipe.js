@@ -17,6 +17,10 @@ d3.json("krecipe_graph.json").then(function(graph) {
     // 드롭다운 메뉴 옵션 설정
     const group1Nodes = graph.nodes.filter(node => node.group === 1);
     const group2Nodes = graph.nodes.filter(node => node.group === 2);
+
+    group1Nodes.sort((a, b) => a.id.localeCompare(b.id));
+    group2Nodes.sort((a, b) => a.id.localeCompare(b.id));
+
     d3.select("#group1-select")
       .selectAll("option")
       .data(group1Nodes)
@@ -37,17 +41,32 @@ d3.json("krecipe_graph.json").then(function(graph) {
     d3.select("#group1-select").on("change", function(event) {
         const selectedValue = event.target.value;
         updateVisualization(selectedValue, 1);
+        d3.select("#group2-select").property("value", "");
     });
 
     d3.select("#group2-select").on("change", function(event) {
         const selectedValue = event.target.value;
         updateVisualization(selectedValue, 2);
+        d3.select("#group1-select").property("value", "");
     });
 
     function updateVisualization(selectedNodeId, group) {
-        // Apply styles to nodes and links based on selection
-        node.classed("highlight", d => d.id === selectedNodeId || isConnected(d, selectedNodeId));
-        link.classed("highlight", d => d.source.id === selectedNodeId || d.target.id === selectedNodeId);
+        const thisNode = selectedNodeId;
+
+        const connectedLinks = graph.links.filter(function(e) {
+            return e.source.id === thisNode || e.target.id === thisNode;
+        });
+        const connectedNodes = Array.from(new Set(connectedLinks.flatMap(link => [link.source, link.target])));
+
+        node.filter(d => d.id === thisNode || connectedNodes.includes(d)).style("display", "block");
+        link.filter(d => connectedLinks.includes(d)).style("display", "block");
+        label.filter(d => d.id === thisNode || connectedNodes.includes(d)).style("display", "block");
+
+        node.attr("opacity", d => (d.id === thisNode || connectedNodes.includes(d)) ? 1 : 0.1);
+        link.attr("opacity", d => connectedLinks.includes(d) ? 1 : 0.1);
+        label.attr("opacity", d => (d.id === thisNode || connectedNodes.includes(d)) ? 1 : 0.1);
+
+        simulation.alpha(1).restart();
     }
 
     // SVG 요소를 생성하고 크기를 설정합니다.

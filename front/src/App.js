@@ -11,6 +11,7 @@ import { removeItems } from './redux/actions';
 import { Form } from 'react-bootstrap';
 import { MdEco } from 'react-icons/md';
 import TrendImage from './food-stock-trend.png';
+import axios from 'axios';
 
 function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -215,6 +216,59 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
   //   return Math.max(opacity, 0.2);
   // }  
 
+  const [weatherData, setWeatherData] = useState(null);
+  const [userLocation, setUserLocation] = useState(null);
+
+  const capitalizeFirstLetter = (str) => {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  };
+
+  useEffect(() => {
+    const fetchWeatherData = async () => {
+      try {
+        // Get user's location
+        navigator.geolocation.getCurrentPosition(
+          (position) => {
+            const { latitude, longitude } = position.coords;
+  
+            // Fetch address details using reverse geocoding
+            axios.get(
+              `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}&accept-language=en`
+            )
+            .then((response) => {
+              const borough = response.data.address.borough || response.data.address.county || '';
+
+              setUserLocation(borough);
+            })
+            .catch((error) => {
+              console.error('Error fetching address details:', error);
+            });
+  
+            // Fetch weather data based on user's location
+            axios.get(
+              `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${process.env.REACT_APP_OPENWEATHERMAP_API_KEY}`
+            )
+            .then((response) => {
+              setWeatherData(response.data);
+            })
+            .catch((error) => {
+              console.error('Error fetching weather data:', error);
+            });
+          },
+          (error) => {
+            console.error('Error getting user location:', error);
+          }
+        );
+      } catch (error) {
+        console.error('Error fetching weather data:', error);
+      }
+    };
+  
+    fetchWeatherData(); // Call the function when the component mounts
+  
+    const timerId = setInterval(fetchWeatherData, 60000); // Refresh weather data every minute
+    return () => clearInterval(timerId); // Clear the interval on component unmount
+  }, []);
 
   return (
     <Container fluid>
@@ -243,7 +297,11 @@ function App({ categories, addItem, removeItem, modifyItem, removeItems }) {
             <MdEco /> Home Refrigerator Fresh Food Tracker
           </h1>            
             <h1 style={{ textAlign: 'right', fontSize: '32px' }}>{currentTime.toLocaleTimeString()}</h1>
-            <p style={{ textAlign: 'right', fontSize: '20px' }}>4°C / Partly Cloudy (Seoul)</p>
+            {weatherData  && userLocation &&  (
+              <p style={{ textAlign: 'right', fontSize: '20px' }}>
+                {Math.round(weatherData.main.temp)}°C / {capitalizeFirstLetter(weatherData.weather[0].description)} ({userLocation})
+              </p>
+            )}
           </div>
 
           {isHome && (
